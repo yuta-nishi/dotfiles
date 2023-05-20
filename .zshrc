@@ -24,14 +24,16 @@ alias ..4='cd ../../../..'
 alias g='git'
 alias gi='git init'
 alias ga='git add'
+alias gr='git restore'
 alias gd='git diff'
 alias gs='git status'
 alias gp='git push'
 alias gb='git branch'
-alias gst='git status'
-alias gco='git checkout'
 alias gf='git fetch'
 alias gc='git commit'
+alias gl='git log'
+alias gch='git checkout'
+alias gcl='git clone'
 
 # docker
 alias dcb='docker compose build'
@@ -40,8 +42,8 @@ alias dcu='docker compose up'
 alias dcd='docker compose down'
 alias dcl='docker compose logs'
 alias dcr='docker compose restart'
-alias dce='docker compose exec'
 alias dcp='docker compose ps'
+alias dce='docker compose exec'
 alias dci='docker compose images'
 
 # safety
@@ -58,3 +60,19 @@ alias reload='source ~/.zshrc'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/homebrew/Caskroom/miniforge/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh" ]; then
+        . "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/homebrew/Caskroom/miniforge/base/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
