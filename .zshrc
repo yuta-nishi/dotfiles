@@ -34,6 +34,7 @@ alias gc='git commit'
 alias gl='git log'
 alias gch='git checkout'
 alias gcl='git clone'
+alias gpl='git pull'
 
 # docker
 alias dcb='docker compose build'
