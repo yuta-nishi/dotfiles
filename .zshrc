@@ -32,9 +32,11 @@ alias gb='git branch'
 alias gf='git fetch'
 alias gc='git commit'
 alias gl='git log'
+alias gm='git merge'
 alias gch='git checkout'
 alias gcl='git clone'
 alias gpl='git pull'
+alias grs='git reset'
 
 # docker
 alias dcb='docker compose build'
