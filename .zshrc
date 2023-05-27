@@ -34,7 +34,7 @@ alias gc='git commit'
 alias gl='git log'
 alias gch='git checkout'
 alias gcl='git clone'
-alias grs='git reset'
+alias gpl='git pull'
 
 # docker
 alias dcb='docker compose build'
@@ -58,6 +58,9 @@ alias -g C='| wc -l'
 
 # reload
 alias reload='source ~/.zshrc'
+
+# path
+export PATH="/opt/homebrew/bin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
