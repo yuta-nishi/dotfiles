@@ -16,9 +16,9 @@ alias la='ls -a'
 
 # cd
 alias ..='cd ..'
-alias ..2='cd ../..'
-alias ..3='cd ../../..'
-alias ..4='cd ../../../..'
+alias ...='../..'
+alias ....='../../..'
+alias .....='../../../..'
 
 # git
 alias g='git'
@@ -34,6 +34,7 @@ alias gc='git commit'
 alias gl='git log'
 alias gch='git checkout'
 alias gcl='git clone'
+alias grs='git reset'
 
 # docker
 alias dcb='docker compose build'
