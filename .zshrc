@@ -61,8 +61,11 @@ alias -g C='| wc -l'
 # reload
 alias reload='source ~/.zshrc'
 
-# path
+# homebrew setting
 export PATH="/opt/homebrew/bin:$PATH"
+
+# nodebrew setting
+export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # rye initialize
 source '/Users/yutanishi/.rye/env'
