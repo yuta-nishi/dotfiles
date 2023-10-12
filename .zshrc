@@ -37,6 +37,11 @@ alias gch='git checkout'
 alias gcl='git clone'
 alias gpl='git pull'
 alias grs='git reset'
+alias grm='git remote'
+alias gsw='git switch'
+alias gst='git stash'
+alias grb='git rebase'
+alias gcz='git cz'
 
 # docker
 alias dcb='docker compose build'
@@ -62,13 +67,16 @@ alias -g C='| wc -l'
 alias reload='source ~/.zshrc'
 
 # homebrew setting
-export PATH="/opt/homebrew/bin:$PATH"
+export PATH=/opt/homebrew/bin:$PATH
 
-# nodebrew setting
-export PATH=$HOME/.nodebrew/current/bin:$PATH
+# go setting
+export PATH=$HOME/go/bin:$PATH
 
 # rye initialize
 source '/Users/yutanishi/.rye/env'
+
+# rust initialize
+source '/Users/yutanishi/.cargo/bin'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -88,3 +96,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
