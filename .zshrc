@@ -99,3 +99,10 @@ unset __conda_setup
 # volta initialize
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+# bun completions
+[ -s "/Users/yutanishi/.bun/_bun" ] && source "/Users/yutanishi/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
