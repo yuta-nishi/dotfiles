@@ -27,4 +27,3 @@ nnoremap <Leader>z :noh
 vnoremap <C-h> ^
 vnoremap <C-l> $
 vnoremap <Leader>m %
-
