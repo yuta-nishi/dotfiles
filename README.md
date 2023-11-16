@@ -1,5 +1,8 @@
 # dotfiles
 
-For immediate transition after changeing computers.
+This repository contains my personal dotfiles. To use them, follow these steps:
 
-I use VSCode with Vim keybindings for everyday development, so I have no plans to enhance the Vim plugin at this time.
+1. Clone this repository: `git clone git@github.com:yuta-nishi/dotfiles.git`
+2. Run the link.sh script: `./link.sh`
+
+After these steps, the dotfiles should be set up and ready to use.
