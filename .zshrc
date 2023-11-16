@@ -106,3 +106,7 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# gcc setting
+alias gcc='gcc-13'
+alias g++='g++-13'
