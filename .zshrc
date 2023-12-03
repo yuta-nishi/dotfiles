@@ -1,6 +1,6 @@
 # powerlevel10k
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+    source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
 # oh-my-zsh
@@ -67,10 +67,15 @@ alias -g C='| wc -l'
 alias reload='source ~/.zshrc'
 
 # homebrew setting
-export PATH=/opt/homebrew/bin:$PATH
+if [[ ":$PATH:" != *":/opt/homebrew/bin:"* ]]; then
+    export PATH="/opt/homebrew/bin:$PATH"
+fi
 
 # go setting
-export PATH=$HOME/go/bin:$PATH
+export GOPATH="$HOME/go"
+if [[ ":$PATH:" != *":$GOPATH/bin:"* ]]; then
+    export PATH="$GOPATH/bin:$PATH"
+fi
 
 # rye initialize
 source '/Users/yutanishi/.rye/env'
@@ -98,14 +103,18 @@ unset __conda_setup
 
 # volta initialize
 export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
+if [[ ":$PATH:" != *":$VOLTA_HOME/bin:"* ]]; then
+    export PATH="$VOLTA_HOME/bin:$PATH"
+fi
 
 # bun completions
 [ -s "/Users/yutanishi/.bun/_bun" ] && source "/Users/yutanishi/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+if [[ ":$PATH:" != *":$BUN_INSTALL/bin:"* ]]; then
+    export PATH="$BUN_INSTALL/bin:$PATH"
+fi
 
 # gcc setting
 alias gcc='gcc-13'
