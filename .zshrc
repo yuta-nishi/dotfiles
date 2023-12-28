@@ -54,6 +54,10 @@ alias dcp='docker compose ps'
 alias dce='docker compose exec'
 alias dci='docker compose images'
 
+# neovim
+alias vim='nvim'
+alias vi='nvim'
+
 # safety
 alias cp='cp -i'
 alias mv='mv -i'
