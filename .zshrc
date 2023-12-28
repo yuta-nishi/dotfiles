@@ -110,7 +110,7 @@ fi
 # bun completions
 [ -s "/Users/yutanishi/.bun/_bun" ] && source "/Users/yutanishi/.bun/_bun"
 
-# bun
+# bun setting
 export BUN_INSTALL="$HOME/.bun"
 if [[ ":$PATH:" != *":$BUN_INSTALL/bin:"* ]]; then
     export PATH="$BUN_INSTALL/bin:$PATH"
@@ -119,3 +119,9 @@ fi
 # gcc setting
 alias gcc='gcc-13'
 alias g++='g++-13'
+
+# ruby setting
+export RBENV_HOME="$HOME/.rbenv"
+if [[ ":$PATH:" != *":$RBENV_HOME/shims:"* ]]; then
+    export PATH="$RBENV_HOME/shims:$PATH"
+fi
