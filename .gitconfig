@@ -1,0 +1,35 @@
+[user]
+name = yuta-nishi
+email = ypmtk437.0209@gmail.com
+
+[core]
+pager = delta
+
+[interactive]
+diffFilter = delta --color-only
+
+[delta]
+navigate = true
+light = false
+side-by-side = true
+line-numbers = true
+
+[pull]
+default = current
+prune = true
+rebase = false
+
+[init]
+defaultBranch = main
+
+[push]
+default = current
+
+[fetch]
+prune = true
+
+[merge]
+conflictStyle = diff3
+
+[diff]
+colorMoved = default
