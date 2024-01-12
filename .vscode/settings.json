@@ -1,0 +1,829 @@
+{
+  /* Spell Settings */
+  "cSpell.userWords": [
+    "aaeon",
+    "acodec",
+    "adpyke",
+    "aeroplane",
+    "allclose",
+    "androidjni",
+    "annot",
+    "apdcephfs",
+    "arange",
+    "argmax",
+    "argsort",
+    "argwhere",
+    "asmr",
+    "assetbundle",
+    "astype",
+    "Atcoder",
+    "audiofile",
+    "audioset",
+    "Augmentor",
+    "autoencoder",
+    "autograd",
+    "avgs",
+    "azuretools",
+    "batchnorm",
+    "bblencoding",
+    "bboxes",
+    "Behaviour",
+    "bestaudio",
+    "BGRA",
+    "biber",
+    "Binarizer",
+    "blit",
+    "bndbox",
+    "boxplot",
+    "cens",
+    "centernet",
+    "chmax",
+    "chmin",
+    "chromagram",
+    "chunksize",
+    "cifar",
+    "ckpt",
+    "ckpt_path",
+    "cloudlatex",
+    "cmake",
+    "cmap",
+    "Codebook",
+    "coef",
+    "COEFFS",
+    "Colab",
+    "collab",
+    "colorbar",
+    "comms",
+    "coversong",
+    "cplus",
+    "cpptools",
+    "cpython",
+    "CQTTPP",
+    "crossentropy",
+    "cuda",
+    "cudnn",
+    "cvalidation",
+    "cvimage",
+    "darknet",
+    "dask",
+    "dataend",
+    "datagen",
+    "dataparallel",
+    "datapath",
+    "datastart",
+    "datetime",
+    "dbeta",
+    "dbname",
+    "DCGAN",
+    "ddconfig",
+    "DDPM",
+    "def",
+    "dejavu",
+    "denoised",
+    "Denoiser",
+    "denoising",
+    "denormalize",
+    "depthwise",
+    "DESCR",
+    "Dicee",
+    "diningtable",
+    "dnntts",
+    "dockercompose",
+    "donchaoyang",
+    "donot",
+    "dout",
+    "Doxygen",
+    "dsets",
+    "dsize",
+    "dtype",
+    "duser",
+    "easymotion",
+    "edgecolor",
+    "EEXIST",
+    "efficientnet",
+    "Embedder",
+    "endoftext",
+    "ENOENT",
+    "esbenp",
+    "Everforest",
+    "extention",
+    "Faiss",
+    "fftpack",
+    "fibo",
+    "figsize",
+    "fillstyle",
+    "fillvalue",
+    "filterbank",
+    "fontsize",
+    "fourcc",
+    "foxundermoon",
+    "fromarray",
+    "frombuffer",
+    "fscore",
+    "fstat",
+    "funcs",
+    "gdown",
+    "gdrive",
+    "GELU",
+    "gensim",
+    "getpid",
+    "goldenretriever",
+    "Gosei",
+    "hangfrom",
+    "hann",
+    "hanning",
+    "hardtanh",
+    "hashset",
+    "hexeditor",
+    "hlsearch",
+    "hsplit",
+    "httplib",
+    "huggingface",
+    "hyperparameters",
+    "ifft",
+    "iloc",
+    "ILSVRC",
+    "imageconversion",
+    "imagefile",
+    "imagenet",
+    "imgs",
+    "imgui",
+    "imread",
+    "imsave",
+    "imshow",
+    "imwrite",
+    "inconv",
+    "indentRainbow",
+    "indicatorStyle",
+    "indir",
+    "inferrinizzard",
+    "infs",
+    "inorder",
+    "interp",
+    "intervaltree",
+    "ious",
+    "ipcapt",
+    "ipynb",
+    "isort",
+    "isscalar",
+    "iternext",
+    "izip",
+    "Jaccard",
+    "jetson",
+    "jiwer",
+    "jsonserialize",
+    "Kbps",
+    "keepdim",
+    "keepdims",
+    "Keras",
+    "keyname",
+    "Klog",
+    "kmeans",
+    "kubernetes",
+    "labml",
+    "lambd",
+    "Langevin",
+    "leakyrelu",
+    "leetcode",
+    "leftbbox",
+    "lefttop",
+    "libfmp",
+    "Libri",
+    "LIBRISPEECH",
+    "librosa",
+    "linalg",
+    "linestyle",
+    "linewidth",
+    "linspace",
+    "lmplot",
+    "loadtxt",
+    "lockfiles",
+    "log4cplus_config",
+    "logdir",
+    "loginfo",
+    "Logit",
+    "Logits",
+    "logprob",
+    "lossconfig",
+    "lstm",
+    "ltrb",
+    "lualatex",
+    "makedataset",
+    "markersize",
+    "mashable",
+    "matplotlib",
+    "maxid",
+    "maxid1",
+    "maxpool",
+    "Mecab",
+    "mediapipe",
+    "MEDV",
+    "meian",
+    "MELS",
+    "melspec",
+    "Menlo",
+    "meshgrid",
+    "Meslo",
+    "mfcc",
+    "middlewares",
+    "minibatch",
+    "miniforge",
+    "minikube",
+    "minimist",
+    "mjpg",
+    "mlab",
+    "MNIST",
+    "models",
+    "monospace",
+    "mpconv",
+    "mult",
+    "murata",
+    "musicnet",
+    "n_timesteps",
+    "NAND",
+    "NCHW",
+    "ndarray",
+    "ndim",
+    "ndimage",
+    "nditer",
+    "Nesterov",
+    "netns",
+    "newaxis",
+    "NEXTVAL",
+    "NFFT",
+    "nipy",
+    "nishi",
+    "nishida",
+    "nlog",
+    "nlogk",
+    "nlogm",
+    "nlogn",
+    "nmlog",
+    "nohl",
+    "nopython",
+    "noverlap",
+    "numba",
+    "numpy",
+    "nunit",
+    "Nyquist",
+    "Objectfile",
+    "omegaconf",
+    "omnisharp",
+    "onehot",
+    "opencv",
+    "optim",
+    "outc",
+    "outconv",
+    "output_safechars",
+    "outtmpl",
+    "pairplot",
+    "particlesystem",
+    "Party",
+    "pbar",
+    "pckl",
+    "pdflatex",
+    "peakdetect",
+    "plotly",
+    "popleft",
+    "postorder",
+    "postprocessors",
+    "pottedplant",
+    "prec",
+    "preds",
+    "preferredcodec",
+    "preferredquality",
+    "preorder",
+    "pretrained",
+    "probs",
+    "pstatement",
+    "pyaudio",
+    "pyautogui",
+    "pycache",
+    "pydub",
+    "pylab",
+    "Pylance",
+    "pymongo",
+    "pyopenjtalk",
+    "pyplot",
+    "quantile",
+    "randn",
+    "randperm",
+    "rclcpp",
+    "RDONLY",
+    "readwav",
+    "realsense",
+    "relu",
+    "remappings",
+    "resnet",
+    "REUSEADDR",
+    "rgba",
+    "rightbbox",
+    "rightbottom",
+    "Rigidbody",
+    "rint",
+    "rmat",
+    "Rodrigues",
+    "rosnode",
+    "rospy",
+    "RSYM",
+    "rterm",
+    "safechars",
+    "savefig",
+    "savez",
+    "scatterplot",
+    "scikit",
+    "scipy",
+    "screencapture",
+    "seaborn",
+    "semilogy",
+    "sess",
+    "set_ylabel",
+    "shibui",
+    "skillup",
+    "skimage",
+    "sklearn",
+    "softmax",
+    "softplus",
+    "songname",
+    "soundfile",
+    "specgram",
+    "specshow",
+    "specvqgan",
+    "sslmode",
+    "stdc",
+    "STFT",
+    "stylelint",
+    "substracting",
+    "Suudoku",
+    "tacotron",
+    "tailwindcss",
+    "Takahashi",
+    "tcpdump",
+    "tcpip",
+    "techtrain",
+    "tempogram",
+    "tensorboard",
+    "tensorized",
+    "termcolor",
+    "terrainphysics",
+    "textmeshpro",
+    "tgbus",
+    "tilemap",
+    "timecodes",
+    "timesteps",
+    "tindog",
+    "tkdnn",
+    "tnet",
+    "toarray",
+    "tofile",
+    "torchaudio",
+    "torchsummary",
+    "torchvision",
+    "TPIETY",
+    "tqdm",
+    "traceroute",
+    "trimap",
+    "tsne",
+    "ttslearn",
+    "tvmonitor",
+    "txt",
+    "udemy",
+    "ugui",
+    "uielements",
+    "uielementsnative",
+    "ulnv",
+    "umap",
+    "umapper",
+    "Undistort",
+    "unet",
+    "unilab",
+    "unityanalytics",
+    "unitywebrequest",
+    "unitywebrequestassetbundle",
+    "unitywebrequestaudio",
+    "unitywebrequesttexture",
+    "unitywebrequestwww",
+    "unsqueeze",
+    "upconv",
+    "upsample",
+    "val",
+    "videocapture",
+    "vimtutor",
+    "virtualenv",
+    "visualstar",
+    "void",
+    "vqgan",
+    "VQLPAPS",
+    "vqperceptual",
+    "vulcanus",
+    "Waseda",
+    "watanabe",
+    "wavefile",
+    "waveglow",
+    "waveplot",
+    "waveshow",
+    "wavfile",
+    "wavfiles",
+    "wavio",
+    "webm",
+    "workdir",
+    "xaxis",
+    "xlabel",
+    "xlim",
+    "xmax",
+    "xmin",
+    "xticks",
+    "xtitle",
+    "yamamoto",
+    "yaxis",
+    "ylabel",
+    "ylim",
+    "ymax",
+    "ymin",
+    "Yokan",
+    "Yolo",
+    "yolov",
+    "yscale",
+    "yticks",
+    "ytitle",
+    "yuta",
+    "yutanishi",
+    "zenn",
+    "zenodo",
+    "zmax",
+    "zmin",
+    "Σwij"
+  ],
+  /* Common Settings */
+  "workbench.colorTheme": "Everforest Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "editor.formatOnSave": true,
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.fontFamily": "'MyricaM M'",
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.fontFamily": "'MesloLGS NF', monospace",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  /* Vim Settings */
+  "vim.hlsearch": true,
+  "vim.easymotion": true,
+  "vim.leader": "<space>",
+  "vim.useSystemClipboard": true,
+  "vim.visualstar": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<ESC>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "u"
+      ],
+      "commands": [
+        {
+          "command": "undo"
+        }
+      ]
+    },
+    {
+      "before": [
+        ">"
+      ],
+      "after": [
+        ">",
+        ">"
+      ]
+    },
+    {
+      "before": [
+        "<"
+      ],
+      "after": [
+        "<",
+        "<"
+      ]
+    },
+    {
+      "before": [
+        "<C-r>"
+      ],
+      "commands": [
+        {
+          "command": "redo"
+        }
+      ]
+    },
+    {
+      "before": [
+        "j"
+      ],
+      "after": [
+        "g",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "k"
+      ],
+      "after": [
+        "g",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "n"
+      ],
+      "after": [
+        "n",
+        "z",
+        "z"
+      ]
+    },
+    {
+      "before": [
+        "N"
+      ],
+      "after": [
+        "N",
+        "z",
+        "z"
+      ]
+    },
+    {
+      "before": [
+        "*"
+      ],
+      "after": [
+        "*",
+        "z",
+        "z"
+      ]
+    },
+    {
+      "before": [
+        "#"
+      ],
+      "after": [
+        "#",
+        "z",
+        "z"
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "/"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.commentLine"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "s"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.files.save",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "w"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.closeActiveEditor",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": [
+        "<C-h>",
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "<C-l>",
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "m"
+      ],
+      "after": [
+        "%"
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "z"
+      ],
+      "commands": [
+        ":noh"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        "<C-h>",
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "<C-l>",
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "m"
+      ],
+      "after": [
+        "%"
+      ]
+    },
+  ],
+  /* HTML Settings */
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.tabSize": 2,
+  },
+  "html.format.indentInnerHtml": true,
+  "html.format.extraLiners": "",
+  "html.format.preserveNewLines": false,
+  "emmet.variables": {
+    "lang": "ja"
+  },
+  /* CSS Settings */
+  "eslint.format.enable": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[postcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[tailwindcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  /* JS/TS Settings */
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+  },
+  /* Python Settings */
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true,
+  },
+  /* C/Cpp Settings */
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 90}",
+  /* Rust Settings */
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+  },
+  /* Go Settings */
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.insertSpaces": false,
+  },
+  /* SQL Settings */
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "sql-formatter.uppercase": true,
+  /* Docker Settings */
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  /* Config Settings */
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.tabSize": 2
+  },
+  /* Shell Script Settings */
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  /* Indent Rainbow Settings */
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.lightIndicatorStyleLineWidth": 1,
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.3)",
+    "rgba(127,255,127,0.3)",
+    "rgba(255,127,255,0.3)",
+    "rgba(79,236,236,0.3)"
+  ],
+  "indentRainbow.errorColor": "rgba(0, 0, 0, 0)",
+  /* Hex Editor Settings */
+  "hexeditor.columnWidth": 16,
+  "hexeditor.showDecodedText": true,
+  "hexeditor.defaultEndianness": "little",
+  "hexeditor.inspectorType": "aside",
+  /* Remote SSH Settings */
+  "remote.SSH.configFile": "/Users/yutanishi/.ssh/config",
+  "remote.SSH.lockfilesInTmp": true,
+  "remote.SSH.useLocalServer": false,
+  "remote.SSH.useFlock": false,
+  "remote.SSH.remotePlatform": {
+    "virtus-home": "linux",
+    "tellus-home": "linux",
+    "vulcanus-home": "linux",
+    "tellus": "linux",
+    "vulcanus": "linux",
+    "virtus": "linux"
+  },
+  /* Git Settings */
+  "git.suggestSmartCommit": false,
+  "git.confirmSync": false,
+  "githubPullRequests.createOnPublishBranch": "never",
+  "git-graph.openNewTabEditorGroup": "Beside",
+  "gitlens.advanced.messages": {
+    "suppressCommitNotFoundWarning": true
+  },
+  /* Live Server Settings */
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "latex-workshop.view.pdf.viewer": "tab",
+  "path-intellisense.absolutePathToWorkspace": false,
+  "redhat.telemetry.enabled": false,
+  "lldb.suppressUpdateNotifications": true,
+  "jupyter.askForKernelRestart": false,
+  "notebook.lineNumbers": "on",
+  "remoteHub.uncommittedChangesOnEntry": "none",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.inlineSuggest.enabled": true,
+  "code-runner.runInTerminal": true,
+}

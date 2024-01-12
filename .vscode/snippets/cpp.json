@@ -1,0 +1,29 @@
+{
+    "print to console": {
+      "prefix": "cpp_template",
+      "body": [
+        "#include <bits/stdc++.h>",
+        "",
+        "using namespace std;",
+        "#define INF32 2147483647",
+        "#define INF64 9223372036854775807",
+        "#define MOD 1000000007",
+        "",
+        "int main() {",
+        "    /* code */",
+        "",
+        "    return 0;",
+        "}"
+      ],
+      "description": "cpp_template"
+    },
+    "Include Guard": {
+      "prefix": "include_guard",
+      "body": [
+        "#ifndef $1",
+        "#define $1",
+        "#endif // $1"
+      ],
+      "description": "Include Guard"
+    }
+  }
