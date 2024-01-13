@@ -31,6 +31,7 @@
     "bestaudio",
     "BGRA",
     "biber",
+    "bibtex",
     "Binarizer",
     "blit",
     "bndbox",
@@ -44,6 +45,7 @@
     "cifar",
     "ckpt",
     "ckpt_path",
+    "clippy",
     "cloudlatex",
     "cmake",
     "cmap",
@@ -89,6 +91,7 @@
     "diningtable",
     "dnntts",
     "dockercompose",
+    "doctex",
     "donchaoyang",
     "donot",
     "dout",
@@ -205,9 +208,11 @@
     "Logits",
     "logprob",
     "lossconfig",
+    "lspconfig",
     "lstm",
     "ltrb",
     "lualatex",
+    "lualine",
     "makedataset",
     "markersize",
     "mashable",
@@ -246,6 +251,7 @@
     "ndim",
     "ndimage",
     "nditer",
+    "neovim",
     "Nesterov",
     "netns",
     "newaxis",
@@ -265,6 +271,7 @@
     "numba",
     "numpy",
     "nunit",
+    "nvim",
     "Nyquist",
     "Objectfile",
     "omegaconf",
@@ -448,6 +455,7 @@
     "ytitle",
     "yuta",
     "yutanishi",
+    "yzhang",
     "zenn",
     "zenodo",
     "zmax",
@@ -462,7 +470,6 @@
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit",
-    "source.fixAll.eslint": "explicit"
   },
   "editor.fontFamily": "'MyricaM M'",
   "editor.fontSize": 14,
@@ -474,6 +481,9 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "diffEditor.ignoreTrimWhitespace": false,
+  /* NeoVim Settings */
+  "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
+  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/yutanishi/.config/nvim/init.lua",
   /* Vim Settings */
   "vim.hlsearch": true,
   "vim.easymotion": true,
@@ -700,7 +710,6 @@
     "lang": "ja"
   },
   /* CSS Settings */
-  "eslint.format.enable": false,
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
@@ -711,8 +720,12 @@
   },
   "[tailwindcss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "strings": true
+    }
   },
+  "eslint.format.enable": false,
   /* JS/TS Settings */
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -733,7 +746,6 @@
   /* Python Settings */
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
-    "editor.formatOnType": true,
   },
   /* C/Cpp Settings */
   "[c]": {
@@ -747,6 +759,7 @@
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
   },
+  "rust-analyzer.check.command": "clippy",
   /* Go Settings */
   "[go]": {
     "editor.defaultFormatter": "golang.go",
@@ -764,6 +777,20 @@
   "[dockercompose]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
+  /* Markdown Settings */
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.wordWrap": "bounded",
+  },
+  /* LaTeX Settings */
+  "[tex]": {},
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop",
+    "editor.wordWrap": "bounded"
+  },
+  "[doctex]": {},
+  "[bibtex]": {},
+  "latex-workshop.view.pdf.viewer": "tab",
   /* Config Settings */
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features",
@@ -816,7 +843,7 @@
   /* Live Server Settings */
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
-  "latex-workshop.view.pdf.viewer": "tab",
+  /* Extension Settings */
   "path-intellisense.absolutePathToWorkspace": false,
   "redhat.telemetry.enabled": false,
   "lldb.suppressUpdateNotifications": true,
