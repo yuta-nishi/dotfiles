@@ -186,6 +186,9 @@
     "labml",
     "lambd",
     "Langevin",
+    "latexindent",
+    "latexmk",
+    "latexmkrc",
     "leakyrelu",
     "leetcode",
     "leftbbox",
@@ -212,6 +215,7 @@
     "lstm",
     "ltrb",
     "lualatex",
+    "lualatexmk",
     "lualine",
     "makedataset",
     "markersize",
@@ -251,6 +255,8 @@
     "ndim",
     "ndimage",
     "nditer",
+    "neoconf",
+    "neodev",
     "neovim",
     "Nesterov",
     "netns",
@@ -266,6 +272,7 @@
     "nlogn",
     "nmlog",
     "nohl",
+    "nonstopmode",
     "nopython",
     "noverlap",
     "numba",
@@ -281,6 +288,7 @@
     "optim",
     "outc",
     "outconv",
+    "outdir",
     "output_safechars",
     "outtmpl",
     "pairplot",
@@ -316,6 +324,7 @@
     "randn",
     "randperm",
     "rclcpp",
+    "rconly",
     "RDONLY",
     "readwav",
     "realsense",
@@ -362,6 +371,7 @@
     "stylelint",
     "substracting",
     "Suudoku",
+    "synctex",
     "tacotron",
     "tailwindcss",
     "Takahashi",
@@ -373,6 +383,7 @@
     "tensorized",
     "termcolor",
     "terrainphysics",
+    "texbin",
     "textmeshpro",
     "tgbus",
     "tilemap",
@@ -435,6 +446,8 @@
     "webm",
     "workdir",
     "xaxis",
+    "xelatex",
+    "xelatexmk",
     "xlabel",
     "xlim",
     "xmax",
@@ -783,22 +796,39 @@
     "editor.wordWrap": "bounded",
   },
   /* LaTeX Settings */
-  "[tex]": {
-    "editor.defaultFormatter": "James-Yu.latex-workshop",
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.tabSize": 2,
-    "editor.wordWrap": "bounded"
-  },
   "[latex]": {
     "editor.defaultFormatter": "James-Yu.latex-workshop",
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.tabSize": 2,
     "editor.wordWrap": "bounded"
   },
-  "[bibtex]": {
-    "editor.tabSize": 2
-  },
   "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.intellisense.package.enabled": true,
+  "latex-workshop.latex.outDir": "%DIR%/out",
+  "latex-workshop.latexindent.path": "/Library/TeX/texbin/latexindent",
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (lualatex)",
+      "tools": [
+        "lualatexmk"
+      ]
+    },
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "lualatexmk",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ],
+      "env": {}
+    },
+  ],
   /* Config Settings */
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features",
