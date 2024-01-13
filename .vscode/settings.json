@@ -783,13 +783,21 @@
     "editor.wordWrap": "bounded",
   },
   /* LaTeX Settings */
-  "[tex]": {},
-  "[latex]": {
+  "[tex]": {
     "editor.defaultFormatter": "James-Yu.latex-workshop",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.tabSize": 2,
     "editor.wordWrap": "bounded"
   },
-  "[doctex]": {},
-  "[bibtex]": {},
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "bounded"
+  },
+  "[bibtex]": {
+    "editor.tabSize": 2
+  },
   "latex-workshop.view.pdf.viewer": "tab",
   /* Config Settings */
   "[json]": {
@@ -843,8 +851,10 @@
   /* Live Server Settings */
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
-  /* Extension Settings */
+  /* Path Intellisense Settings */
   "path-intellisense.absolutePathToWorkspace": false,
+  "path-intellisense.showHiddenFiles": true,
+  /* Extension Settings */
   "redhat.telemetry.enabled": false,
   "lldb.suppressUpdateNotifications": true,
   "jupyter.askForKernelRestart": false,
