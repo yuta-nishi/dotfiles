@@ -23,7 +23,7 @@
       "",
       "\\title{}",
       "\\author{}",
-      "\\date{\today}",
+      "\\date{\\today}",
       "\\begin{document}",
       "\\maketitle",
       "",
