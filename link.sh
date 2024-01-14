@@ -8,3 +8,4 @@ ln -s ~/dotfiles/.vscode/tasks.json /Users/yutanishi/Library/Application\ Suppor
 ln -s ~/dotfiles/.vscode/settings.json /Users/yutanishi/Library/Application\ Support/Code/User/settings.json
 ln -s ~/dotfiles/.vscode/keybindings.json /Users/yutanishi/Library/Application\ Support/Code/User/keybindings.json
 ln -s ~/dotfiles/.vscode/snippets/ /Users/yutanishi/Library/Application\ Support/Code/User
+ln -s ~/dotfiles/.latexmkrc ~/.latexmkrc
