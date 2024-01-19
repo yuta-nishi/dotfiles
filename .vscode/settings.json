@@ -149,6 +149,7 @@
     "imageconversion",
     "imagefile",
     "imagenet",
+    "IMAP",
     "imgs",
     "imgui",
     "imread",
@@ -298,6 +299,7 @@
     "pckl",
     "pdflatex",
     "peakdetect",
+    "plasmohq",
     "plotly",
     "popleft",
     "postorder",
@@ -524,24 +526,6 @@
         {
           "command": "undo"
         }
-      ]
-    },
-    {
-      "before": [
-        ">"
-      ],
-      "after": [
-        ">",
-        ">"
-      ]
-    },
-    {
-      "before": [
-        "<"
-      ],
-      "after": [
-        "<",
-        "<"
       ]
     },
     {
@@ -805,7 +789,12 @@
   "latex-workshop.view.pdf.viewer": "tab",
   "latex-workshop.intellisense.package.enabled": true,
   "latex-workshop.latex.outDir": "%DIR%/out",
-  "latex-workshop.latexindent.path": "/Library/TeX/texbin/latexindent",
+  "latex-workshop.latexindent.path": "latexindent",
+  "latex-workshop.latexindent.args": [
+    "%TMPFILE%",
+    "-c=%DIR%/",
+    "-y=defaultIndent: '%INDENT%'"
+  ],
   "latex-workshop.latex.autoClean.run": "onBuilt",
   "latex-workshop.latex.recipes": [
     {
