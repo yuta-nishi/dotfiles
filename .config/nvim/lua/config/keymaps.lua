@@ -7,6 +7,8 @@ keymap.set("i", "jk", "<ESC>", opts)
 -- Normal mode mappings
 keymap.set("n", "<C-h>", "^", opts)
 keymap.set("n", "<C-l>", "$", opts)
+keymap.set("n", "+", "<C-a>", opts)
+keymap.set("n", "-", "<C-x>", opts)
 
 -- To avoid easymotion
 keymap.set("n", "s", '"_s', opts)
