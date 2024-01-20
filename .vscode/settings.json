@@ -164,6 +164,7 @@
     "inferrinizzard",
     "infs",
     "inorder",
+    "inoremap",
     "interp",
     "intervaltree",
     "ious",
@@ -273,6 +274,7 @@
     "nlogm",
     "nlogn",
     "nmlog",
+    "nnoremap",
     "nohl",
     "nonstopmode",
     "nopython",
@@ -433,6 +435,7 @@
     "vimtutor",
     "virtualenv",
     "visualstar",
+    "vnoremap",
     "void",
     "vqgan",
     "VQLPAPS",
@@ -488,13 +491,13 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit",
   },
-  "editor.fontFamily": "'MyricaM M'",
+  "editor.fontFamily": "Hack Nerd Font",
   "editor.fontSize": 14,
   "editor.minimap.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.inheritEnv": false,
   "terminal.integrated.enableMultiLinePasteWarning": false,
-  "terminal.integrated.fontFamily": "'MesloLGS NF', monospace",
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -634,7 +637,6 @@
       "commands": [
         {
           "command": "workbench.action.files.save",
-          "args": []
         }
       ]
     },
@@ -647,7 +649,6 @@
       "commands": [
         {
           "command": "workbench.action.closeActiveEditor",
-          "args": []
         }
       ]
     },
