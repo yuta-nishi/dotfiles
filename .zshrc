@@ -11,13 +11,28 @@ source $ZSH/oh-my-zsh.sh
 
 # ls/eza
 if [[ $(command -v eza) ]]; then
-  alias ls='eza --icons --git'
-  alias ll='eza --icons --git -l -h'
-  alias la='eza --icons --git -a'
+    alias ls='eza --icons --git'
+    alias ll='eza --icons --git -l -h'
+    alias la='eza --icons --git -a'
 else
-  alias ls='ls --color=auto'
-  alias ll='ls -lh'
-  alias la='ls -a'
+    alias ls='ls --color=auto'
+    alias ll='ls -lh'
+    alias la='ls -a'
+fi
+
+# grep/ripgrep
+if [[ $(command -v rg) ]]; then
+    alias grep='rg'
+fi
+
+# find/fd
+if [[ $(command -v fd) ]]; then
+    alias find='fd'
+fi
+
+# diff/delta
+if [[ $(command -v delta) ]]; then
+    alias diff='delta'
 fi
 
 # cd
