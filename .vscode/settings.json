@@ -94,6 +94,7 @@
     "doctex",
     "donchaoyang",
     "donot",
+    "dotfiles",
     "dout",
     "Doxygen",
     "dsets",
@@ -372,6 +373,7 @@
     "STFT",
     "stylelint",
     "substracting",
+    "sumneko",
     "Suudoku",
     "synctex",
     "tacotron",
@@ -834,6 +836,11 @@
       "env": {}
     },
   ],
+  /* Lua Settings */
+  "[lua]": {
+    "editor.defaultFormatter": "sumneko.lua",
+    "editor.tabSize": 2
+  },
   /* Config Settings */
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features",
