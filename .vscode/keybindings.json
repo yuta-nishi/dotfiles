@@ -37,11 +37,6 @@
   },
   {
     "key": "cmd+l",
-    "command": "expandLineSelection",
-    "when": "textInputFocus"
-  },
-  {
-    "key": "cmd+l",
     "command": "-expandLineSelection",
     "when": "textInputFocus"
   },
@@ -58,16 +53,32 @@
     "key": "cmd+h",
     "command": "workbench.action.evenEditorWidths"
   },
+  /* Neovim Settings */
   {
-    "command": "vscode-neovim.compositeEscape1",
     "key": "j",
+    "command": "vscode-neovim.compositeEscape1",
     "when": "neovim.mode == insert && editorTextFocus",
     "args": "j"
   },
   {
-    "command": "vscode-neovim.compositeEscape2",
     "key": "k",
+    "command": "vscode-neovim.compositeEscape2",
     "when": "neovim.mode == insert && editorTextFocus",
     "args": "k"
+  },
+  {
+    "key": "space s",
+    "command": "workbench.action.files.save",
+    "when": "neovim.mode == normal && editorTextFocus"
+  },
+  {
+    "key": "space /",
+    "command": "editor.action.commentLine",
+    "when": "neovim.mode == normal && editorTextFocus"
+  },
+  {
+    "key": "space w",
+    "command": "workbench.action.closeActiveEditor",
+    "when": "neovim.mode == normal && editorTextFocus"
   }
 ]
