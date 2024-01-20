@@ -20,10 +20,5 @@ let mapleader = "\<Space>"
 inoremap jk <ESC>
 nnoremap <C-h> ^
 nnoremap <C-l> $
-nnoremap > >>
-nnoremap < <<
-nnoremap <Leader>m %
-nnoremap <Leader>z :noh
 vnoremap <C-h> ^
 vnoremap <C-l> $
-vnoremap <Leader>m %
