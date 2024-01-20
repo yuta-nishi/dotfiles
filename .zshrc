@@ -9,10 +9,16 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
-# ls
-alias ls='ls --color=auto'
-alias ll='ls -lh'
-alias la='ls -a'
+# ls/eza
+if [[ $(command -v eza) ]]; then
+  alias ls='eza --icons --git'
+  alias ll='eza --icons --git -l -h'
+  alias la='eza --icons --git -a'
+else
+  alias ls='ls --color=auto'
+  alias ll='ls -lh'
+  alias la='ls -a'
+fi
 
 # cd
 alias ..='cd ..'
