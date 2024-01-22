@@ -1,5 +1,5 @@
 [
-  /* File Transfer Settings */
+  /* File Transfer */
   {
     "key": "ctrl+tab",
     "command": "workbench.action.nextEditor"
@@ -7,6 +7,17 @@
   {
     "key": "ctrl+shift+tab",
     "command": "workbench.action.previousEditor"
+  },
+  /* Switching Between Editor and Terminal */
+  {
+    "key": "ctrl+;",
+    "command": "terminal.focus",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+;",
+    "command": "workbench.action.focusFirstEditorGroup",
+    "when": "terminalFocus"
   },
   /* Neovim Settings */
   {
@@ -34,6 +45,21 @@
   {
     "key": "space w",
     "command": "workbench.action.closeActiveEditor",
+    "when": "neovim.mode == normal && editorTextFocus"
+  },
+  {
+    "key": "space d",
+    "command": "editor.action.goToDeclaration",
+    "when": "neovim.mode == normal && editorTextFocus"
+  },
+  {
+    "key": "space b",
+    "command": "workbench.action.navigateBack",
+    "when": "neovim.mode == normal && editorTextFocus"
+  },
+  {
+    "key": "space f",
+    "command": "workbench.action.navigateForward",
     "when": "neovim.mode == normal && editorTextFocus"
   }
 ]
