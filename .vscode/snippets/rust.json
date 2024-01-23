@@ -1,0 +1,14 @@
+{
+	"kyopro template": {
+		"prefix": "template",
+		"body": [
+			"// Time Complexity: O()",
+			"// Space Complexity: O()",
+			"",
+			"use proconio::input;",
+			"",
+			"fn main() {}"
+		],
+		"description": "rust_template"
+	}
+}
