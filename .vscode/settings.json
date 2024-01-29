@@ -111,6 +111,7 @@
     "Embedder",
     "endoftext",
     "ENOENT",
+    "epoll",
     "esbenp",
     "Everforest",
     "extention",
@@ -129,6 +130,7 @@
     "fscore",
     "fstat",
     "funcs",
+    "gakkari",
     "gdown",
     "gdrive",
     "GELU",
@@ -177,6 +179,7 @@
     "isort",
     "isscalar",
     "iternext",
+    "itertools",
     "izip",
     "Jaccard",
     "jetson",
@@ -226,6 +229,7 @@
     "lualatex",
     "lualatexmk",
     "lualine",
+    "lucide",
     "makedataset",
     "mapleader",
     "markersize",
@@ -296,6 +300,7 @@
     "omegaconf",
     "omnisharp",
     "onehot",
+    "openai",
     "opencv",
     "optim",
     "outc",
@@ -310,6 +315,7 @@
     "pckl",
     "pdflatex",
     "peakdetect",
+    "permutohedron",
     "Plasmo",
     "plasmohq",
     "plotly",
@@ -324,6 +330,7 @@
     "preorder",
     "pretrained",
     "probs",
+    "proconio",
     "pstatement",
     "pyaudio",
     "pyautogui",
@@ -358,6 +365,7 @@
     "rospy",
     "RSYM",
     "rterm",
+    "rustfmt",
     "safechars",
     "savefig",
     "savez",
@@ -391,6 +399,7 @@
     "tacotron",
     "tailwindcss",
     "Takahashi",
+    "tamasfe",
     "tcpdump",
     "tcpip",
     "techtrain",
@@ -400,6 +409,7 @@
     "termcolor",
     "terrainphysics",
     "texbin",
+    "textbox",
     "textlint",
     "textlintrc",
     "textmeshpro",
@@ -790,9 +800,11 @@
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
   "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
+    "editor.defaultFormatter": "ms-vscode.cpptools",
   },
-  "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 90}",
+  "C_Cpp.default.cStandard": "c17",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 90, PointerAlignment: Left}",
   /* Rust Settings */
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
@@ -873,6 +885,17 @@
     "editor.defaultFormatter": "vscode.json-language-features",
     "editor.tabSize": 2
   },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.tabSize": 2
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml",
+    "editor.tabSize": 2
+  },
+  "evenBetterToml.formatter.columnWidth": 90,
+  "evenBetterToml.formatter.reorderKeys": true,
+  "evenBetterToml.formatter.reorderArrays": true,
   /* Shell Script Settings */
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
