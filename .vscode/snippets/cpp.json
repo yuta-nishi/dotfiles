@@ -2,12 +2,9 @@
   "kyopro template": {
     "prefix": "template",
     "body": [
-      "#include <bits/stdc++.h>",
+      "#include <iostream>",
       "",
       "using namespace std;",
-      "#define INF32 2147483647",
-      "#define INF64 9223372036854775807",
-      "#define MOD 1000000007",
       "",
       "int main() {",
       "    /* code */",
