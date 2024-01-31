@@ -84,10 +84,6 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
 
-# pipe
-alias -g G='| grep'
-alias -g C='| wc -l'
-
 # reload
 alias reload='source ~/.zshrc'
 
