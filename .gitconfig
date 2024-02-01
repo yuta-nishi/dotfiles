@@ -33,3 +33,7 @@ conflictStyle = diff3
 
 [diff]
 colorMoved = default
+
+# For use in DevContainer
+[safe]
+directory = /workspace
