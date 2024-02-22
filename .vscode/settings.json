@@ -845,6 +845,10 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
   },
+  "python.analysis.inlayHints.callArgumentNames": "all",
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
   "jupyter.askForKernelRestart": false,
   "notebook.lineNumbers": "on",
   /* C/Cpp Settings */
