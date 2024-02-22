@@ -9,6 +9,7 @@
     "androidjni",
     "annot",
     "apdcephfs",
+    "apikey",
     "arange",
     "argmax",
     "argsort",
@@ -25,6 +26,7 @@
     "autoencoder",
     "autograd",
     "autoindent",
+    "automerge",
     "avgs",
     "azuretools",
     "batchnorm",
@@ -39,6 +41,7 @@
     "blit",
     "bndbox",
     "boxplot",
+    "Budoux",
     "calt",
     "cens",
     "centernet",
@@ -51,9 +54,11 @@
     "ckpt_path",
     "clippy",
     "cloudlatex",
+    "clsx",
     "cmake",
     "cmap",
     "Codebook",
+    "codegen",
     "coef",
     "COEFFS",
     "Colab",
@@ -123,6 +128,7 @@
     "esbenp",
     "eventfd",
     "Everforest",
+    "execa",
     "extention",
     "Faiss",
     "fftpack",
@@ -147,11 +153,14 @@
     "getpid",
     "goldenretriever",
     "Gosei",
+    "graphqlrc",
     "hangfrom",
     "hann",
     "hanning",
     "hardtanh",
     "hashset",
+    "headlessui",
+    "heroicons",
     "hexeditor",
     "hlsearch",
     "hsplit",
@@ -290,6 +299,7 @@
     "Nesterov",
     "netns",
     "newaxis",
+    "nextjs",
     "NEXTVAL",
     "NFFT",
     "nipy",
@@ -337,6 +347,7 @@
     "plasmohq",
     "plotly",
     "popleft",
+    "postbuild",
     "postorder",
     "postprocessors",
     "pottedplant",
@@ -396,6 +407,7 @@
     "semilogy",
     "sess",
     "set_ylabel",
+    "shadcn",
     "shibui",
     "skillup",
     "skimage",
@@ -413,6 +425,7 @@
     "stylelint",
     "substracting",
     "sumneko",
+    "SUPABASE",
     "Suudoku",
     "synctex",
     "tacotron",
@@ -440,6 +453,7 @@
     "tkdnn",
     "tnet",
     "toarray",
+    "tocbot",
     "tofile",
     "torchaudio",
     "torchsummary",
@@ -473,6 +487,7 @@
     "unsqueeze",
     "upconv",
     "upsample",
+    "urql",
     "val",
     "videocapture",
     "Vimmer",
@@ -541,6 +556,7 @@
   "editor.fontSize": 14,
   "editor.minimap.enabled": false,
   "editor.inlineSuggest.enabled": true,
+  "editor.stickyScroll.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.inheritEnv": false,
   "terminal.integrated.fontFamily": "Hack Nerd Font",
@@ -790,25 +806,37 @@
       "strings": true
     }
   },
-  "eslint.format.enable": false,
   /* JS/TS Settings */
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "strings": true
+    }
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "strings": true
+    }
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "strings": true
+    }
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "strings": true
+    }
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.format.enable": false,
   /* Python Settings */
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
@@ -948,7 +976,8 @@
     "vulcanus": "linux",
     "virtus": "linux",
     "maia": "macOS",
-    "web-server-home": "linux"
+    "web-server-home": "linux",
+    "maia-home": "macOS"
   },
   /* Git Settings */
   "git.suggestSmartCommit": false,
@@ -958,7 +987,10 @@
   "gitlens.advanced.messages": {
     "suppressCommitNotFoundWarning": true
   },
-  "github.copilot.chat.localeOverride": "ja",
+  "github.copilot.enable": {
+    "quarto": false,
+    "*": true
+  },
   /* Live Server Settings */
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
