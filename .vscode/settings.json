@@ -888,6 +888,13 @@
     "editor.defaultFormatter": "golang.go",
     "editor.insertSpaces": false,
   },
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.constantValues": true,
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.rangeVariableTypes": true,
   /* SQL Settings */
   "[sql]": {
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
