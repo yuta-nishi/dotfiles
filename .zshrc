@@ -88,10 +88,16 @@ alias rm='rm -i'
 # reload
 alias reload='source ~/.zshrc'
 
-# homebrew setting
+# /opt/homebrew setting
 if [[ ":$PATH:" != *":/opt/homebrew/bin:"* ]]; then
     export PATH="/opt/homebrew/bin:$PATH"
 fi
+
+# $HOME/homebrew setting
+if [[ ":$PATH:" != *":$HOME/homebrew/bin:"* ]]; then
+    export PATH="$HOME/homebrew/bin:$PATH"
+fi
+
 
 # go setting
 export GOPATH="$HOME/go"
