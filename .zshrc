@@ -63,7 +63,7 @@ alias grm='git remote'
 alias gsw='git switch'
 alias gst='git stash'
 alias grb='git rebase'
-alias gcz='git cz'
+alias gcz='git cz --disable-emoji'
 
 # docker
 alias dcb='docker compose build'
