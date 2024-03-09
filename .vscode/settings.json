@@ -344,6 +344,7 @@
     "pbar",
     "pckl",
     "pdflatex",
+    "pdfs",
     "peakdetect",
     "permutohedron",
     "Plasmo",
@@ -412,6 +413,7 @@
     "sess",
     "set_ylabel",
     "shadcn",
+    "Shazam",
     "shibui",
     "skillup",
     "skimage",
@@ -444,6 +446,7 @@
     "tensorized",
     "termcolor",
     "terrainphysics",
+    "testid",
     "texbin",
     "textbox",
     "textlint",
@@ -489,15 +492,18 @@
     "unitywebrequestwww",
     "unnamedplus",
     "unsqueeze",
+    "unstub",
     "upconv",
     "upsample",
     "urql",
+    "uvicorn",
     "val",
     "videocapture",
     "Vimmer",
     "vimtutor",
     "virtualenv",
     "visualstar",
+    "vite",
     "vnoremap",
     "void",
     "vqgan",
@@ -895,6 +901,7 @@
   "go.inlayHints.functionTypeParameters": true,
   "go.inlayHints.parameterNames": true,
   "go.inlayHints.rangeVariableTypes": true,
+  "go.toolsManagement.autoUpdate": true,
   /* SQL Settings */
   "[sql]": {
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
@@ -956,6 +963,16 @@
     "editor.defaultFormatter": "sumneko.lua",
     "editor.tabSize": 2
   },
+  /* XML Settings */
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml",
+    "editor.tabSize": 2,
+  },
+  /* SVG Settings */
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg",
+    "editor.tabSize": 2
+  },
   /* Config Settings */
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features",
@@ -1009,7 +1026,8 @@
     "virtus": "linux",
     "maia": "macOS",
     "web-server-home": "linux",
-    "maia-home": "macOS"
+    "maia-home": "macOS",
+    "murcia-home": "macOS"
   },
   /* Git Settings */
   "git.suggestSmartCommit": false,
@@ -1023,6 +1041,7 @@
     "quarto": false,
     "*": true
   },
+  "github.copilot.chat.localeOverride": "ja",
   /* Live Server Settings */
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
