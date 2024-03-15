@@ -48,6 +48,7 @@
     "cens",
     "centernet",
     "chardata",
+    "charliermarsh",
     "chmax",
     "chmin",
     "chromagram",
@@ -380,6 +381,7 @@
     "pymongo",
     "pyopenjtalk",
     "pyplot",
+    "pyproject",
     "pytest",
     "quantile",
     "randn",
@@ -872,7 +874,7 @@
   "eslint.format.enable": false,
   /* Python Settings */
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
+    "editor.defaultFormatter": "charliermarsh.ruff",
   },
   "python.analysis.inlayHints.callArgumentNames": "partial",
   "python.analysis.inlayHints.variableTypes": true,
@@ -880,6 +882,13 @@
   "python.analysis.inlayHints.functionReturnTypes": true,
   "jupyter.askForKernelRestart": false,
   "notebook.lineNumbers": "on",
+  "notebook.formatOnSave.enabled": true,
+  "ruff.lint.args": [
+    "--config=pyproject.toml"
+  ],
+  "ruff.format.args": [
+    "--config=pyproject.toml"
+  ],
   /* C/Cpp Settings */
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
