@@ -297,6 +297,7 @@
     "mult",
     "murata",
     "musicnet",
+    "mypy",
     "n_timesteps",
     "NAND",
     "NCHW",
@@ -508,6 +509,7 @@
     "urql",
     "uvicorn",
     "val",
+    "venv",
     "videocapture",
     "Vimmer",
     "vimtutor",
@@ -876,19 +878,29 @@
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
   },
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
   "python.analysis.inlayHints.callArgumentNames": "partial",
   "python.analysis.inlayHints.variableTypes": true,
   "python.analysis.inlayHints.pytestParameters": true,
   "python.analysis.inlayHints.functionReturnTypes": true,
+  "ruff.path": [
+    "${workspaceFolder}/.venv/bin/ruff"
+  ],
+  "ruff.lint.args": [
+    "--config=${workspaceFolder}/pyproject.toml"
+  ],
+  "ruff.format.args": [
+    "--config=${workspaceFolder}/pyproject.toml"
+  ],
+  "mypy-type-checker.path": [
+    "${workspaceFolder}/.venv/bin/mypy"
+  ],
+  "mypy-type-checker.args": [
+    "--config-file=${workspaceFolder}/pyproject.toml"
+  ],
   "jupyter.askForKernelRestart": false,
   "notebook.lineNumbers": "on",
   "notebook.formatOnSave.enabled": true,
-  "ruff.lint.args": [
-    "--config=pyproject.toml"
-  ],
-  "ruff.format.args": [
-    "--config=pyproject.toml"
-  ],
   /* C/Cpp Settings */
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
