@@ -39,12 +39,15 @@
     "bibtex",
     "Binarizer",
     "blit",
+    "blogposts",
+    "blogrenderer",
     "bndbox",
     "boxplot",
     "Budoux",
     "calt",
     "cens",
     "centernet",
+    "chardata",
     "chmax",
     "chmin",
     "chromagram",
@@ -54,6 +57,7 @@
     "ckpt_path",
     "clangd",
     "clippy",
+    "clockface",
     "cloudlatex",
     "clsx",
     "cmake",
@@ -153,7 +157,9 @@
     "GELU",
     "gensim",
     "getpid",
+    "gohtml",
     "goldenretriever",
+    "gomarkdown",
     "Gosei",
     "graphqlrc",
     "hangfrom",
@@ -165,6 +171,7 @@
     "heroicons",
     "hexeditor",
     "hlsearch",
+    "Holdem",
     "hsplit",
     "httplib",
     "huggingface",
@@ -441,6 +448,7 @@
     "tcpdump",
     "tcpip",
     "techtrain",
+    "templ",
     "tempogram",
     "tensorboard",
     "tensorized",
@@ -968,6 +976,12 @@
     "editor.defaultFormatter": "redhat.vscode-xml",
     "editor.tabSize": 2,
   },
+  "xml.fileAssociations": [
+    {
+      "systemId": "https://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd",
+      "pattern": "**/*.svg"
+    }
+  ],
   /* SVG Settings */
   "[svg]": {
     "editor.defaultFormatter": "jock.svg",
@@ -1048,9 +1062,20 @@
   /* Path Intellisense Settings */
   "path-intellisense.absolutePathToWorkspace": false,
   "path-intellisense.showHiddenFiles": true,
+  /* LeetCode Settings */
+  "leetcode.defaultLanguage": "python3",
+  "leetcode.workspaceFolder": "/Users/yutanishi/Development/competitive-programming/leetcode/leetcode-py/src",
+  "leetcode.hint.configWebviewMarkdown": false,
+  "leetcode.filePath": {
+    "default": {
+      "folder": "",
+      "filename": "${difficulty}_${id}_${snake_case_name}.${ext}"
+    }
+  },
   /* Extension Settings */
   "redhat.telemetry.enabled": false,
   "lldb.suppressUpdateNotifications": true,
   "remoteHub.uncommittedChangesOnEntry": "none",
   "code-runner.runInTerminal": true,
+  "svg.preview.mode": "svg",
 }
