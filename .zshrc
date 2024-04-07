@@ -147,3 +147,9 @@ export RBENV_HOME="$HOME/.rbenv"
 if [[ ":$PATH:" != *":$RBENV_HOME/shims:"* ]]; then
     export PATH="$RBENV_HOME/shims:$PATH"
 fi
+
+# java setting
+export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+if [[ ":$PATH:" != *":/opt/homebrew/opt/openjdk/bin:"* ]]; then
+    export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+fi
