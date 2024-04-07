@@ -163,6 +163,7 @@
     "gomarkdown",
     "Gosei",
     "graphqlrc",
+    "hadolint",
     "hangfrom",
     "hann",
     "hanning",
@@ -505,6 +506,7 @@
     "unsqueeze",
     "unstub",
     "upconv",
+    "Upgrader",
     "upsample",
     "urql",
     "uvicorn",
@@ -931,6 +933,21 @@
   "go.inlayHints.parameterNames": true,
   "go.inlayHints.rangeVariableTypes": true,
   "go.toolsManagement.autoUpdate": true,
+  /* Ruby Settings */
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.rulers": [
+      120
+    ],
+    "editor.semanticHighlighting.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+  },
   /* SQL Settings */
   "[sql]": {
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
@@ -1093,10 +1110,12 @@
       "filename": "${difficulty}_${id}_${snake_case_name}.${ext}"
     }
   },
+  "leetcode.hint.commentDescription": false,
   /* Extension Settings */
   "redhat.telemetry.enabled": false,
   "lldb.suppressUpdateNotifications": true,
   "remoteHub.uncommittedChangesOnEntry": "none",
   "code-runner.runInTerminal": true,
   "svg.preview.mode": "svg",
+  "hadolint.hadolintPath": "/usr/local/bin/hadolint",
 }
