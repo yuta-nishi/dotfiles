@@ -138,10 +138,6 @@ if [[ ":$PATH:" != *":$BUN_INSTALL/bin:"* ]]; then
     export PATH="$BUN_INSTALL/bin:$PATH"
 fi
 
-# gcc setting
-alias gcc='gcc-13'
-alias g++='g++-13'
-
 # ruby setting
 export RBENV_HOME="$HOME/.rbenv"
 if [[ ":$PATH:" != *":$RBENV_HOME/shims:"* ]]; then
