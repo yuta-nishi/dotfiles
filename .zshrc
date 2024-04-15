@@ -9,7 +9,10 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
-# ls/eza
+# starship prompt
+eval "$(starship init zsh)"
+
+# ls/eza alias
 if [[ $(command -v eza) ]]; then
     alias ls='eza --icons --git'
     alias ll='eza --icons --git -l -h'
@@ -20,28 +23,28 @@ else
     alias la='ls -a'
 fi
 
-# grep/ripgrep
+# grep/ripgrep alias
 if [[ $(command -v rg) ]]; then
     alias grep='rg'
 fi
 
-# find/fd
+# find/fd alias
 if [[ $(command -v fd) ]]; then
     alias find='fd'
 fi
 
-# diff/delta
+# diff/delta alias
 if [[ $(command -v delta) ]]; then
     alias diff='delta'
 fi
 
-# cd
+# cd alias
 alias ..='cd ..'
 alias ...='../..'
 alias ....='../../..'
 alias .....='../../../..'
 
-# git
+# git alias
 alias g='git'
 alias gi='git init'
 alias ga='git add'
@@ -65,7 +68,7 @@ alias gst='git stash'
 alias grb='git rebase'
 alias gcz='git cz --disable-emoji'
 
-# docker
+# docker alias
 alias dcb='docker compose build'
 alias dcs='docker compose stop'
 alias dcu='docker compose up'
@@ -76,11 +79,11 @@ alias dcp='docker compose ps'
 alias dce='docker compose exec'
 alias dci='docker compose images'
 
-# neovim
+# neovim alias
 alias vim='nvim'
 alias vi='nvim'
 
-# safety
+# safety alias
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
@@ -107,21 +110,6 @@ source '/Users/yutanishi/.cargo/bin'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/opt/homebrew/Caskroom/miniforge/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh" ]; then
-        . "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh"
-    else
-        export PATH="/opt/homebrew/Caskroom/miniforge/base/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
 
 # volta initialize
 export VOLTA_HOME="$HOME/.volta"
