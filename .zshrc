@@ -1,14 +1,3 @@
-# powerlevel10k
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-    source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
-# oh-my-zsh
-export ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="powerlevel10k/powerlevel10k"
-plugins=(git)
-source $ZSH/oh-my-zsh.sh
-
 # starship prompt
 eval "$(starship init zsh)"
 
@@ -107,9 +96,6 @@ source '/Users/yutanishi/.rye/env'
 
 # rust initialize
 source '/Users/yutanishi/.cargo/bin'
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # volta initialize
 export VOLTA_HOME="$HOME/.volta"
