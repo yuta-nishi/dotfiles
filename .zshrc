@@ -1,6 +1,3 @@
-# starship prompt
-eval "$(starship init zsh)"
-
 # ls/eza alias
 if [[ $(command -v eza) ]]; then
     alias ls='eza --icons --git'
@@ -123,3 +120,7 @@ export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 if [[ ":$PATH:" != *":/opt/homebrew/opt/openjdk/bin:"* ]]; then
     export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 fi
+
+# Not applied to shell, so placed on last line
+# starship prompt
+eval "$(starship init zsh)"
