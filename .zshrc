@@ -89,10 +89,10 @@ if [[ ":$PATH:" != *":$GOPATH/bin:"* ]]; then
 fi
 
 # rye initialize
-source '/Users/yutanishi/.rye/env'
+source "$HOME/.rye/env"
 
 # rust initialize
-source '/Users/yutanishi/.cargo/bin'
+source "$HOME/.cargo/bin"
 
 # volta initialize
 export VOLTA_HOME="$HOME/.volta"
@@ -101,7 +101,7 @@ if [[ ":$PATH:" != *":$VOLTA_HOME/bin:"* ]]; then
 fi
 
 # bun completions
-[ -s "/Users/yutanishi/.bun/_bun" ] && source "/Users/yutanishi/.bun/_bun"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # bun setting
 export BUN_INSTALL="$HOME/.bun"
