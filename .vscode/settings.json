@@ -3,6 +3,7 @@
   "cSpell.userWords": [
     "aaeon",
     "acodec",
+    "actix",
     "adpyke",
     "aeroplane",
     "allclose",
@@ -12,6 +13,7 @@
     "apikey",
     "arange",
     "argmax",
+    "argmin",
     "argsort",
     "argwhere",
     "asmr",
@@ -38,6 +40,7 @@
     "biber",
     "bibtex",
     "Binarizer",
+    "bioinformatics",
     "blit",
     "blogposts",
     "blogrenderer",
@@ -138,12 +141,14 @@
     "execa",
     "extention",
     "Faiss",
+    "fastapi",
     "fftpack",
     "fibo",
     "figsize",
     "fillstyle",
     "fillvalue",
     "filterbank",
+    "followee",
     "fontsize",
     "fourcc",
     "foxundermoon",
@@ -172,6 +177,7 @@
     "headlessui",
     "heroicons",
     "hexeditor",
+    "Hira",
     "hlsearch",
     "Holdem",
     "hsplit",
@@ -206,7 +212,9 @@
     "intervaltree",
     "ious",
     "ipcapt",
+    "ipykernel",
     "ipynb",
+    "ipython",
     "isort",
     "isscalar",
     "iternext",
@@ -236,6 +244,7 @@
     "leetcode",
     "leftbbox",
     "lefttop",
+    "lenet",
     "libcontext",
     "libfmp",
     "Libri",
@@ -246,6 +255,7 @@
     "linestyle",
     "linewidth",
     "linspace",
+    "liveserver",
     "lmplot",
     "loadtxt",
     "lockfiles",
@@ -275,6 +285,7 @@
     "mediapipe",
     "MEDV",
     "meian",
+    "Meiryo",
     "MELS",
     "melspec",
     "Menlo",
@@ -320,6 +331,7 @@
     "nishida",
     "nlog",
     "nlogk",
+    "nlogl",
     "nlogm",
     "nlogn",
     "nmlog",
@@ -332,6 +344,7 @@
     "noverlap",
     "numba",
     "numpy",
+    "nums",
     "nunit",
     "nvim",
     "Nyquist",
@@ -341,6 +354,7 @@
     "onehot",
     "oneshot",
     "openai",
+    "openapi",
     "opencv",
     "optim",
     "outc",
@@ -377,6 +391,7 @@
     "pyaudio",
     "pyautogui",
     "pycache",
+    "pydantic",
     "pydub",
     "pylab",
     "Pylance",
@@ -426,6 +441,7 @@
     "shadcn",
     "Shazam",
     "shibui",
+    "Siri",
     "skillup",
     "skimage",
     "sklearn",
@@ -494,6 +510,7 @@
     "umapper",
     "Undistort",
     "unet",
+    "unfollow",
     "unilab",
     "unistd",
     "unityanalytics",
@@ -524,6 +541,7 @@
     "VQLPAPS",
     "vqperceptual",
     "vulcanus",
+    "wakatime",
     "Waseda",
     "watanabe",
     "wavefile",
@@ -584,6 +602,7 @@
   "editor.stickyScroll.enabled": false,
   "editor.inlayHints.enabled": "onUnlessPressed",
   "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
   "terminal.integrated.inheritEnv": false,
   "terminal.integrated.fontFamily": "Hack Nerd Font",
   "files.insertFinalNewline": true,
@@ -915,6 +934,11 @@
   "C_Cpp.clang_format_style": "file",
   // "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 90, PointerAlignment: Left}",
   "C_Cpp.intelliSenseEngine": "disabled",
+  /* Java Settings */
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+  },
+  "java.inlayHints.parameterNames.enabled": "literals",
   /* Rust Settings */
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
@@ -964,6 +988,15 @@
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
     "editor.wordWrap": "bounded",
+  },
+  /* Text Settings */
+  "[plaintext]": {
+    "editor.wordWrap": "bounded",
+    "editor.quickSuggestions": {
+      "other": "off",
+      "comments": "off",
+      "strings": "off"
+    }
   },
   /* LaTeX Settings */
   "[latex]": {
@@ -1079,7 +1112,8 @@
     "maia": "macOS",
     "web-server-home": "linux",
     "maia-home": "macOS",
-    "murcia-home": "macOS"
+    "murcia-home": "macOS",
+    "hercules": "linux"
   },
   /* Git Settings */
   "git.suggestSmartCommit": false,
@@ -1111,11 +1145,16 @@
     }
   },
   "leetcode.hint.commentDescription": false,
+  /* Code Runner Settings */
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "c": "cd $dir && clang -std=gnu17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && clang++ -std=gnu++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+  },
   /* Extension Settings */
   "redhat.telemetry.enabled": false,
   "lldb.suppressUpdateNotifications": true,
   "remoteHub.uncommittedChangesOnEntry": "none",
-  "code-runner.runInTerminal": true,
   "svg.preview.mode": "svg",
   "hadolint.hadolintPath": "/usr/local/bin/hadolint",
 }
