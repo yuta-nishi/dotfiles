@@ -824,6 +824,50 @@
       ]
     },
   ],
+  /* Debug Settings */
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Rust Debug",
+        "type": "lldb",
+        "request": "launch",
+        "cargo": {
+          "args": [
+            "build",
+          ],
+        },
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "RUST_BACKTRACE": "1"
+        },
+        "internalConsoleOptions": "openOnSessionStart",
+        "sourceLanguages": [
+          "rust"
+        ],
+      },
+      {
+        "name": "Rust Test Debug",
+        "type": "lldb",
+        "request": "launch",
+        "cargo": {
+          "args": [
+            "test",
+            "--no-run",
+            "--lib"
+          ],
+        },
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "RUST_BACKTRACE": "1"
+        },
+        "internalConsoleOptions": "openOnSessionStart",
+        "sourceLanguages": [
+          "rust"
+        ]
+      }
+    ]
+  },
   /* HTML Settings */
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features",
@@ -927,7 +971,7 @@
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
   "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
   },
   "C_Cpp.default.cStandard": "c17",
   "C_Cpp.default.cppStandard": "c++17",
@@ -1113,7 +1157,8 @@
     "web-server-home": "linux",
     "maia-home": "macOS",
     "murcia-home": "macOS",
-    "hercules": "linux"
+    "hercules": "linux",
+    "hercules-home": "linux"
   },
   /* Git Settings */
   "git.suggestSmartCommit": false,
