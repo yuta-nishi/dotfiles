@@ -76,6 +76,7 @@
     "comms",
     "coversong",
     "cplus",
+    "cppbuild",
     "cpptools",
     "cpython",
     "CQTTPP",
@@ -141,7 +142,9 @@
     "execa",
     "extention",
     "Faiss",
+    "fansi",
     "fastapi",
+    "fcolor",
     "fftpack",
     "fibo",
     "figsize",
@@ -865,6 +868,30 @@
         "sourceLanguages": [
           "rust"
         ]
+      },
+      {
+        "name": "C Debug",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${fileDirname}/${fileBasenameNoExtension}",
+        "cwd": "${workspaceFolder}",
+        "internalConsoleOptions": "openOnSessionStart",
+        "sourceLanguages": [
+          "c"
+        ],
+        "preLaunchTask": "C Build"
+      },
+      {
+        "name": "C++ Debug",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${fileDirname}/${fileBasenameNoExtension}",
+        "cwd": "${workspaceFolder}",
+        "internalConsoleOptions": "openOnSessionStart",
+        "sourceLanguages": [
+          "c++"
+        ],
+        "preLaunchTask": "C++ Build"
       }
     ]
   },
@@ -973,8 +1000,8 @@
   "[cpp]": {
     "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
   },
-  "C_Cpp.default.cStandard": "c17",
-  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.cStandard": "gnu17",
+  "C_Cpp.default.cppStandard": "gnu++17",
   "C_Cpp.clang_format_style": "file",
   // "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 90, PointerAlignment: Left}",
   "C_Cpp.intelliSenseEngine": "disabled",
@@ -1198,7 +1225,6 @@
   },
   /* Extension Settings */
   "redhat.telemetry.enabled": false,
-  "lldb.suppressUpdateNotifications": true,
   "remoteHub.uncommittedChangesOnEntry": "none",
   "svg.preview.mode": "svg",
   "hadolint.hadolintPath": "/usr/local/bin/hadolint",
