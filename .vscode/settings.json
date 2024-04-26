@@ -608,6 +608,7 @@
   "explorer.compactFolders": false,
   "terminal.integrated.inheritEnv": false,
   "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "diffEditor.ignoreTrimWhitespace": false,
