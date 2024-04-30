@@ -21,18 +21,6 @@
   },
   /* Neovim Settings */
   {
-    "key": "j",
-    "command": "vscode-neovim.compositeEscape1",
-    "when": "neovim.mode == insert && editorTextFocus",
-    "args": "j"
-  },
-  {
-    "key": "k",
-    "command": "vscode-neovim.compositeEscape2",
-    "when": "neovim.mode == insert && editorTextFocus",
-    "args": "k"
-  },
-  {
     "key": "space s",
     "command": "workbench.action.files.save",
     "when": "neovim.mode == normal && editorTextFocus"

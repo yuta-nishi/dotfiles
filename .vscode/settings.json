@@ -267,6 +267,7 @@
     "loginfo",
     "Logit",
     "Logits",
+    "logn",
     "logprob",
     "lossconfig",
     "lspconfig",
@@ -359,6 +360,7 @@
     "openai",
     "openapi",
     "opencv",
+    "openlab",
     "optim",
     "outc",
     "outconv",
@@ -399,6 +401,7 @@
     "pylab",
     "Pylance",
     "pymongo",
+    "pyomo",
     "pyopenjtalk",
     "pyplot",
     "pyproject",
@@ -615,6 +618,11 @@
   /* NeoVim Settings */
   "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
   "vscode-neovim.neovimInitVimPaths.darwin": "/Users/yutanishi/.config/nvim/init.lua",
+  "vscode-neovim.compositeKeys": {
+    "jk": {
+      "command": "vscode-neovim.escape",
+    }
+  },
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
@@ -994,6 +1002,9 @@
   "jupyter.askForKernelRestart": false,
   "notebook.lineNumbers": "on",
   "notebook.formatOnSave.enabled": true,
+  "notebook.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
   /* C/Cpp Settings */
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
