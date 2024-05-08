@@ -26,9 +26,9 @@ fi
 
 # cd
 alias ..='cd ..'
-alias ...='../..'
-alias ....='../../..'
-alias .....='../../../..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
 
 # git
 alias g='git'
