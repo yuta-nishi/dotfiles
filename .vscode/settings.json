@@ -3,6 +3,7 @@
   "cSpell.userWords": [
     "aaeon",
     "acodec",
+    "actix",
     "adpyke",
     "aeroplane",
     "allclose",
@@ -12,6 +13,7 @@
     "apikey",
     "arange",
     "argmax",
+    "argmin",
     "argsort",
     "argwhere",
     "asmr",
@@ -38,6 +40,7 @@
     "biber",
     "bibtex",
     "Binarizer",
+    "bioinformatics",
     "blit",
     "blogposts",
     "blogrenderer",
@@ -73,6 +76,7 @@
     "comms",
     "coversong",
     "cplus",
+    "cppbuild",
     "cpptools",
     "cpython",
     "CQTTPP",
@@ -138,12 +142,16 @@
     "execa",
     "extention",
     "Faiss",
+    "fansi",
+    "fastapi",
+    "fcolor",
     "fftpack",
     "fibo",
     "figsize",
     "fillstyle",
     "fillvalue",
     "filterbank",
+    "followee",
     "fontsize",
     "fourcc",
     "foxundermoon",
@@ -172,6 +180,7 @@
     "headlessui",
     "heroicons",
     "hexeditor",
+    "Hira",
     "hlsearch",
     "Holdem",
     "hsplit",
@@ -206,7 +215,9 @@
     "intervaltree",
     "ious",
     "ipcapt",
+    "ipykernel",
     "ipynb",
+    "ipython",
     "isort",
     "isscalar",
     "iternext",
@@ -236,6 +247,7 @@
     "leetcode",
     "leftbbox",
     "lefttop",
+    "lenet",
     "libcontext",
     "libfmp",
     "Libri",
@@ -246,6 +258,7 @@
     "linestyle",
     "linewidth",
     "linspace",
+    "liveserver",
     "lmplot",
     "loadtxt",
     "lockfiles",
@@ -254,6 +267,7 @@
     "loginfo",
     "Logit",
     "Logits",
+    "logn",
     "logprob",
     "lossconfig",
     "lspconfig",
@@ -275,6 +289,7 @@
     "mediapipe",
     "MEDV",
     "meian",
+    "Meiryo",
     "MELS",
     "melspec",
     "Menlo",
@@ -320,6 +335,7 @@
     "nishida",
     "nlog",
     "nlogk",
+    "nlogl",
     "nlogm",
     "nlogn",
     "nmlog",
@@ -332,6 +348,7 @@
     "noverlap",
     "numba",
     "numpy",
+    "nums",
     "nunit",
     "nvim",
     "Nyquist",
@@ -341,7 +358,9 @@
     "onehot",
     "oneshot",
     "openai",
+    "openapi",
     "opencv",
+    "openlab",
     "optim",
     "outc",
     "outconv",
@@ -377,10 +396,12 @@
     "pyaudio",
     "pyautogui",
     "pycache",
+    "pydantic",
     "pydub",
     "pylab",
     "Pylance",
     "pymongo",
+    "pyomo",
     "pyopenjtalk",
     "pyplot",
     "pyproject",
@@ -426,6 +447,7 @@
     "shadcn",
     "Shazam",
     "shibui",
+    "Siri",
     "skillup",
     "skimage",
     "sklearn",
@@ -494,6 +516,7 @@
     "umapper",
     "Undistort",
     "unet",
+    "unfollow",
     "unilab",
     "unistd",
     "unityanalytics",
@@ -524,6 +547,7 @@
     "VQLPAPS",
     "vqperceptual",
     "vulcanus",
+    "wakatime",
     "Waseda",
     "watanabe",
     "wavefile",
@@ -584,14 +608,21 @@
   "editor.stickyScroll.enabled": false,
   "editor.inlayHints.enabled": "onUnlessPressed",
   "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
   "terminal.integrated.inheritEnv": false,
   "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "diffEditor.ignoreTrimWhitespace": false,
   /* NeoVim Settings */
   "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
   "vscode-neovim.neovimInitVimPaths.darwin": "/Users/yutanishi/.config/nvim/init.lua",
+  "vscode-neovim.compositeKeys": {
+    "jk": {
+      "command": "vscode-neovim.escape",
+    }
+  },
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
@@ -805,6 +836,74 @@
       ]
     },
   ],
+  /* Debug Settings */
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Rust Debug",
+        "type": "lldb",
+        "request": "launch",
+        "cargo": {
+          "args": [
+            "build",
+          ],
+        },
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "RUST_BACKTRACE": "1"
+        },
+        "internalConsoleOptions": "openOnSessionStart",
+        "sourceLanguages": [
+          "rust"
+        ],
+      },
+      {
+        "name": "Rust Test Debug",
+        "type": "lldb",
+        "request": "launch",
+        "cargo": {
+          "args": [
+            "test",
+            "--no-run",
+            "--lib"
+          ],
+        },
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "RUST_BACKTRACE": "1"
+        },
+        "internalConsoleOptions": "openOnSessionStart",
+        "sourceLanguages": [
+          "rust"
+        ]
+      },
+      {
+        "name": "C Debug",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${fileDirname}/${fileBasenameNoExtension}",
+        "cwd": "${workspaceFolder}",
+        "internalConsoleOptions": "openOnSessionStart",
+        "sourceLanguages": [
+          "c"
+        ],
+        "preLaunchTask": "C Build"
+      },
+      {
+        "name": "C++ Debug",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${fileDirname}/${fileBasenameNoExtension}",
+        "cwd": "${workspaceFolder}",
+        "internalConsoleOptions": "openOnSessionStart",
+        "sourceLanguages": [
+          "c++"
+        ],
+        "preLaunchTask": "C++ Build"
+      }
+    ]
+  },
   /* HTML Settings */
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features",
@@ -903,18 +1002,26 @@
   "jupyter.askForKernelRestart": false,
   "notebook.lineNumbers": "on",
   "notebook.formatOnSave.enabled": true,
+  "notebook.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
   /* C/Cpp Settings */
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
   "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
   },
-  "C_Cpp.default.cStandard": "c17",
-  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.cStandard": "gnu17",
+  "C_Cpp.default.cppStandard": "gnu++17",
   "C_Cpp.clang_format_style": "file",
   // "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 90, PointerAlignment: Left}",
   "C_Cpp.intelliSenseEngine": "disabled",
+  /* Java Settings */
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+  },
+  "java.inlayHints.parameterNames.enabled": "literals",
   /* Rust Settings */
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
@@ -964,6 +1071,15 @@
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
     "editor.wordWrap": "bounded",
+  },
+  /* Text Settings */
+  "[plaintext]": {
+    "editor.wordWrap": "bounded",
+    "editor.quickSuggestions": {
+      "other": "off",
+      "comments": "off",
+      "strings": "off"
+    }
   },
   /* LaTeX Settings */
   "[latex]": {
@@ -1079,7 +1195,9 @@
     "maia": "macOS",
     "web-server-home": "linux",
     "maia-home": "macOS",
-    "murcia-home": "macOS"
+    "murcia-home": "macOS",
+    "hercules": "linux",
+    "hercules-home": "linux"
   },
   /* Git Settings */
   "git.suggestSmartCommit": false,
@@ -1111,11 +1229,15 @@
     }
   },
   "leetcode.hint.commentDescription": false,
+  /* Code Runner Settings */
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "c": "cd $dir && clang -std=gnu17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && clang++ -std=gnu++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+  },
   /* Extension Settings */
   "redhat.telemetry.enabled": false,
-  "lldb.suppressUpdateNotifications": true,
   "remoteHub.uncommittedChangesOnEntry": "none",
-  "code-runner.runInTerminal": true,
   "svg.preview.mode": "svg",
   "hadolint.hadolintPath": "/usr/local/bin/hadolint",
 }

@@ -75,3 +75,12 @@ alias rm='rm -i'
 
 # reload
 alias reload='source ~/.bashrc'
+
+# volta initialize
+export VOLTA_HOME="$HOME/.volta"
+if [[ ":$PATH:" != *":$VOLTA_HOME/bin:"* ]]; then
+	export PATH="$VOLTA_HOME/bin:$PATH"
+fi
+
+# rye setting
+source "$HOME/.rye/env"
