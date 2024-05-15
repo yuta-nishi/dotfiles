@@ -84,3 +84,6 @@ fi
 
 # rye setting
 source "$HOME/.rye/env"
+
+# starship
+eval "$(starship init bash)"
