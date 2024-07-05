@@ -1,6 +1,6 @@
 {
-	"kyopro template": {
-		"prefix": "template",
+	"template": {
+		"prefix": "ac_template",
 		"body": [
 			"// Time Complexity: O()",
 			"// Space Complexity: O()",
@@ -9,6 +9,44 @@
 			"",
 			"fn main() {}"
 		],
-		"description": "rust_template"
+		"description": "Template for AtCoder"
+	},
+	"build_ungraph": {
+		"prefix": "ac_build_ungraph",
+		"body": [
+			"fn build_ungraph(num_nodes: usize, edges: &[(usize, usize)]) -> Vec<Vec<usize>> {",
+			"let mut graph = vec![vec![]; num_nodes];",
+			"for &(node1, node2) in edges {",
+			"graph[node1].push(node2);",
+			"graph[node2].push(node1);",
+			"}",
+			"",
+			"graph",
+			"}"
+		],
+		"description": "Build undirected graph"
+	},
+	"dijkstra_all": {
+		"prefix": "ac_dijkstra_all",
+		"body": [
+			"fn dijkstra_all(start_idx: usize, graph: &[Vec<usize>]) -> Vec<Option<usize>> {",
+			"    let mut distances = vec![None; graph.len()];",
+			"    let mut queue = VecDeque::new();",
+			"    distances[start_idx] = Some(0);",
+			"    queue.push_back((0, start_idx));",
+			"",
+			"    while let Some((cur_distance, cur_node)) = queue.pop_front() {",
+			"        for &neighbor in &graph[cur_node] {",
+			"            if distances[neighbor].is_none() {",
+			"                distances[neighbor] = Some(cur_distance + 1);",
+			"                queue.push_back((cur_distance + 1, neighbor));",
+			"            }",
+			"        }",
+			"    }",
+			"",
+			"    distances",
+			"}"
+		],
+		"description": "Compute shortest paths from a starting node using Dijkstra's algorithm"
 	}
 }
