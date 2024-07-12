@@ -68,6 +68,9 @@ alias dci='docker compose images'
 alias vim='nvim'
 alias vi='nvim'
 
+# conda
+alias conda='micromamba'
+
 # safety
 alias cp='cp -i'
 alias mv='mv -i'
