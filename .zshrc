@@ -134,6 +134,12 @@ if [[ ":$PATH:" != *":/opt/homebrew/opt/openjdk/bin:"* ]]; then
     export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 fi
 
+# flutter setting
+export FLUTTER_HOME="$HOME/flutter"
+if [[ ":$PATH:" != *":$FLUTTER_HOME/bin:"* ]]; then
+    export PATH="$FLUTTER_HOME/bin:$PATH"
+fi
+
 # Not applied to shell, so placed on last line
 # starship prompt
 eval "$(starship init zsh)"
