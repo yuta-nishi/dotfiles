@@ -24,59 +24,6 @@ if [[ $(command -v delta) ]]; then
     alias diff='delta'
 fi
 
-# cd alias
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
-alias .....='cd ../../../..'
-
-# git alias
-alias g='git'
-alias gi='git init'
-alias ga='git add'
-alias gr='git restore'
-alias gd='git diff'
-alias gs='git status'
-alias gp='git push'
-alias gb='git branch'
-alias gf='git fetch'
-alias gc='git commit'
-alias gl='git log'
-alias gm='git merge'
-alias gt='git tag'
-alias gch='git checkout'
-alias gcl='git clone'
-alias gpl='git pull'
-alias grs='git reset'
-alias grm='git remote'
-alias gsw='git switch'
-alias gst='git stash'
-alias grb='git rebase'
-alias gcz='git cz --disable-emoji'
-
-# docker alias
-alias dcb='docker compose build'
-alias dcs='docker compose stop'
-alias dcu='docker compose up'
-alias dcd='docker compose down'
-alias dcl='docker compose logs'
-alias dcr='docker compose restart'
-alias dcp='docker compose ps'
-alias dce='docker compose exec'
-alias dci='docker compose images'
-
-# neovim alias
-alias vim='nvim'
-alias vi='nvim'
-
-# safety alias
-alias cp='cp -i'
-alias mv='mv -i'
-alias rm='rm -i'
-
-# reload
-alias reload='source ~/.zshrc'
-
 # homebrew setting
 if [[ ":$PATH:" != *":/opt/homebrew/bin:"* ]]; then
     export PATH="/opt/homebrew/bin:$PATH"

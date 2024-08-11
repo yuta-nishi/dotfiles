@@ -30,5 +30,8 @@ github = "zsh-users/zsh-history-substring-search"
 [plugins.mise]
 inline = 'eval "$(mise activate zsh)"'
 
+[plugins.zabrze]
+inline = 'eval "$(zabrze init --bind-keys)"'
+
 [plugins.starship]
 inline = 'eval "$(starship init zsh)"'
