@@ -140,5 +140,18 @@ if [[ ":$PATH:" != *":$FLUTTER_HOME/bin:"* ]]; then
     export PATH="$FLUTTER_HOME/bin:$PATH"
 fi
 
+# fzf history
+function fzf-select-history() {
+    BUFFER=$(history -n -r 1 | fzf --query "$LBUFFER")
+    CURSOR=$#BUFFER
+    zle reset-prompt
+}
+zle -N fzf-select-history
+bindkey '^r' fzf-select-history
+
+# history-substring-search
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
 # sheldon setting
 eval "$(sheldon source)"
