@@ -1,0 +1,44 @@
+abbrevs:
+  - name: docker
+    abbr: d
+    snippet: docker
+
+  - name: docker ps
+    abbr: dp
+    snippet: docker ps
+
+  - name: docker images
+    abbr: di
+    snippet: docker images
+
+  - name: docker exec
+    abbr: de
+    snippet: docker exec
+
+  - name: docker compose build
+    abbr: dcb
+    snippet: docker compose build
+
+  - name: docker compose stop
+    abbr: dcs
+    snippet: docker compose stop
+
+  - name: docker compose up
+    abbr: dcu
+    snippet: docker compose up
+
+  - name: docker compose down
+    abbr: dcd
+    snippet: docker compose down
+
+  - name: docker compose logs
+    abbr: dcl
+    snippet: docker compose logs
+
+  - name: docker compose ps
+    abbr: dcp
+    snippet: docker compose ps
+
+  - name: docker compose exec
+    abbr: dce
+    snippet: docker compose exec

@@ -1,29 +1,3 @@
-# ls/eza alias
-if [[ $(command -v eza) ]]; then
-    alias ls='eza --icons --git'
-    alias ll='eza --icons --git -l -h'
-    alias la='eza --icons --git -a'
-else
-    alias ls='ls --color=auto'
-    alias ll='ls -lh'
-    alias la='ls -a'
-fi
-
-# grep/ripgrep alias
-if [[ $(command -v rg) ]]; then
-    alias grep='rg'
-fi
-
-# find/fd alias
-if [[ $(command -v fd) ]]; then
-    alias find='fd'
-fi
-
-# diff/delta alias
-if [[ $(command -v delta) ]]; then
-    alias diff='delta'
-fi
-
 # homebrew setting
 if [[ ":$PATH:" != *":/opt/homebrew/bin:"* ]]; then
     export PATH="/opt/homebrew/bin:$PATH"

@@ -1,0 +1,76 @@
+abbrevs:
+  # eza abbreviations
+  - name: eza --icons --git
+    abbr: ls
+    snippet: eza --icons --git
+    if: (( ${+commands[eza]} ))
+
+  - name: ls -GF
+    abbr: ls
+    snippet: ls -GF
+    if: (( ! ${+commands[eza]} ))
+
+  - name: eza --icons --git -l -h
+    abbr: ll
+    snippet: eza --icons --git -l -h
+    if: (( ${+commands[eza]} ))
+
+  - name: ls -GF -lh
+    abbr: ll
+    snippet: ls -GF -lh
+    if: (( ! ${+commands[eza]} ))
+
+  - name: eza --icons --git -a
+    abbr: la
+    snippet: eza --icons --git -a
+    if: (( ${+commands[eza]} ))
+
+  - name: ls -GF -a
+    abbr: la
+    snippet: ls -GF -a
+    if: (( ! ${+commands[eza]} ))
+
+  # ripgrep abbreviations
+  - name: rg
+    abbr: grep
+    snippet: rg
+    if: (( ${+commands[rg]} ))
+
+  # fd abbreviations
+  - name: fd
+    abbr: find
+    snippet: fd
+    if: (( ${+commands[fd]} ))
+
+  # delta abbreviations
+  - name: delta
+    abbr: diff
+    snippet: delta
+    if: (( ${+commands[delta]} ))
+
+  # neovim abbreviations
+  - name: nvim
+    abbr: vim
+    snippet: nvim
+
+  - name: nvim
+    abbr: vi
+    snippet: nvim
+
+  # reload abbreviations
+  - name: source ~/.zshrc
+    abbr: reload
+    snippet: source ~/.zshrc
+
+  # safety abbreviations
+  - name: rm -i
+    abbr: rm
+    snippet: rm -i
+
+  - name: cp -i
+    abbr: cp
+    snippet: cp -i
+
+  - name: mv -i
+    abbr: mv
+    snippet: mv -i

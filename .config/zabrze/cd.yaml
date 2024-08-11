@@ -1,0 +1,16 @@
+abbrevs:
+  - name: cd ..
+    abbr: ..
+    snippet: cd ..
+
+  - name: cd ../..
+    abbr: ...
+    snippet: cd ../..
+
+  - name: cd ../../..
+    abbr: ....
+    snippet: cd ../../..
+
+  - name: cd ../../../..
+    abbr: .....
+    snippet: cd ../../../..
