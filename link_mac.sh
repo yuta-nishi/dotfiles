@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ln -f -s "$HOME/dotfiles/.zshrc" "$HOME/.zshrc"
+ln -f -s "$HOME/dotfiles/.zshenv" "$HOME/.zshenv"
 ln -f -s "$HOME/dotfiles/.vimrc" "$HOME/.vimrc"
 ln -f -s "$HOME/dotfiles/.config/nvim/" "$HOME/.config"
 ln -f -s "$HOME/dotfiles/.config/sheldon/" "$HOME/.config"

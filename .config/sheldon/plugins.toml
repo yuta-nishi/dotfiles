@@ -27,6 +27,15 @@ github = "rupa/z"
 apply = ["defer"]
 github = "zsh-users/zsh-history-substring-search"
 
+[plugins.rye]
+inline = 'source "$HOME/.rye/env"'
+
+[plugins.rust]
+inline = 'source "$HOME/.cargo/bin"'
+
+[plugins.bun]
+inline = 'source "$HOME/.bun/_bun"'
+
 [plugins.mise]
 inline = 'eval "$(mise activate zsh)"'
 
