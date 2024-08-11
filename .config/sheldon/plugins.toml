@@ -27,7 +27,6 @@ github = "rupa/z"
 apply = ["defer"]
 github = "zsh-users/zsh-history-substring-search"
 
-
 [plugins.mise]
 inline = 'eval "$(mise activate zsh)"'
 
