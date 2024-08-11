@@ -11,13 +11,22 @@ defer = "{{ hooks?.pre | nl }}{% for file in files %}zsh-defer source \"{{ file 
 apply = ["defer"]
 github = "zsh-users/zsh-autosuggestions"
 
+[plugins.zsh-completions]
+apply = ["defer"]
+github = "zsh-users/zsh-completions"
+
 [plugins.zsh-syntax-highlighting]
 apply = ["defer"]
 github = "zsh-users/zsh-syntax-highlighting"
 
-[plugins.zsh-completions]
+[plugins.z]
 apply = ["defer"]
-github = "zsh-users/zsh-completions"
+github = "rupa/z"
+
+[plugins.zsh-history-substring-search]
+apply = ["defer"]
+github = "zsh-users/zsh-history-substring-search"
+
 
 [plugins.mise]
 inline = 'eval "$(mise activate zsh)"'
