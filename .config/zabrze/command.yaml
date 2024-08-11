@@ -48,6 +48,12 @@ abbrevs:
     snippet: delta
     if: (( ${+commands[delta]} ))
 
+  # micromamba abbreviations
+  - name: micromamba
+    abbr: conda
+    snippet: micromamba
+    if: (( ${+commands[micromamba]} ))
+
   # neovim abbreviations
   - name: nvim
     abbr: vim

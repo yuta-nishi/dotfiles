@@ -1,4 +1,4 @@
-# fzf history
+# fzf-history-search
 function fzf-select-history() {
     BUFFER=$(history -n -r 1 | fzf --query "$LBUFFER")
     CURSOR=$#BUFFER
