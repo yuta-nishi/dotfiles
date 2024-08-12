@@ -44,6 +44,49 @@ return {
       key = "l",
       mods = "OPT",
       action = act.ActivatePaneDirection("Right"),
+    },
+    -- text
+    {
+      key = "b",
+      mods = "OPT",
+      action = act.SendString("\x1bb")
+    },
+    {
+      key = "f",
+      mods = "OPT",
+      action = act.SendString("\x1bf")
+    },
+    {
+      key = "LeftArrow",
+      mods = "CMD",
+      action = act.SendString("\x01")
+    },
+    {
+      key = "RightArrow",
+      mods = "CMD",
+      action = act.SendString("\x05")
+    },
+    {
+      key = "Backspace",
+      mods = "CTRL",
+      action = act.SendKey({
+        key = "w",
+        mods = "CTRL",
+      })
+    },
+    {
+      key = "Backspace",
+      mods = "CMD",
+      action = act.SendKey({
+        key = "u",
+        mods = "CTRL",
+      })
+    },
+    -- copy mode
+    {
+      key = "c",
+      mods = "CMD|SHIFT",
+      action = act.ActivateCopyMode,
     }
   }
 }
