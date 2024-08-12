@@ -58,10 +58,12 @@ abbrevs:
   - name: nvim
     abbr: vim
     snippet: nvim
+    if: (( ${+commands[nvim]} ))
 
   - name: nvim
     abbr: vi
     snippet: nvim
+    if: (( ${+commands[nvim]} ))
 
   # reload abbreviations
   - name: source ~/.zshrc
