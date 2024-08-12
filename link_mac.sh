@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 ln -f -s "$HOME/dotfiles/.zshrc" "$HOME/.zshrc"
 ln -f -s "$HOME/dotfiles/.zshenv" "$HOME/.zshenv"
