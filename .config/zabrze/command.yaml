@@ -1,4 +1,10 @@
 abbrevs:
+  # bat abbreviations
+  - name: bat
+    abbr: cat
+    snippet: bat
+    if: (( ${+commands[bat]} ))
+
   # eza abbreviations
   - name: eza --icons --git
     abbr: ls

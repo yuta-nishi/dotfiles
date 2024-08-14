@@ -1,4 +1,9 @@
 # Write alias because abbr is not available in Warp.
+# cat/bat alias
+if [[ $(command -v bat) ]]; then
+    alias cat='bat'
+fi
+
 # ls/eza alias
 if [[ $(command -v eza) ]]; then
     alias ls='eza --icons --git'
