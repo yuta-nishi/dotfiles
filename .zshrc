@@ -12,7 +12,7 @@ fi
 
 # grep/ripgrep alias
 if [[ $(command -v rg) ]]; then
-    alias grep='rg'
+    alias grep="rg --hidden --glob '!.git'"
 fi
 
 # find/fd alias

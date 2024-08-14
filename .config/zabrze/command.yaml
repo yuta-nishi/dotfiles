@@ -31,9 +31,9 @@ abbrevs:
     if: (( ! ${+commands[eza]} ))
 
   # ripgrep abbreviations
-  - name: rg
+  - name: rg --hidden --glob '!.git'
     abbr: grep
-    snippet: rg
+    snippet: rg --hidden --glob '!.git'
     if: (( ${+commands[rg]} ))
 
   # fd abbreviations
