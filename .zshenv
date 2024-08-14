@@ -3,6 +3,13 @@ if [[ ":$PATH:" != *":/opt/homebrew/bin:"* ]]; then
     export PATH="/opt/homebrew/bin:$PATH"
 fi
 
+# rust setting
+export RUST_PATH="$HOME/.cargo"
+
+if [[ ":$PATH" != *":$RUST_PATH/bin:"* ]]; then
+    export PATH="$RUST_PATH/bin:$PATH"
+fi
+
 # go setting
 export GOPATH="$HOME/go"
 if [[ ":$PATH:" != *":$GOPATH/bin:"* ]]; then
