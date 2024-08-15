@@ -2,11 +2,13 @@
   /* File Transfer */
   {
     "key": "ctrl+tab",
-    "command": "workbench.action.nextEditor"
+    "command": "workbench.action.nextEditor",
+    "when": "editorTextFocus"
   },
   {
     "key": "ctrl+shift+tab",
-    "command": "workbench.action.previousEditor"
+    "command": "workbench.action.previousEditor",
+    "when": "editorTextFocus"
   },
   /* Switching Between Editor and Terminal */
   {
@@ -19,46 +21,32 @@
     "command": "workbench.action.focusFirstEditorGroup",
     "when": "terminalFocus"
   },
-  /* Neovim Settings */
+  /* Terminal Transfer */
   {
-    "key": "space s",
-    "command": "workbench.action.files.save",
-    "when": "neovim.mode == normal && editorTextFocus"
+    "key": "ctrl+tab",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
   },
   {
-    "key": "space /",
-    "command": "editor.action.commentLine",
-    "when": "neovim.mode == normal && editorTextFocus"
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
   },
+  /* New Terminal */
   {
-    "key": "space w",
-    "command": "workbench.action.closeActiveEditor",
-    "when": "neovim.mode == normal && editorTextFocus"
-  },
-  {
-    "key": "space d",
-    "command": "editor.action.goToDeclaration",
-    "when": "neovim.mode == normal && editorTextFocus"
-  },
-  {
-    "key": "space b",
-    "command": "workbench.action.navigateBack",
-    "when": "neovim.mode == normal && editorTextFocus"
-  },
-  {
-    "key": "space f",
-    "command": "workbench.action.navigateForward",
-    "when": "neovim.mode == normal && editorTextFocus"
-  },
-  /* Split Terminal */
-  {
-    "key": "cmd+d",
-    "command": "workbench.action.terminal.split",
+    "key": "cmd+t",
+    "command": "workbench.action.terminal.new",
     "when": "terminalFocus"
   },
   {
     "key": "cmd+w",
     "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  /* Split Terminal */
+  {
+    "key": "cmd+d",
+    "command": "workbench.action.terminal.split",
     "when": "terminalFocus"
   },
   {
@@ -70,5 +58,5 @@
     "key": "alt+l",
     "command": "workbench.action.terminal.focusNextPane",
     "when": "terminalFocus"
-  },
+  }
 ]
