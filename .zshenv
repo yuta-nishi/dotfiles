@@ -1,8 +1,3 @@
-# homebrew setting
-if [[ ":$PATH:" != *":/opt/homebrew/bin:"* ]]; then
-    export PATH="/opt/homebrew/bin:$PATH"
-fi
-
 # rust setting
 export RUST_PATH="$HOME/.cargo"
 

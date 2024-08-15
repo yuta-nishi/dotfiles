@@ -89,6 +89,15 @@ alias rm='rm -i'
 # reload
 alias reload='source ~/.zshrc'
 
+# homebrew setting
+if [[ ":$PATH:" != *":/opt/homebrew/bin:"* ]]; then
+    export PATH="/opt/homebrew/bin:$PATH"
+fi
+
+if [[ ":$PATH:" != *":/opt/homebrew/sbin:"* ]]; then
+    export PATH="/opt/homebrew/sbin:$PATH"
+fi
+
 # fzf-history-search
 function fzf-select-history() {
     BUFFER=$(history -n -r 1 | fzf --query "$LBUFFER")
