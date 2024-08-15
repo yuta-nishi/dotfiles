@@ -1,14 +1,17 @@
--- Turn off paste mode when leaving insert
+-- Automatically disable paste mode when leaving insert mode
 vim.api.nvim_create_autocmd("InsertLeave", {
   pattern = "*",
-  command = "set nopaste",
+  callback = function()
+    vim.opt.paste = false
+  end,
+  desc = "Disable paste mode when leaving insert mode",
 })
 
--- Disable the concealing in some file formats
--- The default conceallevel is 3 in LazyVim
+-- Disable text concealing for specific file types
 vim.api.nvim_create_autocmd("FileType", {
   pattern = { "json", "jsonc", "markdown" },
   callback = function()
     vim.opt.conceallevel = 0
   end,
+  desc = "Disable concealing for JSON and Markdown files",
 })
