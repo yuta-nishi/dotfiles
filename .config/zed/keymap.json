@@ -1,0 +1,48 @@
+[
+  // Editor
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-tab": "pane::ActivateNextItem",
+      "ctrl-shift-tab": "pane::ActivatePrevItem",
+      "ctrl-w v": "pane::SplitRight"
+    }
+  },
+  // Editor or terminal
+  {
+    "context": "Editor || Terminal",
+    "bindings": {
+      "ctrl-;": "terminal_panel::ToggleFocus"
+    }
+  },
+  // Terminal
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-tab": "pane::ActivateNextItem",
+      "ctrl-shift-tab": "pane::ActivatePrevItem",
+      "cmd-t": "workspace::NewTerminal"
+    }
+  },
+  // NeoVim settings
+  {
+    "context": "vim_mode == normal",
+    "bindings": {
+      "ctrl-h": "vim::FirstNonWhitespace",
+      "ctrl-l": "vim::EndOfLine"
+    }
+  },
+  {
+    "context": "vim_mode == insert",
+    "bindings": {
+      "j k": "vim::NormalBefore"
+    }
+  },
+  {
+    "context": "vim_mode == visual",
+    "bindings": {
+      "ctrl-h": "vim::FirstNonWhitespace",
+      "ctrl-l": "vim::EndOfLine"
+    }
+  }
+]

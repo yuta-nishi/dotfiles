@@ -1,0 +1,32 @@
+{
+  "autosave": "off",
+  "buffer_font_size": 14,
+  "buffer_font_family": "Monaspace Neon",
+  "ui_font_size": 14,
+  "vim_mode": true,
+  "formatter": "language_server",
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware"
+  },
+  "theme": {
+    "mode": "light",
+    "light": "Ayu Light",
+    "dark": "One Dark"
+  },
+  "terminal": {
+    "shell": {
+      "program": "zsh"
+    },
+    "font_family": "Hack Nerd Font"
+  },
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "check": {
+          "command": "clippy"
+        }
+      }
+    }
+  }
+}
