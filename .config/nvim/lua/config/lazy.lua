@@ -75,7 +75,10 @@ if not vim.g.vscode then
     debug = false,
   })
 else
+  require("config.keymaps")
+  require("config.options")
   require("lazy").setup({
+    -- Surround plugin
     {
       "kylechui/nvim-surround",
       version = "*", -- Use for stability; omit to use `main` branch for the latest features
