@@ -1,6 +1,5 @@
 # rust setting
 export RUST_PATH="$HOME/.cargo"
-
 if [[ ":$PATH" != *":$RUST_PATH/bin:"* ]]; then
     export PATH="$RUST_PATH/bin:$PATH"
 fi
@@ -9,12 +8,6 @@ fi
 export GOPATH="$HOME/go"
 if [[ ":$PATH:" != *":$GOPATH/bin:"* ]]; then
     export PATH="$GOPATH/bin:$PATH"
-fi
-
-# bun setting
-export BUN_INSTALL="$HOME/.bun"
-if [[ ":$PATH:" != *":$BUN_INSTALL/bin:"* ]]; then
-    export PATH="$BUN_INSTALL/bin:$PATH"
 fi
 
 # ruby setting
