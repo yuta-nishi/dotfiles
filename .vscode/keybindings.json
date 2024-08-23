@@ -1,5 +1,5 @@
 [
-  /* File Transfer */
+  /* File transfer */
   {
     "key": "ctrl+tab",
     "command": "workbench.action.nextEditor",
@@ -10,7 +10,7 @@
     "command": "workbench.action.previousEditor",
     "when": "editorTextFocus"
   },
-  /* Switching Between Editor and Terminal */
+  /* Switching between editor and terminal */
   {
     "key": "ctrl+;",
     "command": "terminal.focus",
@@ -21,7 +21,7 @@
     "command": "workbench.action.focusFirstEditorGroup",
     "when": "terminalFocus"
   },
-  /* Terminal Transfer */
+  /* Terminal transfer */
   {
     "key": "ctrl+tab",
     "command": "workbench.action.terminal.focusPrevious",
@@ -32,7 +32,7 @@
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
-  /* New Terminal */
+  /* New terminal */
   {
     "key": "cmd+t",
     "command": "workbench.action.terminal.new",
@@ -43,7 +43,7 @@
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
-  /* Split Terminal */
+  /* Split terminal */
   {
     "key": "cmd+d",
     "command": "workbench.action.terminal.split",

@@ -24,6 +24,7 @@
     "astype",
     "asvetliakov",
     "Atcoder",
+    "atlamal",
     "audiofile",
     "audioset",
     "Augmentor",
@@ -45,6 +46,7 @@
     "bibtex",
     "Binarizer",
     "bioinformatics",
+    "biomejs",
     "blit",
     "blogposts",
     "blogrenderer",
@@ -153,6 +155,7 @@
     "eventfd",
     "Everforest",
     "execa",
+    "execpath",
     "extention",
     "faicons",
     "Faiss",
@@ -169,12 +172,14 @@
     "Fingerprinter",
     "followee",
     "fontsize",
+    "formkit",
     "fourcc",
     "fourm",
     "foxundermoon",
     "Frechet",
     "fromarray",
     "frombuffer",
+    "Frontmatter",
     "fscore",
     "fstat",
     "fullscreen",
@@ -209,6 +214,8 @@
     "hlsearch",
     "hmmlearn",
     "Holdem",
+    "hono",
+    "honox",
     "hsplit",
     "httplib",
     "httpx",
@@ -287,6 +294,7 @@
     "leakyrelu",
     "leetcode",
     "leftbbox",
+    "lefthook",
     "lefttop",
     "lenet",
     "levelname",
@@ -425,6 +433,8 @@
     "outc",
     "outconv",
     "outdir",
+    "outfile",
+    "outpath",
     "output_safechars",
     "outtmpl",
     "pairplot",
@@ -440,6 +450,7 @@
     "Plasmo",
     "plasmohq",
     "plotly",
+    "Pluggable",
     "popleft",
     "postbuild",
     "postorder",
@@ -471,6 +482,7 @@
     "pytest",
     "qdrant",
     "quantile",
+    "quickfix",
     "randn",
     "randperm",
     "rankdir",
@@ -480,6 +492,7 @@
     "RDONLY",
     "readwav",
     "realsense",
+    "rehype",
     "relu",
     "remappings",
     "repr",
@@ -551,6 +564,8 @@
     "tcpdump",
     "tcpip",
     "techtrain",
+    "tempdir",
+    "tempfile",
     "templ",
     "tempogram",
     "tensorboard",
@@ -629,12 +644,14 @@
     "venv",
     "videocapture",
     "Vimmer",
+    "vimrc",
     "vimtutor",
     "viridis",
     "virtualenv",
     "visualstar",
     "vite",
     "viterbi",
+    "vitest",
     "vnoremap",
     "void",
     "volupta",
@@ -644,6 +661,7 @@
     "VQVAE",
     "vulcanus",
     "wakatime",
+    "walkdir",
     "wandb",
     "Waseda",
     "watanabe",
@@ -656,6 +674,7 @@
     "wavio",
     "webm",
     "Wextra",
+    "wezterm",
     "workdir",
     "wunsch",
     "xaxis",
@@ -714,6 +733,9 @@
   "editor.wrappingIndent": "indent",
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.css": "css"
+  },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -832,32 +854,32 @@
   },
   /* JS/TS Settings */
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2,
-    "editor.quickSuggestions": {
-      "strings": true
-    }
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2,
-    "editor.quickSuggestions": {
-      "strings": true
-    }
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2,
+    "editor.defaultFormatter": "biomejs.biome",
     "editor.quickSuggestions": {
       "strings": true
     },
+    "editor.tabSize": 2
   },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome",
     "editor.quickSuggestions": {
       "strings": true
-    }
+    },
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.tabSize": 2
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.inlayHints.parameterNames.enabled": "literals",
@@ -902,6 +924,7 @@
   "notebook.lineNumbers": "on",
   "notebook.formatOnSave.enabled": true,
   "notebook.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
     "source.organizeImports": "explicit"
   },
   /* C/Cpp Settings */
