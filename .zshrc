@@ -98,19 +98,6 @@ if [[ ":$PATH:" != *":/opt/homebrew/sbin:"* ]]; then
     export PATH="/opt/homebrew/sbin:$PATH"
 fi
 
-# fzf-history-search
-function fzf-select-history() {
-    BUFFER=$(history -n -r 1 | fzf --query "$LBUFFER")
-    CURSOR=$#BUFFER
-    zle reset-prompt
-}
-zle -N fzf-select-history
-bindkey '^r' fzf-select-history
-
-# history-substring-search
-bindkey '^[[A' history-substring-search-up
-bindkey '^[[B' history-substring-search-down
-
 # >>> mamba initialize >>>
 # !! Contents within this block are managed by 'mamba init' !!
 export MAMBA_EXE='/opt/homebrew/opt/micromamba/bin/micromamba'

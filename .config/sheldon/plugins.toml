@@ -23,10 +23,6 @@ github = "zsh-users/zsh-syntax-highlighting"
 apply = ["defer"]
 github = "rupa/z"
 
-[plugins.zsh-history-substring-search]
-apply = ["defer"]
-github = "zsh-users/zsh-history-substring-search"
-
 [plugins.rye]
 inline = 'source "$HOME/.rye/env"'
 
@@ -41,6 +37,9 @@ inline = 'eval "$(mise activate zsh)"'
 
 [plugins.zabrze]
 inline = 'eval "$(zabrze init --bind-keys)"'
+
+[plugins.atuin]
+inline = 'eval "$(atuin init zsh)"'
 
 [plugins.starship]
 inline = 'eval "$(starship init zsh)"'
