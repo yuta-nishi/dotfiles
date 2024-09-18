@@ -25,6 +25,7 @@
     "asvetliakov",
     "Atcoder",
     "atlamal",
+    "Attributify",
     "audiofile",
     "audioset",
     "Augmentor",
@@ -73,6 +74,7 @@
     "cmake",
     "cmap",
     "Codebook",
+    "codecov",
     "codegen",
     "coef",
     "COEFFS",
@@ -113,6 +115,7 @@
     "dealloc",
     "def",
     "dejavu",
+    "deno",
     "denoised",
     "Denoiser",
     "denoising",
@@ -156,6 +159,7 @@
     "Everforest",
     "execa",
     "execpath",
+    "EXITCODE",
     "extention",
     "faicons",
     "Faiss",
@@ -218,9 +222,11 @@
     "honox",
     "hsplit",
     "httplib",
+    "httponly",
     "httpx",
     "huggingface",
     "hyperparameters",
+    "iconify",
     "idxs",
     "ifft",
     "ignorecase",
@@ -257,6 +263,7 @@
     "ipykernel",
     "ipynb",
     "ipython",
+    "isbot",
     "isodate",
     "isort",
     "isscalar",
@@ -390,6 +397,7 @@
     "neoconf",
     "neodev",
     "neovim",
+    "neptunus",
     "Nesterov",
     "netns",
     "newaxis",
@@ -463,6 +471,7 @@
     "preorder",
     "Preprocesses",
     "pretrained",
+    "println",
     "probs",
     "proconio",
     "pstatement",
@@ -496,6 +505,7 @@
     "relu",
     "remappings",
     "repr",
+    "reqwest",
     "resnet",
     "REUSEADDR",
     "rgba",
@@ -556,7 +566,9 @@
     "SUPABASE",
     "suptitle",
     "Suudoku",
+    "svgr",
     "synctex",
+    "sysad",
     "tacotron",
     "tailwindcss",
     "Takahashi",
@@ -607,6 +619,7 @@
     "txt",
     "typecheck",
     "typechecker",
+    "typegen",
     "udemy",
     "ugui",
     "uielements",
@@ -629,6 +642,8 @@
     "unitywebrequesttexture",
     "unitywebrequestwww",
     "unnamedplus",
+    "unocss",
+    "unplugin",
     "unsplit",
     "unsqueeze",
     "unstub",
@@ -640,6 +655,7 @@
     "urql",
     "uvicorn",
     "val",
+    "vaul",
     "vdim",
     "venv",
     "videocapture",
@@ -733,9 +749,6 @@
   "editor.wrappingIndent": "indent",
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
-  "files.associations": {
-    "*.css": "css"
-  },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -838,15 +851,15 @@
   },
   /* CSS Settings */
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "biomejs.biome",
     "editor.tabSize": 2
   },
   "[postcss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "biomejs.biome",
     "editor.tabSize": 2
   },
   "[tailwindcss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "biomejs.biome",
     "editor.tabSize": 2,
     "editor.quickSuggestions": {
       "strings": true
@@ -895,7 +908,6 @@
   "typescript.inlayHints.parameterTypes.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.inlayHints.enumMemberValues.enabled": true,
-  "eslint.format.enable": false,
   /* Python Settings */
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
@@ -1001,11 +1013,9 @@
   /* Markdown Settings */
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
-    "editor.wordWrap": "bounded",
   },
   /* Text Settings */
   "[plaintext]": {
-    "editor.wordWrap": "bounded",
     "editor.quickSuggestions": {
       "other": "off",
       "comments": "off",
@@ -1082,6 +1092,10 @@
     "editor.tabSize": 2
   },
   "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.tabSize": 2
+  },
+  "[github-actions-workflow]": {
     "editor.defaultFormatter": "redhat.vscode-yaml",
     "editor.tabSize": 2
   },
@@ -1180,4 +1194,5 @@
   "remote.autoForwardPortsSource": "hybrid",
   "cmake.showOptionsMovedNotification": false,
   "security.workspace.trust.untrustedFiles": "open",
+  "hediet.vscode-drawio.resizeImages": null,
 }
