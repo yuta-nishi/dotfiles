@@ -18,7 +18,8 @@ This is yutanishi's dotfiles repository.
 
 - [VS Code]("https://github.com/microsoft/vscode"): `.vscode/`
 - [Zed]("https://github.com/zed-industries/zed"): `.config/zed/`
-- [NeoVim]("https://github.com/neovim/neovim"): `.config/nvim/`, `.vimrc`
+- [NeoVim]("https://github.com/neovim/neovim"): `.config/nvim/`
+- [Vim](https://github.com/vim/vim):  `.vimrc`
 
 ### Terminal
 
