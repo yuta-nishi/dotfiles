@@ -756,7 +756,7 @@
   "terminal.integrated.fontFamily": "Hack Nerd Font",
   "terminal.integrated.inheritEnv": false,
   "terminal.integrated.macOptionIsMeta": true,
-  "workbench.colorTheme": "Ayu Light",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   /* NeoVim Settings */
