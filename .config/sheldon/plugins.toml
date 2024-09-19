@@ -19,9 +19,8 @@ github = "zsh-users/zsh-completions"
 apply = ["defer"]
 github = "zsh-users/zsh-syntax-highlighting"
 
-[plugins.z]
-apply = ["defer"]
-github = "rupa/z"
+[plugins.zoxide]
+inline = 'eval "$(zoxide init zsh)"'
 
 [plugins.rye]
 inline = 'source "$HOME/.rye/env"'
