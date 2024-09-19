@@ -14,6 +14,10 @@ This is yutanishi's dotfiles repository.
 - Zsh: `.zshrc`, `.zshenv`
 - Bash: `.bashrc`
 
+### Window manager
+
+- [AeroSpace](https://github.com/nikitabobko/AeroSpace): `.config/aerospace/`
+
 ### Editor
 
 - [VS Code](https://github.com/microsoft/vscode): `.vscode/`
