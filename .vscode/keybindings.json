@@ -45,17 +45,17 @@
   },
   /* Split terminal */
   {
-    "key": "cmd+d",
+    "key": "ctrl+w v",
     "command": "workbench.action.terminal.split",
     "when": "terminalFocus"
   },
   {
-    "key": "alt+h",
+    "key": "ctrl+w h",
     "command": "workbench.action.terminal.focusPreviousPane",
     "when": "terminalFocus"
   },
   {
-    "key": "alt+l",
+    "key": "ctrl+w l",
     "command": "workbench.action.terminal.focusNextPane",
     "when": "terminalFocus"
   }
