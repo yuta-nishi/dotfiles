@@ -3,7 +3,7 @@
     gc = {
       automatic = true;
       interval = {
-        Hour = 9.;
+        Hour = 9;
         Minute = 0;
       };
       options = "--delete-older-than 7d";
@@ -27,8 +27,10 @@
       dock = {
         autohide = true;
         show-recents = false;
-        orientation = "left";
+        orientation = "bottom";
       };
     };
+
+    stateVersion = 5;
   };
 }
