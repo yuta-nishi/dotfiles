@@ -1189,8 +1189,6 @@
     "c": "cd $dir && clang -std=gnu17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "cpp": "cd $dir && clang++ -std=gnu++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
   },
-  /* Background Settings */
-  "background.useFront": false,
   /* Extension Settings */
   "redhat.telemetry.enabled": false,
   "remoteHub.uncommittedChangesOnEntry": "none",
