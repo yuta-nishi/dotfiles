@@ -1108,6 +1108,10 @@
   "evenBetterToml.formatter.columnWidth": 90,
   "evenBetterToml.formatter.reorderKeys": true,
   "evenBetterToml.formatter.reorderArrays": true,
+  "[nix]": {
+    "editor.defaultFormatter": "kamadorueda.alejandra",
+  },
+  "alejandra.program": "alejandra",
   /* Shell Script Settings */
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
