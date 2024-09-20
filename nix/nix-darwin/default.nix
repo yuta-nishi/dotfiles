@@ -33,4 +33,18 @@
 
     stateVersion = 5;
   };
+
+  homebrew = {
+    enable = true;
+    onActivation = {
+      autoUpdate = true;
+    };
+    casks = [
+      "raycast"
+      "warp"
+      "wezterm"
+      "wireshark"
+      "zed"
+    ];
+  };
 }
