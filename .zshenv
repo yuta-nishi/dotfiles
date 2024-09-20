@@ -16,12 +16,6 @@ if [[ ":$PATH:" != *":$RBENV_HOME/shims:"* ]]; then
     export PATH="$RBENV_HOME/shims:$PATH"
 fi
 
-# java setting
-export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
-if [[ ":$PATH:" != *":/opt/homebrew/opt/openjdk/bin:"* ]]; then
-    export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
-fi
-
 # flutter setting
 export FLUTTER_HOME="$HOME/flutter"
 if [[ ":$PATH:" != *":$FLUTTER_HOME/bin:"* ]]; then
