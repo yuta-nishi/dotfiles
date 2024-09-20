@@ -1,13 +1,12 @@
-{ inputs
-, lib
-, config
-, pkgs
-, ...
-}:
-let
-  username = "yutanishi";
-in
 {
+  inputs,
+  lib,
+  config,
+  pkgs,
+  ...
+}: let
+  username = "yutanishi";
+in {
   nixpkgs = {
     config = {
       allowUnfree = true;
@@ -20,6 +19,7 @@ in
     stateVersion = "24.05"; # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
     packages = with pkgs; [
       ansible
+      alejandra
       atuin
       bat
       bun
@@ -38,7 +38,6 @@ in
       lua
       mise
       neovim
-      nixpkgs-fmt
       pnpm
       rbenv
       ripgrep
