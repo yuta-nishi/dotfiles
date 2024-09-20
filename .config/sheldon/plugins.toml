@@ -31,6 +31,9 @@ inline = 'source "$HOME/.cargo/bin"'
 [plugins.bun]
 inline = 'source "$HOME/.bun/_bun"'
 
+[plugins.nix]
+inline = 'source "$HOME/.nix-profile/bin"'
+
 [plugins.mise]
 inline = 'eval "$(mise activate zsh)"'
 

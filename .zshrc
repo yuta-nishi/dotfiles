@@ -98,6 +98,11 @@ if [[ ":$PATH:" != *":/opt/homebrew/sbin:"* ]]; then
     export PATH="/opt/homebrew/sbin:$PATH"
 fi
 
+# nix setting
+if [[ ":$PATH:" != *":$HOME/.nix-profile/bin:"* ]]; then
+    export PATH="$HOME/.nix-profile/bin:$PATH"
+fi
+
 # >>> mamba initialize >>>
 # !! Contents within this block are managed by 'mamba init' !!
 export MAMBA_EXE='/opt/homebrew/opt/micromamba/bin/micromamba'
