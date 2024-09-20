@@ -89,20 +89,6 @@ alias rm='rm -i'
 # reload
 alias reload='source ~/.zshrc'
 
-# homebrew setting
-if [[ ":$PATH:" != *":/opt/homebrew/bin:"* ]]; then
-    export PATH="/opt/homebrew/bin:$PATH"
-fi
-
-if [[ ":$PATH:" != *":/opt/homebrew/sbin:"* ]]; then
-    export PATH="/opt/homebrew/sbin:$PATH"
-fi
-
-# nix setting
-if [[ ":$PATH:" != *":$HOME/.nix-profile/bin:"* ]]; then
-    export PATH="$HOME/.nix-profile/bin:$PATH"
-fi
-
 # >>> mamba initialize >>>
 # !! Contents within this block are managed by 'mamba init' !!
 export MAMBA_EXE='/opt/homebrew/opt/micromamba/bin/micromamba'
@@ -115,6 +101,15 @@ else
 fi
 unset __mamba_setup
 # <<< mamba initialize <<<
+
+# homebrew setting
+if [[ ":$PATH:" != *":/opt/homebrew/bin:"* ]]; then
+    export PATH="$PATH:/opt/homebrew/bin"
+fi
+
+if [[ ":$PATH:" != *":/opt/homebrew/sbin:"* ]]; then
+    export PATH="$PATH:/opt/homebrew/sbin"
+fi
 
 # sheldon setting
 eval "$(sheldon source)"

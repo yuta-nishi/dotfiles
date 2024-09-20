@@ -8,28 +8,33 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
-
-  outputs = { self, nixpkgs, home-manager, ... }@inputs: let system = "aarch64-darwin"; username = "yutanishi"; pkgs = import nixpkgs { inherit system; }; in {
-    apps.${system}.update = {
-      type = "app";
-      program = toString (pkgs.writeShellScript "update-script" ''
-        set -e
-        echo "Updating flake...
-        nix flake update
-        echo "Updating profile...
-        nix profile upgrade my-packages
-        echo "Update complete!
+  outputs = { self, nixpkgs, home-manager, ... }@inputs:
+    let
+      system = "aarch64-darwin";
+      username = "yutanishi";
+      pkgs = import nixpkgs { inherit system; };
+    in
+    {
+      apps.${system}.update = {
+        type = "app";
+        program = toString (pkgs.writeShellScript "update-script" ''
+          set -e
+          echo "Updating flake...
+          nix flake update
+          echo "Updating profile...
+          nix profile upgrade my-packages
+          echo "Update complete!
         '');
-    };
+      };
 
-    homeConfigurations = {
-      myHomeConfig = home-manager.lib.homeManagerConfiguration {
-        pkgs = pkgs;
-        extraSpecialArgs = {
-          inherit inputs;
+      homeConfigurations = {
+        myHomeConfig = home-manager.lib.homeManagerConfiguration {
+          pkgs = pkgs;
+          extraSpecialArgs = {
+            inherit inputs;
+          };
+          modules = [ ./nix/home-manager/default.nix ];
         };
-        modules = [ ./nix/home-manager/default.nix];
       };
     };
-  };
 }
