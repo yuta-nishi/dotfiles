@@ -22,9 +22,6 @@ in {
       ansible
       atuin
       bat
-      bun
-      curl
-      deno
       delta
       eza
       fd
@@ -34,18 +31,16 @@ in {
       ghq
       git
       glances
-      go
       hadolint
       htop
       hugo
-      jdk22
       jq
       lefthook
       lua
+      micromamba
       mise
       neovim
       perl
-      pnpm
       rbenv
       ripgrep
       sheldon
@@ -55,7 +50,6 @@ in {
       tmux
       tokei
       tree
-      micromamba
       uv
       vim
       wget

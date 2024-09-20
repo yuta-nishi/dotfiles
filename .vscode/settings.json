@@ -762,7 +762,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   /* NeoVim Settings */
-  "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
+  "vscode-neovim.neovimExecutablePaths.darwin": "/Users/yutanishi/.nix-profile/bin/nvim",
   "vscode-neovim.neovimInitVimPaths.darwin": "/Users/yutanishi/.config/nvim/init.lua",
   "vscode-neovim.compositeKeys": {
     "jk": {
@@ -1034,8 +1034,8 @@
   "latex-workshop.view.pdf.viewer": "tab",
   "latex-workshop.intellisense.package.enabled": true,
   "latex-workshop.latex.outDir": "%DIR%/out",
-  "latex-workshop.latexindent.path": "/opt/homebrew/bin/latexindent",
-  "latex-workshop.latexindent.args": [
+  "latex-workshop.formatting.latexindent.path": "/opt/homebrew/bin/latexindent",
+  "latex-workshop.formatting.latexindent.args": [
     "%TMPFILE%",
     "-c=%DIR%/",
     "-y=defaultIndent: '%INDENT%'"
@@ -1110,6 +1110,7 @@
   "evenBetterToml.formatter.reorderArrays": true,
   "[nix]": {
     "editor.defaultFormatter": "kamadorueda.alejandra",
+    "editor.tabSize": 2
   },
   "alejandra.program": "alejandra",
   /* Shell Script Settings */

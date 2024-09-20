@@ -21,9 +21,3 @@ export FLUTTER_HOME="$HOME/flutter"
 if [[ ":$PATH:" != *":$FLUTTER_HOME/bin:"* ]]; then
     export PATH="$FLUTTER_HOME/bin:$PATH"
 fi
-
-# volta initialize
-export VOLTA_HOME="$HOME/.volta"
-if [[ ":$PATH:" != *":$VOLTA_HOME/bin:"* ]]; then
-    export PATH="$VOLTA_HOME/bin:$PATH"
-fi

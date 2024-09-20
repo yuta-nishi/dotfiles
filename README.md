@@ -7,7 +7,7 @@ This is yutanishi's dotfiles repository.
 ### OS
 
 - macOS
-- Ubuntu
+- Linux (Ubuntu)
 
 ### Shell
 
@@ -17,6 +17,12 @@ This is yutanishi's dotfiles repository.
 ### Window manager
 
 - [AeroSpace](https://github.com/nikitabobko/AeroSpace): `.config/aerospace/`
+
+### Package manager
+
+- [Nix](https://github.com/NixOS/nix): `flake.nix`, `nix/`
+- [Mise](https://github.com/jdx/mise): `.config/mise/`
+- [Homebrew](https://github.com/Homebrew/brew)
 
 ### Editor
 
