@@ -39,7 +39,6 @@ in {
       lua
       micromamba
       mise
-      neovim
       perl
       rbenv
       ripgrep
