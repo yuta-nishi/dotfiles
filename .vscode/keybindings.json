@@ -58,5 +58,15 @@
     "key": "ctrl+w l",
     "command": "workbench.action.terminal.focusNextPane",
     "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-mdx.toggleStrong",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'mdx'"
   }
 ]
