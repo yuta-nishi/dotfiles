@@ -3,18 +3,18 @@
   {
     "key": "ctrl+tab",
     "command": "workbench.action.nextEditor",
-    "when": "editorTextFocus"
+    "when": "!terminalFocus"
   },
   {
     "key": "ctrl+shift+tab",
     "command": "workbench.action.previousEditor",
-    "when": "editorTextFocus"
+    "when": "!terminalFocus"
   },
   /* Switching between editor and terminal */
   {
     "key": "ctrl+;",
     "command": "terminal.focus",
-    "when": "editorTextFocus"
+    "when": "!terminalFocus"
   },
   {
     "key": "ctrl+;",
@@ -59,6 +59,7 @@
     "command": "workbench.action.terminal.focusNextPane",
     "when": "terminalFocus"
   },
+  /* Disable the ability to switch bold text with the cmd+b shortcut */
   {
     "key": "cmd+b",
     "command": "-markdown.extension.editing.toggleBold",
@@ -68,5 +69,5 @@
     "key": "cmd+b",
     "command": "-mdx.toggleStrong",
     "when": "editorTextFocus && !editorReadonly && editorLangId == 'mdx'"
-  }
+  },
 ]
