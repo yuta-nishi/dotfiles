@@ -22,8 +22,8 @@ github = "zsh-users/zsh-syntax-highlighting"
 [plugins.zoxide]
 inline = 'eval "$(zoxide init zsh)"'
 
-[plugins.rye]
-inline = 'source "$HOME/.rye/env"'
+[plugins.uv]
+inline = 'eval "$(uv generate-shell-completion zsh)"'
 
 [plugins.rust]
 inline = 'source "$HOME/.cargo/bin"'
