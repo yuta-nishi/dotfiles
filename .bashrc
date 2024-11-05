@@ -103,13 +103,12 @@ unset __mamba_setup
 # rust setting
 . "$HOME/.cargo/env"
 
-# Prevent infinite loading in vscode by adding an environment variable
-
 # reload
-alias reload='(unset STARSHIP_INITIALIZED; source ~/.bashrc)'
+alias reload="source ~/.bashrc"
 
+# Prevent infinite loading in vscode by adding an environment variable
 # starship
-if [[ -z "$STARSHIP_INITIALIZED" ]]; then
+if [ -z "$VSCODE_INIT_DONE" ]; then
+	export VSCODE_INIT_DONE=1
 	eval "$(starship init bash)"
-	export STARSHIP_INITIALIZED=1
 fi
