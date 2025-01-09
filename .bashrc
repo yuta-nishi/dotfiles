@@ -51,7 +51,7 @@ alias grm='git remote'
 alias gsw='git switch'
 alias gst='git stash'
 alias grb='git rebase'
-alias gcz='git cz'
+alias gcz='git cz --disable-emoji'
 
 # docker
 alias dcb='docker compose build'
@@ -64,10 +64,6 @@ alias dcp='docker compose ps'
 alias dce='docker compose exec'
 alias dci='docker compose images'
 
-# neovim
-alias vim='nvim'
-alias vi='nvim'
-
 # conda
 alias conda='micromamba'
 
@@ -76,13 +72,16 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
 
-# reload
-alias reload='source ~/.bashrc'
-
 # volta initialize
 export VOLTA_HOME="$HOME/.volta"
 if [[ ":$PATH:" != *":$VOLTA_HOME/bin:"* ]]; then
 	export PATH="$VOLTA_HOME/bin:$PATH"
+fi
+
+# cuda settings
+export CUDA_HOME="/usr/local/cuda"
+if [[ ":$PATH:" != *":$CUDA_HOME/bin:"* ]]; then
+	export PATH="$CUDA_HOME/bin:$PATH"
 fi
 
 # rye setting
@@ -101,5 +100,15 @@ fi
 unset __mamba_setup
 # <<< mamba initialize <<<
 
+# rust setting
+. "$HOME/.cargo/env"
+
+# reload
+alias reload="source ~/.bashrc"
+
+# Prevent infinite loading in vscode by adding an environment variable
 # starship
-eval "$(starship init bash)"
+if [ -z "$VSCODE_INIT_DONE" ]; then
+	export VSCODE_INIT_DONE=1
+	eval "$(starship init bash)"
+fi
