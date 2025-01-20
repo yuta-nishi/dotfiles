@@ -98,5 +98,10 @@ if [[ ":$PATH:" != *":/opt/homebrew/sbin:"* ]]; then
     export PATH="$PATH:/opt/homebrew/sbin"
 fi
 
+# Initialize the completion system for uv 
+# (ref: https://github.com/astral-sh/uv/issues/10707)
+autoload -Uz compinit
+compinit 
+
 # sheldon setting
 eval "$(sheldon source)"
