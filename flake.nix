@@ -32,13 +32,13 @@
         program = toString (
           pkgs.writeShellScript "update-script" ''
             set -e
-            echo "Updating flake...
+            echo "Updating flake..."
             nix flake update
             echo "Updating home-manager..."
             home-manager switch --flake .#myHomeConfig
             echo "Updating nix-darwin..."
             nix run nix-darwin -- switch --flake .#myDarwinConfig
-            echo "Update complete!
+            echo "Update complete!"
           ''
         );
       };
