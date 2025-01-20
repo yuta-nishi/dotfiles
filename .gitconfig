@@ -3,6 +3,7 @@ name = yuta-nishi
 email = ypmtk437.0209@gmail.com
 
 [core]
+editor = vim
 pager = delta
 
 [interactive]
