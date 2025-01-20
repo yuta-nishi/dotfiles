@@ -1,9 +1,9 @@
 return {
   {
-    "neanias/everforest-nvim",
+    "catppuccin/nvim",
     config = function()
-      require("everforest").setup({
-        background = "soft",
+      require("catppuccin").setup({
+        flavour = "mocha",
       })
     end,
   },

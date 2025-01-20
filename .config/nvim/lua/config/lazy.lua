@@ -25,7 +25,7 @@ if not vim.g.vscode then
         "LazyVim/LazyVim",
         import = "lazyvim.plugins",
         opts = {
-          colorscheme = "everforest",
+          colorscheme = "catppuccin",
           news = { lazyvim = true, neovim = true },
         },
       },
