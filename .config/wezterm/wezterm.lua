@@ -3,7 +3,6 @@ local config = wezterm.config_builder()
 
 -- general
 config.automatically_reload_config = true
-config.default_cursor_style = "BlinkingBar"
 
 -- color
 config.color_scheme = "Catppuccin Mocha"
