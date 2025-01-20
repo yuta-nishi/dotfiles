@@ -34,7 +34,7 @@
             set -e
             echo "Updating flake...
             nix flake update
-            ehco "Updating home-manager..."
+            echo "Updating home-manager..."
             home-manager switch --flake .#myHomeConfig
             echo "Updating nix-darwin..."
             nix run nix-darwin -- switch --flake .#myDarwinConfig
