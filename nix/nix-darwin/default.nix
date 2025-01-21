@@ -40,11 +40,30 @@
       autoUpdate = true;
     };
     casks = [
+      "appcleaner"
+      "brave-browser"
+      "deepl"
+      "discord"
+      "figma"
+      "firefox"
+      "google-chrome"
+      "intellij-idea"
+      "keycastr"
+      "notion"
+      "obs"
+      "obsidian"
+      "orbstack"
+      "postman"
       "raycast"
+      "rectangle"
+      "slack"
+      "visual-studio-code"
       "warp"
       "wezterm"
       "wireshark"
       "zed"
+      "zed"
+      "zoom"
     ];
   };
 }
