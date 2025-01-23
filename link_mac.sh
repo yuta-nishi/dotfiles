@@ -3,6 +3,7 @@
 ln -fs "$HOME/dotfiles/.zshrc" "$HOME/.zshrc"
 ln -fs "$HOME/dotfiles/.zshenv" "$HOME/.zshenv"
 ln -fs "$HOME/dotfiles/.vimrc" "$HOME/.vimrc"
+ln -fs "$HOME/dotfiles/.ideavimrc" "$HOME/.ideavimrc"
 ln -fs "$HOME/dotfiles/.config/aerospace/" "$HOME/.config"
 ln -fs "$HOME/dotfiles/.config/mise/" "$HOME/.config"
 ln -fs "$HOME/dotfiles/.config/nix/" "$HOME/.config"
