@@ -26,7 +26,7 @@ return {
 			action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }),
 		},
 		{
-			key = "h",
+			key = "g",
 			mods = "CMD",
 			action = act.SplitVertical({ domain = "CurrentPaneDomain" }),
 		},
@@ -37,22 +37,22 @@ return {
 		},
 		{
 			key = "h",
-			mods = "OPT",
+			mods = "CMD",
 			action = act.ActivatePaneDirection("Left"),
 		},
 		{
 			key = "j",
-			mods = "OPT",
+			mods = "CMD",
 			action = act.ActivatePaneDirection("Down"),
 		},
 		{
 			key = "k",
-			mods = "OPT",
+			mods = "CMD",
 			action = act.ActivatePaneDirection("Up"),
 		},
 		{
 			key = "l",
-			mods = "OPT",
+			mods = "CMD",
 			action = act.ActivatePaneDirection("Right"),
 		},
 		-- text

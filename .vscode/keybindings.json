@@ -45,17 +45,17 @@
   },
   /* Split terminal */
   {
-    "key": "ctrl+w v",
+    "key": "cmd+d",
     "command": "workbench.action.terminal.split",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+w h",
+    "key": "cmd+h",
     "command": "workbench.action.terminal.focusPreviousPane",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+w l",
+    "key": "cmd+l",
     "command": "workbench.action.terminal.focusNextPane",
     "when": "terminalFocus"
   },
@@ -69,5 +69,5 @@
     "key": "cmd+b",
     "command": "-mdx.toggleStrong",
     "when": "editorTextFocus && !editorReadonly && editorLangId == 'mdx'"
-  },
+  }
 ]
