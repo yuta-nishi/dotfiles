@@ -1,0 +1,38 @@
+{
+  "report": {
+    "prefix": "report",
+    "body": [
+      "\\documentclass[a4paper,11pt]{ltjsarticle}",
+      "",
+      "\\usepackage[hiragino-pron]{luatexja-preset}",
+      "\\usepackage{amsmath}",
+      "\\usepackage{amssymb}",
+      "\\usepackage{amsfonts}",
+      "\\usepackage{bm}",
+      "\\usepackage{graphicx}",
+      "\\graphicspath{{./imgs/}}",
+      "\\usepackage{pdfpages}",
+      "\\usepackage[",
+      "bookmarks=true,",
+      "bookmarksnumbered=true,",
+      "colorlinks=true,",
+      "linkcolor=blue,",
+      "citecolor=blue,",
+      "setpagesize=false",
+      "]{hyperref}",
+      "",
+      "\\title{}",
+      "\\author{}",
+      "\\date{\\today}",
+      "\\begin{document}",
+      "\\maketitle",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "\\end{document}"
+    ],
+    "description": "report template"
+  }
+}

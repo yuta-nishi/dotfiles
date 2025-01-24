@@ -19,14 +19,14 @@ create_symlink "$HOME/dotfiles/.zshrc" "$HOME/.zshrc"
 
 # Create symbolic links in the .config folder
 echo "Creating links in the .config folder..."
-create_symlink "$HOME/dotfiles/.config/aerospace/" "$HOME/.config/aerospace"
-create_symlink "$HOME/dotfiles/.config/mise/" "$HOME/.config/mise"
-create_symlink "$HOME/dotfiles/.config/nix/" "$HOME/.config/nix"
-create_symlink "$HOME/dotfiles/.config/nvim/" "$HOME/.config/nvim"
-create_symlink "$HOME/dotfiles/.config/sheldon/" "$HOME/.config/sheldon"
+create_symlink "$HOME/dotfiles/.config/aerospace/" "$HOME/.config"
+create_symlink "$HOME/dotfiles/.config/mise/" "$HOME/.config"
+create_symlink "$HOME/dotfiles/.config/nix/" "$HOME/.config"
+create_symlink "$HOME/dotfiles/.config/nvim/" "$HOME/.config"
+create_symlink "$HOME/dotfiles/.config/sheldon/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/starship.toml" "$HOME/.config/starship.toml"
-create_symlink "$HOME/dotfiles/.config/wezterm/" "$HOME/.config/wezterm"
-create_symlink "$HOME/dotfiles/.config/zabrze/" "$HOME/.config/zabrze"
+create_symlink "$HOME/dotfiles/.config/wezterm/" "$HOME/.config"
+create_symlink "$HOME/dotfiles/.config/zabrze/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/zed/keymap.json" "$HOME/.config/zed/keymap.json"
 create_symlink "$HOME/dotfiles/.config/zed/settings.json" "$HOME/.config/zed/settings.json"
 
@@ -35,12 +35,17 @@ echo "Creating links in the Visual Studio Code settings folder..."
 create_symlink "$HOME/dotfiles/.vscode/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
 create_symlink "$HOME/dotfiles/.vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
 create_symlink "$HOME/dotfiles/.vscode/tasks.json" "$HOME/Library/Application Support/Code/User/tasks.json"
+\find "$HOME/dotfiles/.vscode/snippets" -type f | while read -r file_path; do
+    relative_path="${file_path#$HOME/dotfiles/.vscode/snippets/}"
+    target_path="$HOME/Library/Application Support/Code/User/snippets/$relative_path"
+    create_symlink "$file_path" "$target_path"
+done
 
 # Create symbolic links in the IntelliJ IDEA settings folder
 echo "Creating links in the IntelliJ IDEA settings folder..."
-create_symlink "$HOME/dotfiles/.idea/keymaps/default.xml" "$HOME/Library/Application Support/JetBrains/IntelliJIdea2024.3/keymaps/default.xml"
-\find "$HOME/dotfiles/.idea/options" -type f | while read -r file_path; do
-    relative_path="${file_path#$HOME/dotfiles/.idea/options/}"
+create_symlink "$HOME/dotfiles/idea/keymaps/default.xml" "$HOME/Library/Application Support/JetBrains/IntelliJIdea2024.3/keymaps/default.xml"
+\find "$HOME/dotfiles/idea/options" -type f | while read -r file_path; do
+    relative_path="${file_path#$HOME/dotfiles/idea/options/}"
     target_path="$HOME/Library/Application Support/JetBrains/IntelliJIdea2024.3/options/$relative_path"
     create_symlink "$file_path" "$target_path"
 done
