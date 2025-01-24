@@ -1,7 +1,16 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="$Delete">
+      <i c="1" l="1737734062427" />
+    </e>
+    <e n="$SelectAll">
+      <i c="1" l="1737734213645" />
+    </e>
     <e n="About">
       <i c="1" l="1737559009077" />
+    </e>
+    <e n="ActivateCommitToolWindow">
+      <i c="1" l="1737734133949" />
     </e>
     <e n="ActivateHierarchyToolWindow">
       <i c="1" l="1737648474904" />
@@ -13,7 +22,7 @@
       <i c="1" l="1724081724652" />
     </e>
     <e n="ActivateTerminalToolWindow">
-      <i c="78" l="1737733875252" />
+      <i c="81" l="1737734070729" />
     </e>
     <e n="Activategithub.copilotToolWindowToolWindow">
       <i c="1" l="1737647569439" />
@@ -40,7 +49,7 @@
       <i c="1" l="1737559022192" />
     </e>
     <e n="EditorBackSpace">
-      <i c="487" l="1737733983529" />
+      <i c="499" l="1737734438358" />
     </e>
     <e n="EditorDown">
       <i c="22" l="1737649338138" />
@@ -49,7 +58,7 @@
       <i c="10" l="1737650159463" />
     </e>
     <e n="EditorEscape">
-      <i c="9" l="1737729995963" />
+      <i c="10" l="1737734724696" />
     </e>
     <e n="EditorLeft">
       <i c="7" l="1724081383850" />
@@ -73,7 +82,7 @@
       <i c="1" l="1724081950604" />
     </e>
     <e n="GotoAction">
-      <i c="2" l="1737647035962" />
+      <i c="3" l="1737734418140" />
     </e>
     <e n="GotoFile">
       <i c="5" l="1737733145609" />
@@ -108,6 +117,9 @@
     <e n="RedesignedRunConfigurationSelector">
       <i c="2" l="1737733000269" />
     </e>
+    <e n="RestartIde">
+      <i c="1" d="1" l="1737734441180" k="1737734441180" />
+    </e>
     <e n="Resume">
       <i c="3" l="1724076226644" />
     </e>
@@ -115,10 +127,10 @@
       <i c="1" l="1724076207356" />
     </e>
     <e n="RunAnything">
-      <i c="5" l="1737650149540" />
+      <i c="8" l="1737735350465" />
     </e>
     <e n="SaveDocument">
-      <i c="4" l="1737733011503" />
+      <i c="5" l="1737734000416" />
     </e>
     <e n="SearchEverywhere">
       <i c="5" l="1737733176153" />
@@ -198,6 +210,9 @@
     <e n="com.intellij.application.options.schemes.AbstractSchemesPanel$ShowSchemesActionsListAction">
       <i c="6" l="1737648848678" />
     </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="1" l="1737734188509" />
+    </e>
     <e n="com.intellij.ide.actions.ToolWindowViewModeAction">
       <i c="9" l="1737650525228" />
     </e>
@@ -211,7 +226,7 @@
       <i c="1" l="1724075935708" />
     </e>
     <e n="com.intellij.notification.NotificationAction$Simple">
-      <i c="2" l="1737730565928" />
+      <i c="5" l="1737734727500" />
     </e>
     <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
       <i c="209" l="1737733765322" />
@@ -223,7 +238,7 @@
       <i c="39" l="1737733906023" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="9" l="1737733765866" />
+      <i c="12" l="1737734407811" />
     </e>
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
       <i c="14" l="1737733954402" />
@@ -241,7 +256,7 @@
       <i c="21" l="1737733928889" />
     </e>
     <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
-      <i c="16" l="1737733176799" />
+      <i c="17" l="1737734441158" />
     </e>
     <e n="com.intellij.openapi.project.LightEditActionFactory$SimpleLightEditCompatibleAction">
       <i c="1" l="1737733884520" />
@@ -253,13 +268,13 @@
       <i c="4" l="1737648490670" />
     </e>
     <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
-      <i c="83" l="1737733555865" />
+      <i c="91" l="1737734946170" />
     </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
       <i c="8" l="1737639351458" />
     </e>
     <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
-      <i c="6" l="1737648498765" />
+      <i c="8" l="1737734141143" />
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
       <i c="2" l="1737650475531" />
@@ -271,7 +286,7 @@
       <i c="1" l="1737645218206" />
     </e>
     <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
-      <i c="24" l="1737733163879" />
+      <i c="32" l="1737734440376" />
     </e>
     <e n="com.intellij.ui.ScrollingUtil$ListMoveUpAction">
       <i c="17" l="1737733165167" />
@@ -286,7 +301,7 @@
       <i c="1" l="1737641211940" />
     </e>
     <e n="com.maddyhome.idea.vim.group.NotificationService$OpenIdeaVimRcAction">
-      <i c="1" l="1737640219170" />
+      <i c="2" l="1737734403252" />
     </e>
     <e n="com.maddyhome.idea.vim.ui.HelpLink">
       <i c="1" l="1737641007978" />

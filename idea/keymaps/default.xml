@@ -1,16 +1,16 @@
 <keymap version="1" name="default" parent="VSCode OSX">
-  <action id="ActivateProjectToolWindow">
-    <keyboard-shortcut first-keystroke="meta b" />
-  </action>
-  <action id="ActivateStructureToolWindow">
-    <keyboard-shortcut first-keystroke="meta b" />
-  </action>
+  <action id="ActivateProjectToolWindow" />
+  <action id="ActivateStructureToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
+  <action id="Diff.FocusOppositePane" />
   <action id="HideActiveWindow" />
+  <action id="NextProjectWindow" />
   <action id="Terminal.SwitchFocusToEditor">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
+  <action id="UsageFiltering.WriteAccess" />
+  <action id="copilot.disposeInlays" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
 </keymap>

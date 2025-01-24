@@ -12,7 +12,6 @@
       <jump line="9" column="5" filename="$USER_HOME$/Development/book/simpleDB/.idea/workspace.xml" protocol="file" />
       <jump line="0" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
       <jump line="6" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="11" column="14" filename="$USER_HOME$/.ideavimrc" protocol="file" />
       <jump line="0" column="0" filename="$USER_HOME$/Development/book/simpleDB/.idea/vcs.xml" protocol="file" />
       <jump line="0" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/Tutor.txt" protocol="file" />
       <jump line="1" column="8" filename="$USER_HOME$/Development/book/simpleDB/.idea/vcs.xml" protocol="file" />
@@ -21,15 +20,18 @@
       <jump line="5" column="9" filename="$USER_HOME$/Development/book/simpleDB/.idea/vcs.xml" protocol="file" />
       <jump line="0" column="0" filename="$USER_HOME$/Development/book/simpleDB/README.md" protocol="file" />
       <jump line="0" column="0" filename="$USER_HOME$/Development/book/simpleDB/java/src/main/java/org/example/Main.java" protocol="file" />
-      <jump line="8" column="37" filename="$USER_HOME$/Development/book/simpleDB/java.iml" protocol="file" />
       <jump line="11" column="8" filename="$USER_HOME$/Development/book/simpleDB/java.iml" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/Development/book/simpleDB/java.iml" protocol="file" />
       <jump line="9" column="8" filename="$USER_HOME$/Development/book/simpleDB/java.iml" protocol="file" />
       <jump line="1" column="0" filename="$USER_HOME$/Development/book/simpleDB/java/src/main/java/org/example/Main.java" protocol="file" />
       <jump line="0" column="0" filename="$USER_HOME$/Development/book/simpleDB/java/build.gradle" protocol="file" />
-      <jump line="1" column="8" filename="$USER_HOME$/Development/book/simpleDB/java.iml" protocol="file" />
-      <jump line="6" column="0" filename="$USER_HOME$/Development/book/simpleDB/java/src/main/java/org/example/Main.java" protocol="file" />
       <jump line="3" column="0" filename="$USER_HOME$/Development/book/simpleDB/java/src/main/java/org/example/Main.java" protocol="file" />
+      <jump line="6" column="0" filename="$USER_HOME$/Development/book/simpleDB/java/src/main/java/org/example/Main.java" protocol="file" />
+      <jump line="1" column="8" filename="$USER_HOME$/Development/book/simpleDB/java.iml" protocol="file" />
+      <jump line="11" column="14" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="24" column="26" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="8" column="0" filename="$USER_HOME$/Development/book/simpleDB/java.iml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Development/book/simpleDB/java.iml" protocol="file" />
+      <jump line="5" column="8" filename="$USER_HOME$/Development/book/simpleDB/java.iml" protocol="file" />
     </project>
     <project id="dotfiles-5a51d883">
       <jump line="10" column="8" filename="$USER_HOME$/dotfiles/.idea/keymaps/default.xml" protocol="file" />
@@ -45,8 +47,11 @@
       <jump line="0" column="0" filename="$USER_HOME$/dotfiles/README.md" protocol="file" />
       <jump line="7" column="12" filename="$USER_HOME$/dotfiles/.idea/keymaps/default.xml" protocol="file" />
       <jump line="16" column="8" filename="$USER_HOME$/dotfiles/.idea/keymaps/default.xml" protocol="file" />
-      <jump line="14" column="10" filename="$USER_HOME$/dotfiles/.idea/keymaps/default.xml" protocol="file" />
       <jump line="18" column="0" filename="$USER_HOME$/dotfiles/.idea/keymaps/default.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/dotfiles/.idea/workspace.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/dotfiles/.idea/modules.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/dotfiles/.idea/vcs.xml" protocol="file" />
+      <jump line="14" column="8" filename="$USER_HOME$/dotfiles/.idea/keymaps/default.xml" protocol="file" />
     </project>
   </component>
   <component name="VimMarksSettings">
@@ -56,37 +61,25 @@
         <mark key="&quot;" line="1" column="8" />
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/dotfiles/.config/nvim/lua/plugins/colorscheme.lua" timestamp="1737729975330">
-        <mark key="&quot;" line="10" column="0" />
-      </file>
-      <file name="/JSX File.txt.ft" timestamp="1737646579396">
-        <mark key="&quot;" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Development/book/simpleDB/README.md" timestamp="1737715353029">
-        <mark key="&quot;" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/dotfiles/.ideavimrc" timestamp="1737733157715">
-        <mark key="&quot;" line="0" column="24" />
-      </file>
-      <file name="$USER_HOME$/dotfiles/README.md" timestamp="1737733160735">
-        <mark key="&quot;" line="0" column="10" />
-      </file>
-      <file name="$USER_HOME$/dotfiles/.gitconfig" timestamp="1737733157195">
-        <mark key="&quot;" line="40" column="0" />
-      </file>
-      <file name="/HTML File.txt.ft" timestamp="1737646572336">
-        <mark key="&quot;" line="0" column="0" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1737715353062">
+      <file name="/Dummy.txt" timestamp="1737734065416">
         <mark key="&quot;" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/dotfiles/.config/mise/config.toml" timestamp="1737733176810">
         <mark key="&quot;" line="10" column="0" />
       </file>
+      <file name="$USER_HOME$/dotfiles/.config/nvim/lua/plugins/colorscheme.lua" timestamp="1737729975330">
+        <mark key="&quot;" line="10" column="0" />
+      </file>
+      <file name="$USER_HOME$/dotfiles/.idea/modules.xml" timestamp="1737734065010">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/dotfiles/.config/zabrze/git.yaml" timestamp="1737733157047">
         <mark key="&quot;" line="75" column="35" />
       </file>
       <file name="/TypeScript File.txt.ft" timestamp="1737646943548">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/book/simpleDB/README.md" timestamp="1737715353029">
         <mark key="&quot;" line="0" column="0" />
       </file>
       <file name="/Dummy.prompt" timestamp="1737650416121">
@@ -102,19 +95,24 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Development/book/simpleDB/.idea/vcs.xml" timestamp="1737645249320">
-        <mark key="&quot;" line="5" column="9" />
-        <mark key="'" line="5" column="0" />
-        <mark key="[" line="0" column="6" />
-        <mark key="]" line="0" column="6" />
-        <mark key="^" line="0" column="6" />
-        <mark key="." line="3" column="38" />
+      <file name="$USER_HOME$/.ideavimrc" timestamp="1737734426531">
+        <mark key="&quot;" line="36" column="0" />
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="^" line="6" column="0" />
+        <mark key="." line="6" column="0" />
       </file>
       <file name="/" timestamp="1737651045958">
         <mark key="&quot;" line="0" column="0" />
       </file>
-      <file name="/Class.txt.ft" timestamp="1737646576819">
+      <file name="$USER_HOME$/dotfiles/.ideavimrc" timestamp="1737733157715">
+        <mark key="&quot;" line="0" column="24" />
+      </file>
+      <file name="$USER_HOME$/dotfiles/README.md" timestamp="1737734168078">
         <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/dotfiles/.gitconfig" timestamp="1737733157195">
+        <mark key="&quot;" line="40" column="0" />
       </file>
       <file name="$USER_HOME$/Development/book/simpleDB/java/src/main/java/org/example/Main.java" timestamp="1737715353049">
         <mark key="&quot;" line="6" column="0" />
@@ -122,32 +120,41 @@
         <mark key="^" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
+      <file name="$USER_HOME$/dotfiles/.idea/vcs.xml" timestamp="1737734065018">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/dotfiles/.config/nvim/.gitignore" timestamp="1737729984613">
         <mark key="&quot;" line="8" column="0" />
       </file>
-      <file name="$USER_HOME$/dotfiles/.idea/keymaps/default.xml" timestamp="1737733765868">
-        <mark key="&quot;" line="18" column="0" />
-        <mark key="'" line="18" column="0" />
-        <mark key="[" line="12" column="10" />
-        <mark key="]" line="12" column="18" />
-        <mark key="." line="12" column="17" />
-        <mark key="^" line="12" column="18" />
+      <file name="$USER_HOME$/dotfiles/.idea/workspace.xml" timestamp="1737734065025">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/dotfiles/.idea/keymaps/default.xml" timestamp="1737734167005">
+        <mark key="&quot;" line="14" column="8" />
+        <mark key="'" line="14" column="0" />
+        <mark key="[" line="8" column="10" />
+        <mark key="]" line="8" column="18" />
+        <mark key="." line="8" column="17" />
+        <mark key="^" line="8" column="18" />
       </file>
     </localmarks>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="0" type="LINE_WISE">
-        <text encoding="base64">IiBTb3VyY2UgeW91ciAudmltcmMKc291cmNlIH4vLnZpbXJjCg==</text>
+        <text encoding="base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPG1vZHVsZSBleHRlcm5hbC5saW5rZWQucHJvamVjdC5pZD0iamF2YSIgZXh0ZXJuYWwubGlua2VkLnByb2plY3QucGF0aD0iJE1PRFVMRV9ESVIkL2phdmEiIGV4dGVybmFsLnJvb3QucHJvamVjdC5wYXRoPSIkTU9EVUxFX0RJUiQvamF2YSIgZXh0ZXJuYWwuc3lzdGVtLmlkPSJHUkFETEUiIGV4dGVybmFsLnN5c3RlbS5tb2R1bGUuZ3JvdXA9Im9yZy5leGFtcGxlIiBleHRlcm5hbC5zeXN0ZW0ubW9kdWxlLnZlcnNpb249IjEuMC1TTkFQU0hPVCIgdHlwZT0iSkFWQV9NT0RVTEUiIHZlcnNpb249IjQiPgogIDxjb21wb25lbnQgbmFtZT0iTmV3TW9kdWxlUm9vdE1hbmFnZXIiIGluaGVyaXQtY29tcGlsZXItb3V0cHV0PSJ0cnVlIj4KICAgIDxleGNsdWRlLW91dHB1dCAvPgogICAgPGNvbnRlbnQgdXJsPSJmaWxlOi8vJE1PRFVMRV9ESVIkL2phdmEiPgogICAgICA8ZXhjbHVkZUZvbGRlciB1cmw9ImZpbGU6Ly8kTU9EVUxFX0RJUiQvamF2YS8uZ3JhZGxlIiAvPgogICAgICA8ZXhjbHVkZUZvbGRlciB1cmw9ImZpbGU6Ly8kTU9EVUxFX0RJUiQvamF2YS9idWlsZCIgLz4KICAgIDwvY29udGVudD4KICAgIDxvcmRlckVudHJ5IHR5cGU9ImpkayIgamRrTmFtZT0iMjIgKDIpIiBqZGtUeXBlPSJKYXZhU0RLIiAvPgogICAgPG9yZGVyRW50cnkgdHlwZT0ic291cmNlRm9sZGVyIiBmb3JUZXN0cz0iZmFsc2UiIC8+CiAgPC9jb21wb25lbnQ+CjwvbW9kdWxlPgo=</text>
       </register>
       <register name="1" type="LINE_WISE">
         <text encoding="base64">ICA8YWN0aW9uIGlkPSJBY3RpdmF0ZVN0cnVjdHVyZVRvb2xXaW5kb3ciPgogICAgPGtleWJvYXJkLXNob3J0Y3V0IGZpcnN0LWtleXN0cm9rZT0ibWV0YSBiIiAvPgogIDwvYWN0aW9uPgo=</text>
       </register>
       <register name="&quot;" type="LINE_WISE">
-        <text encoding="base64">ICA8YWN0aW9uIGlkPSJBY3RpdmF0ZVN0cnVjdHVyZVRvb2xXaW5kb3ciPgogICAgPGtleWJvYXJkLXNob3J0Y3V0IGZpcnN0LWtleXN0cm9rZT0ibWV0YSBiIiAvPgogIDwvYWN0aW9uPgo=</text>
+        <text encoding="base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPG1vZHVsZSBleHRlcm5hbC5saW5rZWQucHJvamVjdC5pZD0iamF2YSIgZXh0ZXJuYWwubGlua2VkLnByb2plY3QucGF0aD0iJE1PRFVMRV9ESVIkL2phdmEiIGV4dGVybmFsLnJvb3QucHJvamVjdC5wYXRoPSIkTU9EVUxFX0RJUiQvamF2YSIgZXh0ZXJuYWwuc3lzdGVtLmlkPSJHUkFETEUiIGV4dGVybmFsLnN5c3RlbS5tb2R1bGUuZ3JvdXA9Im9yZy5leGFtcGxlIiBleHRlcm5hbC5zeXN0ZW0ubW9kdWxlLnZlcnNpb249IjEuMC1TTkFQU0hPVCIgdHlwZT0iSkFWQV9NT0RVTEUiIHZlcnNpb249IjQiPgogIDxjb21wb25lbnQgbmFtZT0iTmV3TW9kdWxlUm9vdE1hbmFnZXIiIGluaGVyaXQtY29tcGlsZXItb3V0cHV0PSJ0cnVlIj4KICAgIDxleGNsdWRlLW91dHB1dCAvPgogICAgPGNvbnRlbnQgdXJsPSJmaWxlOi8vJE1PRFVMRV9ESVIkL2phdmEiPgogICAgICA8ZXhjbHVkZUZvbGRlciB1cmw9ImZpbGU6Ly8kTU9EVUxFX0RJUiQvamF2YS8uZ3JhZGxlIiAvPgogICAgICA8ZXhjbHVkZUZvbGRlciB1cmw9ImZpbGU6Ly8kTU9EVUxFX0RJUiQvamF2YS9idWlsZCIgLz4KICAgIDwvY29udGVudD4KICAgIDxvcmRlckVudHJ5IHR5cGU9ImpkayIgamRrTmFtZT0iMjIgKDIpIiBqZGtUeXBlPSJKYXZhU0RLIiAvPgogICAgPG9yZGVyRW50cnkgdHlwZT0ic291cmNlRm9sZGVyIiBmb3JUZXN0cz0iZmFsc2UiIC8+CiAgPC9jb21wb25lbnQ+CjwvbW9kdWxlPgo=</text>
       </register>
       <register name=":" type="CHARACTER_WISE">
         <text encoding="base64">dnNw</text>
+      </register>
+      <register name="*" type="LINE_WISE">
+        <text encoding="base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPG1vZHVsZSBleHRlcm5hbC5saW5rZWQucHJvamVjdC5pZD0iamF2YSIgZXh0ZXJuYWwubGlua2VkLnByb2plY3QucGF0aD0iJE1PRFVMRV9ESVIkL2phdmEiIGV4dGVybmFsLnJvb3QucHJvamVjdC5wYXRoPSIkTU9EVUxFX0RJUiQvamF2YSIgZXh0ZXJuYWwuc3lzdGVtLmlkPSJHUkFETEUiIGV4dGVybmFsLnN5c3RlbS5tb2R1bGUuZ3JvdXA9Im9yZy5leGFtcGxlIiBleHRlcm5hbC5zeXN0ZW0ubW9kdWxlLnZlcnNpb249IjEuMC1TTkFQU0hPVCIgdHlwZT0iSkFWQV9NT0RVTEUiIHZlcnNpb249IjQiPgogIDxjb21wb25lbnQgbmFtZT0iTmV3TW9kdWxlUm9vdE1hbmFnZXIiIGluaGVyaXQtY29tcGlsZXItb3V0cHV0PSJ0cnVlIj4KICAgIDxleGNsdWRlLW91dHB1dCAvPgogICAgPGNvbnRlbnQgdXJsPSJmaWxlOi8vJE1PRFVMRV9ESVIkL2phdmEiPgogICAgICA8ZXhjbHVkZUZvbGRlciB1cmw9ImZpbGU6Ly8kTU9EVUxFX0RJUiQvamF2YS8uZ3JhZGxlIiAvPgogICAgICA8ZXhjbHVkZUZvbGRlciB1cmw9ImZpbGU6Ly8kTU9EVUxFX0RJUiQvamF2YS9idWlsZCIgLz4KICAgIDwvY29udGVudD4KICAgIDxvcmRlckVudHJ5IHR5cGU9ImpkayIgamRrTmFtZT0iMjIgKDIpIiBqZGtUeXBlPSJKYXZhU0RLIiAvPgogICAgPG9yZGVyRW50cnkgdHlwZT0ic291cmNlRm9sZGVyIiBmb3JUZXN0cz0iZmFsc2UiIC8+CiAgPC9jb21wb25lbnQ+CjwvbW9kdWxlPgo=</text>
       </register>
       <register name="." type="CHARACTER_WISE">
         <text encoding="base64">YWFzc2RkZmZhYXNzZGRmZg==</text>
