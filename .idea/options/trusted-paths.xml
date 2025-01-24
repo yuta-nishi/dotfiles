@@ -5,6 +5,7 @@
         <entry key="$USER_HOME$/Development/book/simpleDB" value="true" />
         <entry key="$USER_HOME$/Development/book/simpleDB/java" value="true" />
         <entry key="$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2024.2/demo/IdeaLearningProject" value="true" />
+        <entry key="$USER_HOME$/dotfiles" value="true" />
       </map>
     </option>
   </component>
@@ -12,6 +13,7 @@
     <option name="TRUSTED_PATHS">
       <list>
         <option value="$USER_HOME$/Development/book" />
+        <option value="$USER_HOME$" />
       </list>
     </option>
   </component>

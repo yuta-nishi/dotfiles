@@ -20,22 +20,34 @@
         </entry>
         <entry key="$USER_HOME$/Development/book/simpleDB">
           <value>
-            <RecentProjectMetaInfo frameTitle="simpleDB – java.iml [simpleDB]" opened="true" projectWorkspaceId="2s23hPIEwRAEDbazVckSuQ7WF47">
-              <option name="activationTimestamp" value="1737709216102" />
+            <RecentProjectMetaInfo frameTitle="simpleDB – Main.java [java.main]" projectWorkspaceId="2s23hPIEwRAEDbazVckSuQ7WF47">
+              <option name="activationTimestamp" value="1737715346903" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-243.23654.117" />
               <option name="buildTimestamp" value="1737003600000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="1" />
               </option>
-              <frame x="0" y="25" width="1401" height="1000" fullScreen="true" />
+              <frame x="0" y="0" width="1920" height="1080" fullScreen="true" />
               <option name="productionCode" value="IU" />
               <option name="projectOpenTimestamp" value="1737646954022" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/dotfiles">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2s4WVnWfVFMefFqSAsxfmQLWYeb">
+              <option name="activationTimestamp" value="1737733833145" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-243.23654.117" />
+              <option name="buildTimestamp" value="1737003600000" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1737715353672" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/Development/book/simpleDB" />
+    <option name="lastOpenedProject" value="$USER_HOME$/dotfiles" />
   </component>
 </application>

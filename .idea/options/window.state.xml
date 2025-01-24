@@ -10,7 +10,7 @@
     <size key="GridCell.Tab.1.bottom.0.0.3840.2160@192dpi" width="3676" height="574" />
   </component>
   <component name="WindowManager">
-    <frame x="0" y="25" width="1401" height="1000" fullScreen="true" />
+    <frame x="0" y="0" width="1920" height="1080" fullScreen="true" />
   </component>
   <component name="WindowStateApplicationService">
     <state x="960" y="540" width="1920" height="1080" key="WELCOME_SCREEN" timestamp="1737641550095">

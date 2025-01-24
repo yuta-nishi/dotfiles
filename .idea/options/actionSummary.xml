@@ -7,19 +7,19 @@
       <i c="1" l="1737648474904" />
     </e>
     <e n="ActivateProjectToolWindow">
-      <i c="58" l="1737655151971" />
+      <i c="79" l="1737733874462" />
     </e>
     <e n="ActivateTODOToolWindow">
       <i c="1" l="1724081724652" />
     </e>
     <e n="ActivateTerminalToolWindow">
-      <i c="51" l="1737655132588" />
+      <i c="78" l="1737733875252" />
     </e>
     <e n="Activategithub.copilotToolWindowToolWindow">
       <i c="1" l="1737647569439" />
     </e>
     <e n="CWMHostShowPopupAction">
-      <i c="1" l="1737641351478" />
+      <i c="2" l="1737710040143" />
     </e>
     <e n="ChangesView.ShowCommitOptions">
       <i c="1" l="1737647120861" />
@@ -40,7 +40,7 @@
       <i c="1" l="1737559022192" />
     </e>
     <e n="EditorBackSpace">
-      <i c="321" l="1737651666791" />
+      <i c="487" l="1737733983529" />
     </e>
     <e n="EditorDown">
       <i c="22" l="1737649338138" />
@@ -49,7 +49,7 @@
       <i c="10" l="1737650159463" />
     </e>
     <e n="EditorEscape">
-      <i c="7" l="1737649339763" />
+      <i c="9" l="1737729995963" />
     </e>
     <e n="EditorLeft">
       <i c="7" l="1724081383850" />
@@ -66,6 +66,9 @@
     <e n="EditorUp">
       <i c="14" l="1737649337101" />
     </e>
+    <e n="ExportSettings">
+      <i c="1" l="1737710112809" />
+    </e>
     <e n="Git.Init">
       <i c="1" l="1724081950604" />
     </e>
@@ -73,16 +76,19 @@
       <i c="2" l="1737647035962" />
     </e>
     <e n="GotoFile">
-      <i c="2" l="1737641063914" />
+      <i c="5" l="1737733145609" />
     </e>
     <e n="GotoSymbol">
       <i c="3" l="1737651571737" />
+    </e>
+    <e n="GotoUrlAction">
+      <i c="1" l="1737731248608" />
     </e>
     <e n="HideActiveWindow">
       <i c="4" l="1737648562112" />
     </e>
     <e n="HideSideWindows">
-      <i c="19" l="1737655151549" />
+      <i c="40" l="1737733873804" />
     </e>
     <e n="Images.SetBackgroundImage">
       <i c="10" l="1737651037106" />
@@ -94,13 +100,13 @@
       <i c="1" l="1724081960047" />
     </e>
     <e n="OpenFile">
-      <i c="1" l="1737641561138" />
+      <i c="2" l="1737715341891" />
     </e>
     <e n="QuickJavaDoc">
       <i c="1" l="1737645170251" />
     </e>
     <e n="RedesignedRunConfigurationSelector">
-      <i c="1" l="1737641362372" />
+      <i c="2" l="1737733000269" />
     </e>
     <e n="Resume">
       <i c="3" l="1724076226644" />
@@ -112,22 +118,28 @@
       <i c="5" l="1737650149540" />
     </e>
     <e n="SaveDocument">
-      <i c="1" l="1724081357619" />
+      <i c="4" l="1737733011503" />
     </e>
     <e n="SearchEverywhere">
-      <i c="2" l="1737641349875" />
+      <i c="5" l="1737733176153" />
     </e>
     <e n="SelectInProjectView">
       <i c="1" l="1737645242501" />
     </e>
     <e n="SettingsEntryPoint">
-      <i c="1" l="1737641341824" />
+      <i c="3" l="1737710045054" />
     </e>
     <e n="ShowIntentionActions">
       <i c="5" l="1724081399149" />
     </e>
+    <e n="ShowSettings">
+      <i c="1" l="1737710047285" />
+    </e>
     <e n="Stop">
       <i c="2" l="1724076242932" />
+    </e>
+    <e n="Switcher">
+      <i c="272" l="1737733905841" />
     </e>
     <e n="Terminal.CommandCompletion">
       <i c="1" l="1737640962900" />
@@ -160,7 +172,7 @@
       <i c="1" l="1724076214947" />
     </e>
     <e n="ToolWindowShowNamesAction">
-      <i c="6" l="1737647586862" />
+      <i c="8" l="1737731004588" />
     </e>
     <e n="Tree-selectNext">
       <i c="13" l="1724076186133" />
@@ -189,32 +201,50 @@
     <e n="com.intellij.ide.actions.ToolWindowViewModeAction">
       <i c="9" l="1737650525228" />
     </e>
+    <e n="com.intellij.ide.actions.searcheverywhere.PreviewAction">
+      <i c="3" l="1737729979282" />
+    </e>
+    <e n="com.intellij.ide.actions.searcheverywhere.SearchEverywhereUI$ShowInFindToolWindowAction">
+      <i c="1" l="1737731254172" />
+    </e>
     <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.ExpChooserAction">
       <i c="1" l="1724075935708" />
     </e>
     <e n="com.intellij.notification.NotificationAction$Simple">
-      <i c="1" l="1737650397982" />
+      <i c="2" l="1737730565928" />
     </e>
     <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
-      <i c="170" l="1737650146189" />
+      <i c="209" l="1737733765322" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.DefaultActionGroup">
+      <i c="1" l="1737733140130" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.EmptyAction">
+      <i c="39" l="1737733906023" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="6" l="1737645249296" />
+      <i c="9" l="1737733765866" />
     </e>
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
-      <i c="10" l="1737655117035" />
+      <i c="14" l="1737733954402" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$ClearFilteringAction">
+      <i c="1" l="1737731329431" />
     </e>
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$EditShortcutAction">
       <i c="1" l="1737648287204" />
     </e>
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$FindByShortcutAction">
-      <i c="4" l="1737651794289" />
+      <i c="16" l="1737733911885" />
     </e>
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$RemoveShortcutAction">
-      <i c="6" l="1737651815998" />
+      <i c="21" l="1737733928889" />
     </e>
     <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
-      <i c="12" l="1737651573188" />
+      <i c="16" l="1737733176799" />
+    </e>
+    <e n="com.intellij.openapi.project.LightEditActionFactory$SimpleLightEditCompatibleAction">
+      <i c="1" l="1737733884520" />
     </e>
     <e n="com.intellij.openapi.wm.impl.DockToolWindowAction">
       <i c="1" l="1737650366689" />
@@ -223,7 +253,7 @@
       <i c="4" l="1737648490670" />
     </e>
     <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
-      <i c="76" l="1737649416560" />
+      <i c="83" l="1737733555865" />
     </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
       <i c="8" l="1737639351458" />
@@ -241,7 +271,10 @@
       <i c="1" l="1737645218206" />
     </e>
     <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
-      <i c="2" l="1724076303300" />
+      <i c="24" l="1737733163879" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveUpAction">
+      <i c="17" l="1737733165167" />
     </e>
     <e n="com.intellij.ui.dsl.builder.components.SegmentedButtonAction">
       <i c="7" l="1737645435460" />
@@ -262,7 +295,7 @@
       <i c="1" l="1737640995072" />
     </e>
     <e n="com.maddyhome.idea.vim.ui.ex.ExShortcutKeyAction">
-      <i c="1" l="1737641058750" />
+      <i c="2" l="1737733747168" />
     </e>
     <e n="copilot.chat.show">
       <i c="10" l="1737641215871" />
