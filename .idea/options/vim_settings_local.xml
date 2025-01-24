@@ -1,0 +1,137 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd>
+        <entry encoding="base64">c291cmNlIC5pZGVhdmltcmM=</entry>
+      </history-cmd>
+    </history>
+  </component>
+  <component name="VimJumpsSettings">
+    <project id="simpleDB-78ff730d">
+      <jump line="9" column="5" filename="$USER_HOME$/Development/book/simpleDB/.idea/workspace.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="6" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="11" column="14" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Development/book/simpleDB/.idea/vcs.xml" protocol="file" />
+      <jump line="0" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/Tutor.txt" protocol="file" />
+      <jump line="1" column="8" filename="$USER_HOME$/Development/book/simpleDB/.idea/vcs.xml" protocol="file" />
+      <jump line="2" column="5" filename="$USER_HOME$/Development/book/simpleDB/.idea/vcs.xml" protocol="file" />
+      <jump line="3" column="37" filename="$USER_HOME$/Development/book/simpleDB/.idea/vcs.xml" protocol="file" />
+      <jump line="5" column="9" filename="$USER_HOME$/Development/book/simpleDB/.idea/vcs.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Development/book/simpleDB/README.md" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Development/book/simpleDB/java/src/main/java/org/example/Main.java" protocol="file" />
+      <jump line="8" column="37" filename="$USER_HOME$/Development/book/simpleDB/java.iml" protocol="file" />
+      <jump line="11" column="8" filename="$USER_HOME$/Development/book/simpleDB/java.iml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Development/book/simpleDB/java.iml" protocol="file" />
+      <jump line="9" column="8" filename="$USER_HOME$/Development/book/simpleDB/java.iml" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/Development/book/simpleDB/java/src/main/java/org/example/Main.java" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Development/book/simpleDB/java/build.gradle" protocol="file" />
+      <jump line="1" column="8" filename="$USER_HOME$/Development/book/simpleDB/java.iml" protocol="file" />
+      <jump line="6" column="0" filename="$USER_HOME$/Development/book/simpleDB/java/src/main/java/org/example/Main.java" protocol="file" />
+      <jump line="3" column="0" filename="$USER_HOME$/Development/book/simpleDB/java/src/main/java/org/example/Main.java" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="/Dummy.txt" timestamp="1737641525049">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/book/simpleDB/java.iml" timestamp="1737647596390">
+        <mark key="'" line="0" column="0" />
+      </file>
+      <file name="/JSX File.txt.ft" timestamp="1737646579396">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="/GraphQL.result.json" timestamp="1737641525326">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="/TypeScript File.txt.ft" timestamp="1737646943548">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/book/simpleDB/README.md" timestamp="1737641525037">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="/Dummy.prompt" timestamp="1737650416121">
+        <mark key="&quot;" line="0" column="39" />
+        <mark key="[" line="0" column="39" />
+        <mark key="]" line="0" column="39" />
+        <mark key="^" line="0" column="39" />
+        <mark key="." line="0" column="39" />
+      </file>
+      <file name="$USER_HOME$/Development/book/simpleDB/java/build.gradle" timestamp="1737649371909">
+        <mark key="]" line="0" column="0" />
+        <mark key="^" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/book/simpleDB/.idea/vcs.xml" timestamp="1737645249320">
+        <mark key="&quot;" line="5" column="9" />
+        <mark key="'" line="5" column="0" />
+        <mark key="[" line="0" column="6" />
+        <mark key="]" line="0" column="6" />
+        <mark key="^" line="0" column="6" />
+        <mark key="." line="3" column="38" />
+      </file>
+      <file name="$USER_HOME$/.ideavimrc" timestamp="1737641351392">
+        <mark key="&quot;" line="36" column="0" />
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="^" line="6" column="0" />
+        <mark key="." line="6" column="0" />
+      </file>
+      <file name="/" timestamp="1737651045958">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="/Class.txt.ft" timestamp="1737646576819">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/book/simpleDB/.idea/workspace.xml" timestamp="1737640023541">
+        <mark key="&quot;" line="9" column="5" />
+        <mark key="[" line="0" column="6" />
+        <mark key="]" line="0" column="6" />
+        <mark key="^" line="0" column="6" />
+        <mark key="." line="0" column="5" />
+      </file>
+      <file name="$USER_HOME$/Development/book/simpleDB/java/src/main/java/org/example/Main.java" timestamp="1737650475540">
+        <mark key="]" line="6" column="0" />
+        <mark key="^" line="6" column="0" />
+        <mark key="." line="6" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/book/simpleDB/.gitignore" timestamp="1737641065141">
+        <mark key="&quot;" line="24" column="0" />
+      </file>
+      <file name="/HTML File.txt.ft" timestamp="1737646572336">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/Tutor.txt" timestamp="1737641000884">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="0" type="LINE_WISE">
+        <text encoding="base64">IiBTb3VyY2UgeW91ciAudmltcmMKc291cmNlIH4vLnZpbXJjCg==</text>
+      </register>
+      <register name="&quot;" type="LINE_WISE">
+        <text encoding="base64">IiBTb3VyY2UgeW91ciAudmltcmMKc291cmNlIH4vLnZpbXJjCg==</text>
+      </register>
+      <register name=":" type="CHARACTER_WISE">
+        <text encoding="base64">c291cmNlIC5pZGVhdmltcmM=</text>
+      </register>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64" />
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-offset encoding="base64" />
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">dHJ1ZQ==</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

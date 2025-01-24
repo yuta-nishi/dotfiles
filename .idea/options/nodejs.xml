@@ -1,0 +1,11 @@
+<application>
+  <component name="NodeJsLocalInterpreterManager">
+    <local-interpreter path="$USER_HOME$/.volta/bin/node" />
+    <local-interpreter path="/opt/homebrew/bin/node">
+      <version-cache version="22.4.1" last-modified="1721236251083" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v16.14.0/bin/node">
+      <version-cache version="16.14.0" last-modified="1644324317000" />
+    </local-interpreter>
+  </component>
+</application>

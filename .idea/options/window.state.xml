@@ -1,0 +1,26 @@
+<application>
+  <component name="DimensionService">
+    <size key="GridCell.Tab.0.left.0.0.3840.2160@192dpi" width="3676" height="574" />
+    <size key="GridCell.Tab.0.center.0.0.3840.2160@192dpi" width="3676" height="574" />
+    <size key="GridCell.Tab.0.right.0.0.3840.2160@192dpi" width="3676" height="574" />
+    <size key="GridCell.Tab.0.bottom.0.0.3840.2160@192dpi" width="3676" height="574" />
+    <size key="GridCell.Tab.1.left.0.0.3840.2160@192dpi" width="3676" height="574" />
+    <size key="GridCell.Tab.1.center.0.0.3840.2160@192dpi" width="3676" height="574" />
+    <size key="GridCell.Tab.1.right.0.0.3840.2160@192dpi" width="3676" height="574" />
+    <size key="GridCell.Tab.1.bottom.0.0.3840.2160@192dpi" width="3676" height="574" />
+  </component>
+  <component name="WindowManager">
+    <frame x="0" y="25" width="1401" height="1000" fullScreen="true" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="960" y="540" width="1920" height="1080" key="WELCOME_SCREEN" timestamp="1737641550095">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="960" y="540" width="1920" height="1080" key="WELCOME_SCREEN/-1440.205.1440.875/0.0.1920.1080" timestamp="1737639323398" />
+    <state x="960" y="540" width="1920" height="1080" key="WELCOME_SCREEN/-1440.205.1440.875/0.25.1920.1055" timestamp="1737641550095" />
+    <state x="468" y="464" key="ide.config.custom.settings" timestamp="1737559027061">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="468" y="464" key="ide.config.custom.settings/-1440.205.1440.875/0.0.1920.1080" timestamp="1737559027061" />
+  </component>
+</application>

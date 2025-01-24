@@ -1,0 +1,18 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Development/book/simpleDB" value="true" />
+        <entry key="$USER_HOME$/Development/book/simpleDB/java" value="true" />
+        <entry key="$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2024.2/demo/IdeaLearningProject" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Development/book" />
+      </list>
+    </option>
+  </component>
+</application>
