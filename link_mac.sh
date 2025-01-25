@@ -16,6 +16,7 @@ create_symlink "$HOME/dotfiles/.latexmkrc" "$HOME/.latexmkrc"
 create_symlink "$HOME/dotfiles/.vimrc" "$HOME/.vimrc"
 create_symlink "$HOME/dotfiles/.zshenv" "$HOME/.zshenv"
 create_symlink "$HOME/dotfiles/.zshrc" "$HOME/.zshrc"
+create_symlink "$HOME/dotfiles/.condarc" "$HOME/.condarc"
 
 # Create symbolic links in the .config folder
 echo "Creating links in the .config folder..."

@@ -37,6 +37,9 @@ inline = 'source "$HOME/.nix-profile/bin"'
 [plugins.mise]
 inline = 'eval "$(mise activate zsh)"'
 
+[plugins.micromamba]
+inline = 'eval "$(micromamba shell hook --shell zsh)"'
+
 [plugins.zabrze]
 inline = 'eval "$(zabrze init --bind-keys)"'
 

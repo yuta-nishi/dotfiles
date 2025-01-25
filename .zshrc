@@ -8,8 +8,7 @@ fi
 if [[ $(command -v eza) ]]; then
     alias ls='eza --icons --git'
     alias ll='eza --icons --git -l -h'
-    alias la='eza --icons --git -a'
-else
+    alias la='eza --icons --git -a' else
     alias ls='ls -GF'
     alias ll='ls -GF -lh'
     alias la='ls -GF -a'
@@ -98,10 +97,10 @@ if [[ ":$PATH:" != *":/opt/homebrew/sbin:"* ]]; then
     export PATH="$PATH:/opt/homebrew/sbin"
 fi
 
-# Initialize the completion system for uv 
+# Initialize the completion system for uv
 # (ref: https://github.com/astral-sh/uv/issues/10707)
 autoload -Uz compinit
-compinit 
+compinit
 
 # sheldon setting
 eval "$(sheldon source)"
