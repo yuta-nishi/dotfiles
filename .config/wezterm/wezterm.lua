@@ -25,23 +25,22 @@ config.tab_max_width = 5
 
 -- window
 config.background = {
-  {
-    source = {
-      File = wezterm.home_dir .. "/.config/wezterm/evamark6.jpg",
-    },
-    hsb = {
-      brightness = 0.1,
-    },
-  },
+	{
+		source = {
+			File = wezterm.home_dir .. "/.config/wezterm/evamark6.jpg",
+		},
+		hsb = {
+			brightness = 0.06,
+		},
+	},
 }
 config.initial_cols = 120
 config.initial_rows = 30
-config.macos_window_background_blur = 20
 config.native_macos_fullscreen_mode = true
 config.window_decorations = "RESIZE"
 config.window_frame = {
-  inactive_titlebar_bg = "none",
-  active_titlebar_bg = "none",
+	inactive_titlebar_bg = "none",
+	active_titlebar_bg = "none",
 }
 
 return config
