@@ -28,10 +28,9 @@ nnoremap [c :action GotoPreviousChange<CR>
 nnoremap ]c :action GotoNextChange<CR>
 nnoremap [e :action GotoPreviousError<CR>
 nnoremap ]e :action GotoNextError<CR>
-nnoremap [d :action GotoPreviousDiff<CR>
-nnoremap ]d :action GotoNextDiff<CR>
 nnoremap [m :action GotoPreviousMethod<CR>
 nnoremap ]m :action GotoNextMethod<CR>
-nnoremap gi :action GotoImplementation<CR>
 nnoremap gh :action ShowHoverInfo<CR>
+nnoremap gi :action GotoImplementation<CR>
+nnoremap gr :action FindUsages<CR>
 nnoremap <leader><leader> :action GotoFile<CR>

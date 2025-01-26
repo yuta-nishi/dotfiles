@@ -10,26 +10,46 @@
     "command": "workbench.action.previousEditor",
     "when": "!terminalFocus"
   },
-  /* Neovim shortcut */
+  /* Vim shortcut */
   {
     "key": "space e",
     "command": "workbench.action.toggleSidebarVisibility",
-    "when": "neovim.mode == normal && !terminalFocus"
+    "when": "neovim.mode == normal && editorFocus"
   },
   {
     "key": "space space",
     "command": "workbench.action.quickOpen",
-    "when": "neovim.mode == normal && !terminalFocus"
+    "when": "neovim.mode == normal && editorFocus"
   },
   {
     "key": "shift+l",
     "command": "workbench.action.nextEditor",
-    "when": "neovim.mode == normal && !terminalFocus"
+    "when": "neovim.mode == normal && editorFocus"
   },
   {
     "key": "shift+h",
     "command": "workbench.action.previousEditor",
-    "when": "neovim.mode == normal && !terminalFocus"
+    "when": "neovim.mode == normal && editorFocus"
+  },
+  {
+    "key": "[ c",
+    "command": "workbench.action.navigateBack",
+    "when": "neovim.mode == normal && editorFocus"
+  },
+  {
+    "key": "] c",
+    "command": "workbench.action.navigateForward",
+    "when": "neovim.mode == normal && editorFocus"
+  },
+  {
+    "key": "[ e",
+    "command": "editor.action.marker.prev",
+    "when": "neovim.mode == normal && editorFocus"
+  },
+  {
+    "key": "] e",
+    "command": "editor.action.marker.next",
+    "when": "neovim.mode == normal && editorFocus"
   },
   /* Switching between editor and terminal */
   {
