@@ -24,13 +24,14 @@ Plug 'machakann/vim-highlightedyank'
 " Commentary plugin
 Plug 'tpope/vim-commentary'
 
-
-"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
-"" Map \r to the Reformat Code action
-"map \r <Action>(ReformatCode)
-
-"" Map <leader>d to start debug
-"map <leader>d <Action>(Debug)
-
-"" Map \b to toggle the breakpoint on the current line
-"map \b <Action>(ToggleLineBreakpoint)
+nnoremap [c :action GotoPreviousChange<CR>
+nnoremap ]c :action GotoNextChange<CR>
+nnoremap [e :action GotoPreviousError<CR>
+nnoremap ]e :action GotoNextError<CR>
+nnoremap [d :action GotoPreviousDiff<CR>
+nnoremap ]d :action GotoNextDiff<CR>
+nnoremap [m :action GotoPreviousMethod<CR>
+nnoremap ]m :action GotoNextMethod<CR>
+nnoremap gi :action GotoImplementation<CR>
+nnoremap gh :action ShowHoverInfo<CR>
+nnoremap <leader><leader> :action GotoFile<CR>
