@@ -2,9 +2,11 @@
 bun = "latest"
 deno = "latest"
 go = "latest"
-java = "21"
-neovim = "latest"
-node = "22"
+java = "21"     # LTS
+# To avoid vscode neovim crash
+# see: https://github.com/vscode-neovim/vscode-neovim/issues/2184
+neovim = "0.9"
+node = "22"     # LTS
 pnpm = "latest"
-python = "3.11"
+python = "3.11" # LTS
 ruby = "latest"
