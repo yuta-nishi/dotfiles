@@ -31,6 +31,9 @@ in {
       ghq
       git
       glances
+      go-task
+      golangci-lint
+      gotools
       hadolint
       htop
       hugo

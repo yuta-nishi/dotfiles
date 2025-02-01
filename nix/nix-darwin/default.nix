@@ -62,7 +62,6 @@
       "wezterm"
       "wireshark"
       "zed"
-      "zed"
       "zoom"
     ];
   };
