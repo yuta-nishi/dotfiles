@@ -38,6 +38,7 @@ in {
       htop
       hugo
       jq
+      lazygit
       lefthook
       lua
       micromamba
