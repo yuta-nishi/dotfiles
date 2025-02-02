@@ -66,6 +66,7 @@ alias gsh='git show'
 alias gst='git stash'
 alias grb='git rebase'
 alias gcz='git cz --disable-emoji'
+alias lg='lazygit'
 
 # docker alias
 alias d='docker'

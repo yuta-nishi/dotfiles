@@ -74,3 +74,7 @@ abbrevs:
   - name: git cz --disable-emoji
     abbr: gcz
     snippet: git cz --disable-emoji
+
+  - name: lazygit
+    abbr: lg
+    snippet: lazygit
