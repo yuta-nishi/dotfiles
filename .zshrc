@@ -98,6 +98,11 @@ if [[ ":$PATH:" != *":/opt/homebrew/sbin:"* ]]; then
     export PATH="$PATH:/opt/homebrew/sbin"
 fi
 
+# latex setting
+if [[ ":$PATH:" != *":/Library/Tex/texbin:"* ]]; then
+    export PATH="$PATH:/Library/Tex/texbin"
+fi
+
 # Initialize the completion system for uv
 # (ref: https://github.com/astral-sh/uv/issues/10707)
 autoload -Uz compinit

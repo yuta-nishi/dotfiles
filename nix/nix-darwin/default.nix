@@ -49,6 +49,7 @@
       "google-chrome"
       "intellij-idea"
       "keycastr"
+      "mactex-no-gui"
       "notion"
       "obs"
       "obsidian"
