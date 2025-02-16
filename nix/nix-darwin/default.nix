@@ -15,8 +15,6 @@
     };
   };
 
-  services.nix-daemon.enable = true;
-
   system = {
     defaults = {
       NSGlobalDomain.AppleShowAllExtensions = true;
@@ -56,7 +54,6 @@
       "orbstack"
       "postman"
       "raycast"
-      "rectangle"
       "slack"
       "visual-studio-code"
       "warp"

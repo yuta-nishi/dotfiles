@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 create_symlink() {
     if ln -fs "$1" "$2"; then
@@ -22,10 +22,12 @@ create_symlink "$HOME/dotfiles/.condarc" "$HOME/.condarc"
 # Create symbolic links in the .config folder
 echo "Creating links in the .config folder..."
 create_symlink "$HOME/dotfiles/.config/aerospace/" "$HOME/.config"
+create_symlink "$HOME/dotfiles/.config/borders/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/mise/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/nix/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/nvim/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/sheldon/" "$HOME/.config"
+create_symlink "$HOME/dotfiles/.config/sketchybar/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/starship.toml" "$HOME/.config/starship.toml"
 create_symlink "$HOME/dotfiles/.config/wezterm/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/zabrze/" "$HOME/.config"
