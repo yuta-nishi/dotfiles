@@ -22,6 +22,7 @@ create_symlink "$HOME/dotfiles/.condarc" "$HOME/.condarc"
 # Create symbolic links in the .config folder
 echo "Creating links in the .config folder..."
 create_symlink "$HOME/dotfiles/.config/aerospace/" "$HOME/.config"
+create_symlink "$HOME/dotfiles/.config/bat/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/borders/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/mise/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/nix/" "$HOME/.config"
