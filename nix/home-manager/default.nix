@@ -24,6 +24,7 @@ in {
       bat
       delta
       eza
+      fastfetch
       fd
       ffmpeg
       fzf
