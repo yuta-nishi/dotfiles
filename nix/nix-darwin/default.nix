@@ -55,6 +55,7 @@
       "orbstack"
       "postman"
       "raycast"
+      "spotify"
       "slack"
       "visual-studio-code"
       "warp"
