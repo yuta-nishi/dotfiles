@@ -80,6 +80,7 @@ alias dcd='docker compose down'
 alias dcl='docker compose logs'
 alias dcp='docker compose ps'
 alias dce='docker compose exec'
+alias ld='lazydocker'
 
 # safety alias
 alias cp='cp -i'

@@ -42,3 +42,7 @@ abbrevs:
   - name: docker compose exec
     abbr: dce
     snippet: docker compose exec
+
+  - name: lazydocker
+    abbr: ld
+    snippet: lazydocker

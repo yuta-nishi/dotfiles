@@ -39,9 +39,9 @@ in {
       htop
       hugo
       jq
+      lazydocker
       lazygit
       lefthook
-      lua
       micromamba
       mise
       perl
