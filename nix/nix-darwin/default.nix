@@ -40,6 +40,7 @@
     casks = [
       "appcleaner"
       "brave-browser"
+      "dbeaver-community"
       "deepl"
       "discord"
       "figma"

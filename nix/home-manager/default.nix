@@ -41,6 +41,7 @@ in {
       jq
       lazydocker
       lazygit
+      lazysql
       lefthook
       micromamba
       mise
