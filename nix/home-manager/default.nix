@@ -45,6 +45,7 @@ in {
       lefthook
       micromamba
       mise
+      nowplaying-cli
       perl
       rbenv
       ripgrep
@@ -52,6 +53,7 @@ in {
       shellcheck
       shfmt
       starship
+      switchaudio-osx
       tmux
       tokei
       tree
