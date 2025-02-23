@@ -1325,7 +1325,6 @@
   "security.workspace.trust.untrustedFiles": "open",
   "hediet.vscode-drawio.resizeImages": null,
   "githubPullRequests.pullBranch": "never",
-  "backgroundCover.imagePath": "/Users/yutanishi/dotfiles/.config/wezterm/evamark6.jpg",
   "backgroundCover.opacity": 0.1,
   "lldb.suppressUpdateNotifications": true,
   "makefile.configureOnOpen": true,
