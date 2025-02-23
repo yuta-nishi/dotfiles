@@ -38,6 +38,7 @@ in {
       hadolint
       htop
       hugo
+      imagemagick
       jq
       lazydocker
       lazygit
@@ -47,6 +48,7 @@ in {
       mise
       nowplaying-cli
       perl
+      poppler
       rbenv
       ripgrep
       sheldon
@@ -60,6 +62,7 @@ in {
       uv
       vim
       wget
+      yazi
       zoxide
       zsh
     ];
