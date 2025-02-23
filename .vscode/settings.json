@@ -31,6 +31,7 @@
     "audiofile",
     "audioset",
     "Augmentor",
+    "autocmd",
     "autocmds",
     "autoencoder",
     "autograd",
@@ -79,6 +80,7 @@
     "clsx",
     "cmake",
     "cmap",
+    "cmdline",
     "Codebook",
     "codecov",
     "codegen",
@@ -88,7 +90,9 @@
     "collab",
     "colorbar",
     "colorlinks",
+    "colormaps",
     "comms",
+    "condarc",
     "Conv",
     "Convolutional",
     "counterfactuals",
@@ -118,6 +122,7 @@
     "datapath",
     "datastart",
     "datetime",
+    "dbeaver",
     "dbeta",
     "dbname",
     "DCGAN",
@@ -182,6 +187,7 @@
     "Fano",
     "fansi",
     "fastapi",
+    "fastfetch",
     "fcolor",
     "fftpack",
     "fibo",
@@ -214,13 +220,18 @@
     "getpid",
     "getrlimit",
     "gohtml",
+    "goimports",
+    "golangci",
     "goldenretriever",
+    "golint",
     "gomarkdown",
     "googleapiclient",
     "googlenet",
     "Gosei",
+    "gotools",
     "graphqlrc",
     "graphviz",
+    "grayscale",
     "hadolint",
     "hangfrom",
     "hann",
@@ -236,6 +247,7 @@
     "Holdem",
     "hono",
     "honox",
+    "hotload",
     "hsplit",
     "httplib",
     "httponly",
@@ -292,6 +304,8 @@
     "itertools",
     "izip",
     "Jaccard",
+    "jankeyborders",
+    "jankyborders",
     "jaxtyped",
     "jaxtyping",
     "jetson",
@@ -309,6 +323,7 @@
     "keymap",
     "keymaps",
     "keyname",
+    "killall",
     "Klog",
     "kmeans",
     "kubernetes",
@@ -320,6 +335,9 @@
     "latexindent",
     "latexmk",
     "latexmkrc",
+    "lazydocker",
+    "lazygit",
+    "lazysql",
     "lazyvim",
     "leakyrelu",
     "leetcode",
@@ -366,6 +384,7 @@
     "lualatexmk",
     "lualine",
     "lucide",
+    "mactex",
     "makedataset",
     "manim",
     "mapleader",
@@ -383,6 +402,7 @@
     "MELS",
     "melspec",
     "Menlo",
+    "mercurius",
     "meshgrid",
     "Meslo",
     "mfcc",
@@ -450,6 +470,7 @@
     "nopython",
     "noremap",
     "noverlap",
+    "nowplaying",
     "numba",
     "numpy",
     "nums",
@@ -495,6 +516,7 @@
     "Pluggable",
     "pooler",
     "popleft",
+    "poppler",
     "postbuild",
     "postorder",
     "postprocessors",
@@ -515,8 +537,10 @@
     "pyautogui",
     "pycache",
     "pycocotools",
+    "pycodestyle",
     "pydantic",
     "pydub",
+    "pyflakes",
     "pylab",
     "Pylance",
     "pymongo",
@@ -568,6 +592,7 @@
     "safetensors",
     "savefig",
     "savez",
+    "sbar",
     "scatterplot",
     "scikit",
     "scipy",
@@ -589,7 +614,9 @@
     "shibui",
     "showlegend",
     "siglip",
+    "simpledb",
     "Siri",
+    "sketchybar",
     "skillup",
     "skimage",
     "sklearn",
@@ -608,6 +635,8 @@
     "stdc",
     "STFT",
     "streamlit",
+    "stretchr",
+    "strs",
     "stylelint",
     "substracting",
     "sumneko",
@@ -615,6 +644,7 @@
     "suptitle",
     "Suudoku",
     "svgr",
+    "switchaudio",
     "synctex",
     "sysad",
     "tacotron",
@@ -710,6 +740,7 @@
     "Upserting",
     "urllib",
     "urql",
+    "userland",
     "uvicorn",
     "val",
     "vaul",
@@ -765,6 +796,7 @@
     "xyxy",
     "yamamoto",
     "yaxis",
+    "yazi",
     "yerr",
     "ylabel",
     "ylim",
@@ -821,7 +853,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   /* NeoVim Settings */
-  "vscode-neovim.neovimExecutablePaths.darwin": "/Users/yutanishi/.local/share/mise/installs/neovim/0.10.1/bin/nvim",
+  "vscode-neovim.neovimExecutablePaths.darwin": "/Users/yutanishi/.local/share/mise/installs/neovim/0.9.5/bin/nvim",
   "vscode-neovim.neovimInitVimPaths.darwin": "/Users/yutanishi/.config/nvim/init.lua",
   "vscode-neovim.compositeKeys": {
     "jk": {
@@ -872,6 +904,13 @@
         "sourceLanguages": [
           "rust"
         ]
+      },
+      {
+        "name": "Go Debug",
+        "type": "go",
+        "request": "launch",
+        "mode": "auto",
+        "program": "${fileDirname}",
       },
       {
         "name": "C Debug",
@@ -967,7 +1006,7 @@
     "editor.quickSuggestions": {
       "strings": true
     },
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.inlayHints.parameterNames.enabled": "literals",
@@ -983,7 +1022,9 @@
   "typescript.inlayHints.parameterTypes.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.inlayHints.enumMemberValues.enabled": true,
-  "vitest.nodeExecutable": "/Users/yutanishi/.local/share/mise/installs/node/20/bin/node",
+  "vitest.nodeExecutable": "/Users/yutanishi/.local/share/mise/installs/node/lts/bin/node",
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.format.config.singleQuote": true,
   /* Python Settings */
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
@@ -998,12 +1039,6 @@
   "python.testing.pytestEnabled": true,
   "ruff.path": [
     "${workspaceFolder}/.venv/bin/ruff"
-  ],
-  "ruff.lint.args": [
-    "--config=${workspaceFolder}/pyproject.toml"
-  ],
-  "ruff.format.args": [
-    "--config=${workspaceFolder}/pyproject.toml"
   ],
   "mypy-type-checker.path": [
     "${workspaceFolder}/.venv/bin/mypy"
@@ -1056,6 +1091,8 @@
   "go.inlayHints.parameterNames": true,
   "go.inlayHints.rangeVariableTypes": true,
   "go.toolsManagement.autoUpdate": true,
+  "go.lintTool": "golangci-lint",
+  "go.formatTool": "goimports",
   /* Ruby Settings */
   "[ruby]": {
     "editor.defaultFormatter": "Shopify.ruby-lsp",
@@ -1184,16 +1221,17 @@
   },
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml",
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
   },
   "evenBetterToml.formatter.columnWidth": 90,
   "evenBetterToml.formatter.reorderKeys": true,
   "evenBetterToml.formatter.reorderArrays": true,
+  "evenBetterToml.formatter.arrayAutoCollapse": false,
   "[nix]": {
     "editor.defaultFormatter": "kamadorueda.alejandra",
     "editor.tabSize": 2
   },
-  "alejandra.program": "alejandra",
+  "alejandra.program": "/Users/yutanishi/.nix-profile/bin/alejandra",
   /* Shell Script Settings */
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
@@ -1251,6 +1289,7 @@
     "*": true
   },
   "github.copilot.chat.localeOverride": "ja",
+  "github.copilot.nextEditSuggestions.enabled": true,
   /* Live Server Settings */
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
@@ -1267,6 +1306,7 @@
       "filename": "${difficulty}_${id}_${snake_case_name}.${ext}"
     }
   },
+  "leetcode.hint.commandShortcut": false,
   "leetcode.hint.commentDescription": false,
   /* Code Runner Settings */
   "code-runner.runInTerminal": true,
@@ -1285,6 +1325,10 @@
   "security.workspace.trust.untrustedFiles": "open",
   "hediet.vscode-drawio.resizeImages": null,
   "githubPullRequests.pullBranch": "never",
-  "backgroundCover.imagePath": "/Users/yutanishi/.config/wezterm/evamark6.jpg",
+  "backgroundCover.imagePath": "/Users/yutanishi/dotfiles/.config/wezterm/evamark6.jpg",
+  "backgroundCover.opacity": 0.1,
   "lldb.suppressUpdateNotifications": true,
+  "makefile.configureOnOpen": true,
+  "vscode-pets.theme": "beach",
+  "vscode-pets.petSize": "medium",
 }
