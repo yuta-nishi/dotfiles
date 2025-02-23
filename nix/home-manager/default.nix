@@ -40,6 +40,7 @@ in {
       hugo
       imagemagick
       jq
+      jqp
       lazydocker
       lazygit
       lazysql
