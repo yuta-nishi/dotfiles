@@ -48,6 +48,7 @@ in {
       micromamba
       mise
       nowplaying-cli
+      onefetch
       perl
       poppler
       rbenv
