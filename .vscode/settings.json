@@ -242,6 +242,7 @@
     "heroicons",
     "hexeditor",
     "Hira",
+    "Hiragino",
     "hlsearch",
     "hmmlearn",
     "Holdem",
@@ -308,6 +309,7 @@
     "jankyborders",
     "jaxtyped",
     "jaxtyping",
+    "JDLA",
     "jetson",
     "jiwer",
     "jsonserialize",
@@ -408,6 +410,7 @@
     "mfcc",
     "micromamba",
     "middlewares",
+    "Mincho",
     "minibatch",
     "miniforge",
     "minikube",
@@ -482,6 +485,7 @@
     "omegaconf",
     "omegaconfg",
     "omnisharp",
+    "onefetch",
     "onehot",
     "oneshot",
     "openai",
@@ -498,6 +502,7 @@
     "outpath",
     "output_safechars",
     "outtmpl",
+    "pagebreak",
     "pairplot",
     "particlesystem",
     "Party",
@@ -704,6 +709,8 @@
     "typecheck",
     "typechecker",
     "typegen",
+    "typst",
+    "typstyle",
     "udemy",
     "ugui",
     "uielements",
@@ -1120,11 +1127,12 @@
   "sql-formatter.uppercase": true,
   /* Docker Settings */
   "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker",
   },
   "[dockercompose]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
+  "hadolint.hadolintPath": "/Users/yutanishi/.nix-profile/bin/hadolint",
   /* Markdown Settings */
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
@@ -1147,7 +1155,7 @@
     "editor.defaultFormatter": "James-Yu.latex-workshop",
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.tabSize": 2,
-    "editor.wordWrap": "bounded"
+    "editor.wordWrap": "on"
   },
   "latex-workshop.formatting.latex": "latexindent",
   "latex-workshop.view.pdf.viewer": "tab",
@@ -1181,6 +1189,14 @@
       "env": {}
     },
   ],
+  /* Typst Settings */
+  "[typst]": {
+    "editor.defaultFormatter": "myriad-dreamin.tinymist",
+    "editor.tabSize": 2,
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.wordWrap": "on",
+  },
+  "tinymist.formatterMode": "typstyle",
   /* Lua Settings */
   "[lua]": {
     "editor.defaultFormatter": "sumneko.lua",
@@ -1314,11 +1330,13 @@
     "c": "cd $dir && clang -std=gnu17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "cpp": "cd $dir && clang++ -std=gnu++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
   },
+  /* VSCode Pets Settings */
+  "vscode-pets.petSize": "medium",
+  "vscode-pets.theme": "beach",
   /* Extension Settings */
   "redhat.telemetry.enabled": false,
   "remoteHub.uncommittedChangesOnEntry": "none",
   "svg.preview.mode": "svg",
-  "hadolint.hadolintPath": "/usr/local/bin/hadolint",
   "prisma.showPrismaDataPlatformNotification": false,
   "remote.autoForwardPortsSource": "hybrid",
   "cmake.showOptionsMovedNotification": false,
@@ -1328,6 +1346,7 @@
   "backgroundCover.opacity": 0.1,
   "lldb.suppressUpdateNotifications": true,
   "makefile.configureOnOpen": true,
-  "vscode-pets.theme": "beach",
-  "vscode-pets.petSize": "medium",
+  "[typst-code]": {
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+  },
 }

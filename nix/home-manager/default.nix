@@ -61,6 +61,8 @@ in {
       tmux
       tokei
       tree
+      typst
+      typstyle
       uv
       vim
       wget
