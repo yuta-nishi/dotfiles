@@ -22,6 +22,7 @@ in {
       ansible
       atuin
       bat
+      cargo-nextest
       delta
       eza
       fastfetch
