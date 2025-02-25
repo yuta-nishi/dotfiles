@@ -65,7 +65,7 @@ alias gsw='git switch'
 alias gsh='git show'
 alias gst='git stash'
 alias grb='git rebase'
-alias gcz='git cz --disable-emoji'
+alias gcz='git czg'
 alias lg='lazygit'
 
 # docker alias

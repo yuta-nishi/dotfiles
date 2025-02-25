@@ -71,9 +71,9 @@ abbrevs:
     abbr: gsh
     snippet: git show
 
-  - name: git cz --disable-emoji
+  - name: git czg
     abbr: gcz
-    snippet: git cz --disable-emoji
+    snippet: git czg
 
   - name: lazygit
     abbr: lg
