@@ -7,73 +7,77 @@ abbrevs:
     abbr: ga
     snippet: git add
 
-  - name: git commit
-    abbr: gc
-    snippet: git commit
-
-  - name: git push
-    abbr: gp
-    snippet: git push
-
-  - name: git pull
-    abbr: gpl
-    snippet: git pull
-
-  - name: git status
-    abbr: gs
-    snippet: git status
-
-  - name: git log
-    abbr: gl
-    snippet: git log
-
   - name: git branch
     abbr: gb
     snippet: git branch
 
-  - name: git switch
-    abbr: gsw
-    snippet: git switch
+  - name: git commit
+    abbr: gc
+    snippet: git commit
 
   - name: git diff
     abbr: gd
     snippet: git diff
 
+  - name: git log
+    abbr: gl
+    snippet: git log
+
   - name: git merge
     abbr: gm
     snippet: git merge
+
+  - name: git push
+    abbr: gp
+    snippet: git push
 
   - name: git restore
     abbr: gr
     snippet: git restore
 
-  - name: git reset
-    abbr: grs
-    snippet: git reset
+  - name: git status
+    abbr: gs
+    snippet: git status
+
+  - name: git tag
+    abbr: gt
+    snippet: git tag
 
   - name: git clone
     abbr: gcl
     snippet: git clone
 
-  - name: git remote
-    abbr: grm
-    snippet: git remote
+  - name: git czg
+    abbr: gcz
+    snippet: git czg
 
-  - name: git stash
-    abbr: gst
-    snippet: git stash
+  - name: git pull
+    abbr: gpl
+    snippet: git pull
 
   - name: git rebase
     abbr: grb
     snippet: git rebase
 
+  - name: git remote
+    abbr: grm
+    snippet: git remote
+
+  - name: git reset
+    abbr: grs
+    snippet: git reset
+
   - name: git show
     abbr: gsh
     snippet: git show
 
-  - name: git czg
-    abbr: gcz
-    snippet: git czg
+  - name: git stash
+    abbr: gst
+    snippet: git stash
+
+  - name: git switch
+    abbr: gsw
+    snippet: git switch
 
   - name: lazygit
     abbr: lg
