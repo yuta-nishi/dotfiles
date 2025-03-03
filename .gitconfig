@@ -28,17 +28,48 @@ rebase = false
 defaultBranch = main
 
 [push]
-default = current
+autoSetupMerge = true
+default = simple
+followTags = true
+
+[tag]
+sort = version:refname
+
+[branch]
+sort = -committerdate
+
+[commit]
+verbose = true
+
+[rerere]
+autoupdate = true
+enabled = true
+
+[rebase]
+autosquash = true
+autostash = true
+updateRefs = true
+
+[column]
+ui = auto
 
 [fetch]
+all = true
 prune = true
+pruneTags = true
 
 [merge]
-conflictStyle = diff3
+conflictStyle = zdiff3
 
 [diff]
-colorMoved = default
+algorithm = histogram
+colorMoved = plain
+mnemonicPrefix = true
+renames = true
 
 # For use in DevContainer
 [safe]
 directory = /workspace
+
+[help]
+autocorrect = prompt
