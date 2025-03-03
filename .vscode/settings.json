@@ -452,6 +452,7 @@
     "Nesterov",
     "netns",
     "newaxis",
+    "nextest",
     "nextjs",
     "NEXTVAL",
     "NFFT",
@@ -860,6 +861,8 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   /* NeoVim Settings */
+  // neovim crashes when connecting, so use version 0.9.
+  // see: https://github.com/vscode-neovim/vscode-neovim/issues/2184
   "vscode-neovim.neovimExecutablePaths.darwin": "/Users/yutanishi/.local/share/mise/installs/neovim/0.9.5/bin/nvim",
   "vscode-neovim.neovimInitVimPaths.darwin": "/Users/yutanishi/.config/nvim/init.lua",
   "vscode-neovim.compositeKeys": {
@@ -1196,6 +1199,9 @@
     "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
     "editor.wordWrap": "on",
   },
+  "[typst-code]": {
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+  },
   "tinymist.formatterMode": "typstyle",
   /* Lua Settings */
   "[lua]": {
@@ -1346,7 +1352,4 @@
   "backgroundCover.opacity": 0.1,
   "lldb.suppressUpdateNotifications": true,
   "makefile.configureOnOpen": true,
-  "[typst-code]": {
-    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
-  },
 }
