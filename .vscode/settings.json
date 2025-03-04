@@ -41,6 +41,7 @@
     "avgpool",
     "avgs",
     "azuretools",
+    "balenaetcher",
     "batchnorm",
     "bblencoding",
     "bboxes",

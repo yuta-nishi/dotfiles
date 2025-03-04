@@ -39,6 +39,7 @@
     };
     casks = [
       "appcleaner"
+      "balenaetcher"
       "brave-browser"
       "dbeaver-community"
       "deepl"
