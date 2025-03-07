@@ -28,7 +28,7 @@ rebase = false
 defaultBranch = main
 
 [push]
-autoSetupMerge = true
+autoSetupRemote = true
 default = simple
 followTags = true
 
