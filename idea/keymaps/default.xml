@@ -4,13 +4,41 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="alt escape" />
+    <keyboard-shortcut first-keystroke="ctrl space" />
+  </action>
   <action id="Diff.FocusOppositePane" />
   <action id="HideActiveWindow" />
   <action id="NextProjectWindow" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="v" />
+  </action>
+  <action id="Switcher" />
+  <action id="Terminal.DeletePreviousWord" />
+  <action id="Terminal.MoveToolWindowTabLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
+  <action id="Terminal.MoveToolWindowTabRight">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
   <action id="Terminal.SwitchFocusToEditor">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
   <action id="UsageFiltering.WriteAccess" />
+  <action id="copilot.chat.inline">
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
+  <action id="copilot.chat.show">
+    <keyboard-shortcut first-keystroke="meta alt b" />
+  </action>
   <action id="copilot.disposeInlays" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
 </keymap>

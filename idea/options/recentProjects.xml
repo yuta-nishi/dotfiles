@@ -20,35 +20,39 @@
         </entry>
         <entry key="$USER_HOME$/dotfiles">
           <value>
-            <RecentProjectMetaInfo frameTitle="dotfiles">
-              <option name="activationTimestamp" value="1737734180728" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IU-243.23654.117" />
-              <option name="buildTimestamp" value="1737003600000" />
-              <frame x="0" y="0" width="1920" height="1080" fullScreen="true" />
-              <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1737715353672" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/Development/book/simpleDB">
-          <value>
-            <RecentProjectMetaInfo frameTitle="simpleDB – java.iml [simpleDB]" opened="true" projectWorkspaceId="2s23hPIEwRAEDbazVckSuQ7WF47">
-              <option name="activationTimestamp" value="1737736633402" />
+            <RecentProjectMetaInfo frameTitle="dotfiles – .latexmkrc" projectWorkspaceId="2s78GhA2ND3Br2ZTC82XMDFyhY3">
+              <option name="activationTimestamp" value="1737795322289" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-243.23654.153" />
               <option name="buildTimestamp" value="1737636720000" />
               <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="1" />
+                <RecentProjectColorInfo associatedIndex="4" />
               </option>
               <frame x="0" y="0" width="1920" height="1080" fullScreen="true" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1737734687916" />
+              <option name="projectOpenTimestamp" value="1737795314781" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Development/book/simpledb/simpledb-java">
+          <value>
+            <RecentProjectMetaInfo frameTitle="simpledb-java" projectWorkspaceId="2s78x8pgJexRtvKbskIQN0SB3fs">
+              <option name="activationTimestamp" value="1741319872471" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-243.23654.153" />
+              <option name="buildTimestamp" value="1737636720000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="10" y="10" width="1900" height="1059" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1741319009514" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/Development/book/simpleDB" />
+    <option name="lastOpenedProject" value="$USER_HOME$/Development/book/simpledb/simpledb-java" />
+    <option name="lastProjectLocation" value="$USER_HOME$/Development/book/simpledb" />
   </component>
 </application>
