@@ -1351,7 +1351,6 @@
   "security.workspace.trust.untrustedFiles": "open",
   "hediet.vscode-drawio.resizeImages": null,
   "githubPullRequests.pullBranch": "never",
-  "backgroundCover.opacity": 0.1,
   "lldb.suppressUpdateNotifications": true,
   "makefile.configureOnOpen": true,
 }
