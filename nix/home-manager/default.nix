@@ -42,6 +42,7 @@ in {
       imagemagick
       jq
       jqp
+      just
       lazydocker
       lazygit
       lazysql
