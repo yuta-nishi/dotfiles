@@ -30,6 +30,7 @@ in {
       ffmpeg
       fzf
       gcc
+      gh
       ghq
       git
       glances
