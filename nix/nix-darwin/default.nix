@@ -41,6 +41,8 @@
       "appcleaner"
       "balenaetcher"
       "brave-browser"
+      "chatgpt"
+      "claude"
       "dbeaver-community"
       "deepl"
       "discord"
