@@ -8,6 +8,23 @@
   username = "yutanishi";
 in {
   nixpkgs = {
+    # https://github.com/NixOS/nixpkgs/issues/400373#issuecomment-2848616226
+    overlays = [
+      (final: prev: rec {
+        python312 = prev.python312.override {
+          packageOverrides = final: prev: {
+            mocket = prev.mocket.overridePythonAttrs (oldAttrs: rec {
+              disabledTests =
+                oldAttrs.disabledTests
+                ++ [
+                  "test_httprettish_httpx_session"
+                ];
+            });
+          };
+        };
+        python312Packages = python312.pkgs;
+      })
+    ];
     config = {
       allowUnfree = true;
     };
