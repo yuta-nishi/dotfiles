@@ -48,12 +48,7 @@ create_symlink "$HOME/dotfiles/.vscode/tasks.json" "$HOME/Library/Application Su
     create_symlink "$file_path" "$target_path"
 done
 
-create_symlink "$HOME/dotfiles/idea/keymaps/default.xml" "$HOME/Library/Application Support/JetBrains/IntelliJIdea2024.3/keymaps/default.xml"
-\find "$HOME/dotfiles/idea/options" -type f | while read -r file_path; do
-    relative_path="${file_path#"$HOME/dotfiles/idea/options/"}"
-    target_path="$HOME/Library/Application Support/JetBrains/IntelliJIdea2024.3/options/$relative_path"
-    create_symlink "$file_path" "$target_path"
-done
+create_symlink "$HOME/dotfiles/idea/keymaps/default.xml" "$HOME/Library/Application Support/JetBrains/IntelliJIdea2025.1/keymaps/default.xml"
 
 create_symlink "$HOME/dotfiles/lazygit/config.yml" "$HOME/Library/Application Support/lazygit/config.yml"
 
