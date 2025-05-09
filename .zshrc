@@ -83,6 +83,9 @@ alias dcp='docker compose ps'
 alias dce='docker compose exec'
 alias ld='lazydocker'
 
+# sql alias
+alias lq='lazysql'
+
 # safety alias
 alias cp='cp -i'
 alias mv='mv -i'
