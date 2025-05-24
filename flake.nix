@@ -1,8 +1,8 @@
 {
-  description = "A very basic flake";
+  description = "My package definition";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+    nixpkgs.url = "github:Nixos/nixpkgs?ref=nixos-unstable";
 
     home-manager = {
       url = "github:nix-community/home-manager";
@@ -10,7 +10,7 @@
     };
 
     nix-darwin = {
-      url = "github:LnL7/nix-darwin";
+      url = "github:nix-darwin/nix-darwin";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
