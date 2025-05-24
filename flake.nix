@@ -42,6 +42,34 @@
           ''
         );
       };
+
+      update-home = {
+        type = "app";
+        program = toString (
+          pkgs.writeShellScript "update-home-script" ''
+            set -e
+            echo "Updating flake..."
+            nix flake update
+            echo "Updating home-manager..."
+            home-manager switch --flake .#myHomeConfig
+            echo "Home-manager update complete!"
+          ''
+        );
+      };
+
+      update-darwin = {
+        type = "app";
+        program = toString (
+          pkgs.writeShellScript "update-darwin-script" ''
+            set -e
+            echo "Updating flake..."
+            nix flake update
+            echo "Updating nix-darwin..."
+            sudo nix run nix-darwin -- switch --flake .#myDarwinConfig
+            echo "Nix-darwin update complete!"
+          ''
+        );
+      };
     };
 
     homeConfigurations = {
