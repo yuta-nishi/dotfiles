@@ -37,7 +37,7 @@
             echo "Updating home-manager..."
             home-manager switch --flake .#myHomeConfig
             echo "Updating nix-darwin..."
-            nix run nix-darwin -- switch --flake .#myDarwinConfig
+            sudo nix run nix-darwin -- switch --flake .#myDarwinConfig
             echo "Update complete!"
           ''
         );

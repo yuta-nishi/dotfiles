@@ -16,6 +16,7 @@
   };
 
   system = {
+    primaryUser = "yutanishi";
     defaults = {
       NSGlobalDomain.AppleShowAllExtensions = true;
       finder = {
