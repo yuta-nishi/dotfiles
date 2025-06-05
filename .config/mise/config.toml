@@ -8,3 +8,6 @@ node = "22"           # LTS
 "npm:pnpm" = "latest"
 python = "3.11"       # LTS
 ruby = "latest"
+
+[settings]
+idiomatic_version_file_enable_tools = []
