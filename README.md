@@ -21,9 +21,8 @@ This is yutanishi's dotfiles repository.
 
 ### Package manager
 
-- [Nix](https://github.com/NixOS/nix): `flake.nix`, `nix/`, `.config/nix/`
+- [Homebrew](https://github.com/Homebrew/brew): `Brewfile`
 - [Mise](https://github.com/jdx/mise): `.config/mise/`
-- [Homebrew](https://github.com/Homebrew/brew)
 
 ### Editor
 
