@@ -1,6 +1,3 @@
-# reload
-alias reload='source ~/.zshrc'
-
 # homebrew setting
 if [[ ":$PATH:" != *":/opt/homebrew/bin:"* ]]; then
     export PATH="$PATH:/opt/homebrew/bin"
