@@ -1,12 +1,3 @@
-# homebrew setting
-if [[ ":$PATH:" != *":/opt/homebrew/bin:"* ]]; then
-    export PATH="$PATH:/opt/homebrew/bin"
-fi
-
-if [[ ":$PATH:" != *":/opt/homebrew/sbin:"* ]]; then
-    export PATH="$PATH:/opt/homebrew/sbin"
-fi
-
 # Initialize the completion system for uv
 # https://github.com/astral-sh/uv/issues/10707
 autoload -Uz compinit
