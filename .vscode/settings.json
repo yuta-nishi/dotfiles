@@ -228,6 +228,7 @@
     "gomarkdown",
     "googleapiclient",
     "googlenet",
+    "GOPATH",
     "Gosei",
     "gotools",
     "graphqlrc",
@@ -617,6 +618,7 @@
     "SHAP",
     "Shazam",
     "shellcheck",
+    "shellenv",
     "shfmt",
     "shibui",
     "showlegend",
@@ -791,6 +793,7 @@
     "wezterm",
     "wireshark",
     "workdir",
+    "workerd",
     "wunsch",
     "xaxis",
     "xelatex",
@@ -865,7 +868,7 @@
   /* NeoVim Settings */
   // neovim crashes when connecting, so use version 0.9.
   // see: https://github.com/vscode-neovim/vscode-neovim/issues/2184
-  "vscode-neovim.neovimExecutablePaths.darwin": "/Users/yutanishi/.local/share/mise/installs/neovim/0.9.5/bin/nvim",
+  "vscode-neovim.neovimExecutablePaths.darwin": "/Users/yutanishi/.local/share/mise/installs/neovim/latest/bin/nvim",
   "vscode-neovim.neovimInitVimPaths.darwin": "/Users/yutanishi/.config/nvim/init.lua",
   "vscode-neovim.compositeKeys": {
     "jk": {
