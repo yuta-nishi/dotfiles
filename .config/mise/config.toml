@@ -2,11 +2,10 @@
 bun = "latest"
 deno = "latest"
 go = "latest"
-java = "21"           # LTS
+java = "21"       # LTS
 neovim = "latest"
-node = "22"           # LTS
-"npm:pnpm" = "latest"
-python = "3.11"       # LTS
+node = "22"       # LTS
+python = "3.12"   # LTS
 ruby = "latest"
 
 [settings]
