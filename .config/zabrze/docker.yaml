@@ -15,6 +15,10 @@ abbrevs:
     abbr: de
     snippet: docker exec
 
+  - name: docker compose
+    abbr: dc
+    snippet: docker compose
+
   - name: docker compose build
     abbr: dcb
     snippet: docker compose build
