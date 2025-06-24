@@ -5,6 +5,7 @@
     "Ackermann",
     "acodec",
     "actix",
+    "adduser",
     "adpyke",
     "aeroplane",
     "allclose",
@@ -1135,12 +1136,13 @@
   "sql-formatter.uppercase": true,
   /* Docker Settings */
   "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker",
+    "editor.defaultFormatter": "ms-azuretools.vscode-containers",
   },
   "[dockercompose]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    "editor.defaultFormatter": "ms-azuretools.vscode-containers",
   },
-  "hadolint.hadolintPath": "/Users/yutanishi/.nix-profile/bin/hadolint",
+  "docker.extension.enableComposeLanguageServer": true,
+  "hadolint.hadolintPath": "/opt/homebrew/bin/hadolint",
   /* Markdown Settings */
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
@@ -1258,7 +1260,7 @@
     "editor.defaultFormatter": "kamadorueda.alejandra",
     "editor.tabSize": 2
   },
-  "alejandra.program": "/Users/yutanishi/.nix-profile/bin/alejandra",
+  "alejandra.program": "/opt/homebrew/bin/alejandra",
   /* Shell Script Settings */
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
