@@ -10,12 +10,6 @@ if [[ ":$PATH:" != *":$GOPATH/bin:"* ]]; then
     export PATH="$GOPATH/bin:$PATH"
 fi
 
-# nix setting
-export NIX_PATH="$HOME/.nix-profile"
-if [[ ":$PATH" != *":$NIX_PATH/bin:"* ]]; then
-    export PATH="$NIX_PATH/bin:$PATH"
-fi
-
 # ruby setting
 export RBENV_HOME="$HOME/.rbenv"
 if [[ ":$PATH:" != *":$RBENV_HOME/shims:"* ]]; then
