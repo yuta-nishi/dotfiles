@@ -95,6 +95,9 @@ alias rm='rm -i'
 # reload
 alias reload='source ~/.zshrc'
 
+# brew setting
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Initialize the completion system for uv
 # https://github.com/astral-sh/uv/issues/10707
 autoload -Uz compinit

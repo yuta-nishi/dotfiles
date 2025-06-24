@@ -1,6 +1,3 @@
-# brew setting
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
 # rust setting
 export RUST_PATH="$HOME/.cargo"
 if [[ ":$PATH" != *":$RUST_PATH/bin:"* ]]; then
