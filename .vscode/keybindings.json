@@ -31,26 +31,6 @@
     "command": "workbench.action.previousEditor",
     "when": "neovim.mode == normal && editorFocus"
   },
-  {
-    "key": "[ c",
-    "command": "workbench.action.navigateBack",
-    "when": "neovim.mode == normal && editorFocus"
-  },
-  {
-    "key": "] c",
-    "command": "workbench.action.navigateForward",
-    "when": "neovim.mode == normal && editorFocus"
-  },
-  {
-    "key": "[ e",
-    "command": "editor.action.marker.prev",
-    "when": "neovim.mode == normal && editorFocus"
-  },
-  {
-    "key": "] e",
-    "command": "editor.action.marker.next",
-    "when": "neovim.mode == normal && editorFocus"
-  },
   /* Switching between editor and terminal */
   {
     "key": "ctrl+;",
