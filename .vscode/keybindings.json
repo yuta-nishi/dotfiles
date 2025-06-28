@@ -79,5 +79,10 @@
     "key": "cmd+l",
     "command": "workbench.action.terminal.focusNextPane",
     "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "editor.action.sourceAction",
+    "when": "editorFocus"
   }
 ]
