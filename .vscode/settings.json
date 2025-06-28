@@ -1321,7 +1321,6 @@
   "gitlens.advanced.messages": {
     "suppressCommitNotFoundWarning": true
   },
-  "github.copilot.editor.enableAutoCompletions": true,
   "github.copilot.enable": {
     "quarto": false,
     "*": true
