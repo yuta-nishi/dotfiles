@@ -1265,9 +1265,6 @@
     "editor.tabSize": 2,
   },
   "evenBetterToml.formatter.columnWidth": 90,
-  "evenBetterToml.formatter.reorderKeys": true,
-  "evenBetterToml.formatter.reorderArrays": true,
-  "evenBetterToml.formatter.arrayAutoCollapse": false,
   "[nix]": {
     "editor.defaultFormatter": "kamadorueda.alejandra",
     "editor.tabSize": 2
