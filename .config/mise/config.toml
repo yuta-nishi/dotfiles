@@ -5,6 +5,8 @@ go = "latest"
 java = "21"       # LTS
 neovim = "latest"
 node = "22"       # LTS
+"npm:@antfu/ni" = "latest"
+"npm:pnpm" = "latest"
 python = "3.12"   # LTS
 ruby = "latest"
 
