@@ -19,6 +19,7 @@ create_symlink "$HOME/dotfiles/.vimrc" "$HOME/.vimrc"
 create_symlink "$HOME/dotfiles/.zprofile" "$HOME/.zprofile"
 create_symlink "$HOME/dotfiles/.zshenv" "$HOME/.zshenv"
 create_symlink "$HOME/dotfiles/.zshrc" "$HOME/.zshrc"
+create_symlink "$HOME/dotfiles/.default-npm-packages" "$HOME/.default-npm-packages"
 
 # Create symbolic links in the .config folder
 echo "Creating links in the .config folder..."
