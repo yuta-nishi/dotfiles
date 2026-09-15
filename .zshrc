@@ -195,7 +195,3 @@ bindkey '^U' backward-kill-line
 # bashcompinitはcompinitに依存するため、sheldon(compinit)より後に実行する必要がある
 # -d/-m/-p/-rは各遅延タスク後のchpwd/precmd/プロンプト/ZLE再描画を抑止する。
 zsh-defer -d -m -p -r -c 'autoload -U +X bashcompinit && bashcompinit && complete -o nospace -C /opt/homebrew/bin/terraform terraform'
-
-# TestContainers setting
-# 現在はTestContainersを使っていないため、Colima状態の確認を行わない。
-# zsh-defer -d -m -p -r -c 'TESTCONTAINERS_HOST_OVERRIDE=$(colima ls -j 2>/dev/null | jq -r ".address"); export TESTCONTAINERS_HOST_OVERRIDE'

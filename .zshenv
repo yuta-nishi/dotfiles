@@ -29,10 +29,3 @@ export PATH="$HOME/.local/bin:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
-
-# Docker / Colima setting
-export DOCKER_HOST="unix://$XDG_CONFIG_HOME/colima/default/docker.sock"
-export COLIMA_HOME="$XDG_CONFIG_HOME/colima"
-
-# TestContainers setting
-export TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock
