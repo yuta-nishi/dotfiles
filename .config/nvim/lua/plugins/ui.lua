@@ -1,86 +1,49 @@
+local function winbar_filename()
+  local ft = vim.bo.filetype
+  if ft == "neo-tree" or ft == "neo-tree-popup" then
+    return ""
+  end
+  local fname = vim.fn.expand("%:t")
+  if fname == "" then
+    return ""
+  end
+  -- 同名バッファが存在するか確認し、区別できる最短の相対パスを返す
+  for _, buf in ipairs(vim.api.nvim_list_bufs()) do
+    if vim.api.nvim_buf_is_loaded(buf) and vim.api.nvim_get_current_buf() ~= buf then
+      if vim.fn.fnamemodify(vim.api.nvim_buf_get_name(buf), ":t") == fname then
+        return vim.fn.expand("%:~:.")
+      end
+    end
+  end
+  return fname
+end
+
 return {
-  -- messages, cmdline and the popupmenu
   {
-    "folke/noice.nvim",
+    "catppuccin/nvim",
+    name = "catppuccin",
     opts = function(_, opts)
-      table.insert(opts.routes, {
-        filter = {
-          event = "notify",
-          find = "No information available",
-        },
-        opts = { skip = true },
-      })
-      local focused = true
-      vim.api.nvim_create_autocmd("FocusGained", {
-        callback = function()
-          focused = true
-        end,
-      })
-      vim.api.nvim_create_autocmd("FocusLost", {
-        callback = function()
-          focused = false
-        end,
-      })
-      table.insert(opts.routes, 1, {
-        filter = {
-          cond = function()
-            return not focused
-          end,
-        },
-        view = "notify_send",
-        opts = { stop = false },
-      })
+      local custom_highlights = opts.custom_highlights
 
-      opts.commands = {
-        all = {
-          -- options for the message history that you get with `:Noice`
-          view = "split",
-          opts = { enter = true, format = "details" },
-          filter = {},
-        },
-      }
-
-      vim.api.nvim_create_autocmd("FileType", {
-        pattern = "markdown",
-        callback = function(event)
-          vim.schedule(function()
-            require("noice.text.markdown").keys(event.buf)
-          end)
-        end,
-      })
-
-      opts.presets.lsp_doc_border = true
+      opts.custom_highlights = function(colors)
+        local highlights = type(custom_highlights) == "function"
+            and custom_highlights(colors)
+          or custom_highlights
+          or {}
+        highlights.GitSignsCurrentLineBlame = { fg = colors.overlay1, italic = true }
+        return highlights
+      end
     end,
   },
-
   {
-    "rcarriga/nvim-notify",
+    "nvim-lualine/lualine.nvim",
     opts = {
-      timeout = 5000,
-    },
-  },
-
-  -- animations
-  {
-    "echasnovski/mini.animate",
-    event = "VeryLazy",
-    opts = function(_, opts)
-      opts.scroll = {
-        enable = false,
-      }
-    end,
-  },
-
-  {
-    "folke/zen-mode.nvim",
-    cmd = "ZenMode",
-    opts = {
-      plugins = {
-        gitsigns = true,
-        tmux = true,
-        kitty = { enabled = false, font = "+2" },
+      winbar = {
+        lualine_c = { winbar_filename },
+      },
+      inactive_winbar = {
+        lualine_c = { winbar_filename },
       },
     },
-    keys = { { "<leader>z", "<cmd>ZenMode<cr>", desc = "Zen Mode" } },
   },
 }
