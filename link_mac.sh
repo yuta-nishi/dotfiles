@@ -23,7 +23,6 @@ create_symlink "$HOME/dotfiles/.default-npm-packages" "$HOME/.default-npm-packag
 
 # Create symbolic links in the .config folder
 echo "Creating links in the .config folder..."
-command mkdir -p "$HOME/.config/herdr/scripts"
 create_symlink "$HOME/dotfiles/.config/aerospace/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/bat/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/borders/" "$HOME/.config"
@@ -38,6 +37,7 @@ create_symlink "$HOME/dotfiles/.config/yazi/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/zabrze/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/herdr/config.toml" "$HOME/.config/herdr/config.toml"
 create_symlink "$HOME/dotfiles/.config/herdr/scripts/herdr-switch.sh" "$HOME/.config/herdr/scripts/herdr-switch.sh"
+create_symlink "$HOME/dotfiles/.config/hunk/config.toml" "$HOME/.config/hunk/config.toml"
 create_symlink "$HOME/dotfiles/.config/zed/keymap.json" "$HOME/.config/zed/keymap.json"
 create_symlink "$HOME/dotfiles/.config/zed/settings.json" "$HOME/.config/zed/settings.json"
 
