@@ -38,6 +38,12 @@ create_symlink "$HOME/dotfiles/.config/zabrze/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/herdr/config.toml" "$HOME/.config/herdr/config.toml"
 create_symlink "$HOME/dotfiles/.config/herdr/scripts/herdr-switch.sh" "$HOME/.config/herdr/scripts/herdr-switch.sh"
 create_symlink "$HOME/dotfiles/.config/hunk/config.toml" "$HOME/.config/hunk/config.toml"
+create_symlink "$HOME/dotfiles/.config/harper-ls/dictionary.txt" "$HOME/.config/harper-ls/dictionary.txt"
+create_symlink "$HOME/dotfiles/.config/jj/config.toml" "$HOME/.config/jj/config.toml"
+create_symlink "$HOME/dotfiles/.config/k9s/config.yaml" "$HOME/.config/k9s/config.yaml"
+create_symlink "$HOME/dotfiles/.config/k9s/aliases.yaml" "$HOME/.config/k9s/aliases.yaml"
+create_symlink "$HOME/dotfiles/.config/k9s/skins/catppuccin-mocha.yaml" "$HOME/.config/k9s/skins/catppuccin-mocha.yaml"
+create_symlink "$HOME/dotfiles/.config/rumdl/rumdl.toml" "$HOME/.config/rumdl/rumdl.toml"
 create_symlink "$HOME/dotfiles/.config/zed/keymap.json" "$HOME/.config/zed/keymap.json"
 create_symlink "$HOME/dotfiles/.config/zed/settings.json" "$HOME/.config/zed/settings.json"
 
@@ -56,5 +62,6 @@ done
 create_symlink "$HOME/dotfiles/idea/keymaps/default.xml" "$HOME/Library/Application Support/JetBrains/IntelliJIdea2025.1/keymaps/default.xml"
 
 create_symlink "$HOME/dotfiles/lazygit/config.yml" "$HOME/Library/Application Support/lazygit/config.yml"
+create_symlink "$HOME/dotfiles/.docker/daemon.json" "$HOME/.docker/daemon.json"
 
 echo "All symbolic links have been created successfully."
