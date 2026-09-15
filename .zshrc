@@ -88,13 +88,13 @@ alias rm='rm -i'
 # reload
 alias reload='source ~/.zshrc'
 
-# 初期化コマンドの出力を保存する場所。
-# キャッシュ本体と同名の.zwcを置くと、source時にzshがバイトコンパイル済みのものを利用する。
+# Directory for storing initialization command output.
+# When a .zwc file with the same name as the cache exists, zsh uses the byte-compiled file when sourcing it.
 typeset -g ZSH_STARTUP_CACHE_DIR="${ZSH_STARTUP_CACHE_DIR:-${XDG_CACHE_HOME:-$HOME/.cache}/zsh-startup}"
 
-# zsh コードを出力する初期化コマンドをキャッシュして読み込む。
-# 使い方: zsh-cache-eval <キャッシュ名> <依存ファイル...> -- <コマンド> [引数...]
-# 依存ファイルがキャッシュより新しい場合だけコマンドを再実行する。
+# Cache and load initialization commands that output zsh code.
+# Usage: zsh-cache-eval <cache-name> <dependency-file...> -- <command> [arguments...]
+# Re-run the command only when a dependency is newer than the cache.
 function zsh-cache-eval() {
   local cache_name="$1"
   shift
@@ -122,7 +122,7 @@ function zsh-cache-eval() {
   fi
 
   if ((cache_stale)); then
-    # キャッシュを作れない環境でも、従来どおり初期化してシェル起動を失敗させない。
+    # Fall back to the original initialization if the cache cannot be created.
     command mkdir -p "$ZSH_STARTUP_CACHE_DIR" || {
       eval "$("$@")"
       return
@@ -167,16 +167,9 @@ function worktree() {
   fi
 }
 
-# sheldon setting
-zsh-cache-eval sheldon \
-  /opt/homebrew/bin/sheldon \
-  "$HOME/.config/sheldon/plugins.toml" \
-  "${SHELDON_DATA_DIR:-$HOME/.local/share/sheldon}/plugins.lock" \
-  -- sheldon source
-
-# 補完システムの初期化。
-# sheldon(fpathへ補完関数を追加)より後、bashcompinit(compinitに依存)より前に呼ぶ必要がある。
-# compinitは毎回fpath全体を検査するcompauditが遅いため、zcompdumpが1日以内に更新されていれば検査を省略(-C)する。
+# Initialize the completion system.
+# Initialize it before sheldon because sheldon's completion code uses compdef.
+# compinit's compaudit scans the entire fpath, so skip the audit (-C) when zcompdump is less than a day old.
 autoload -Uz compinit
 zcompdump="$ZSH_STARTUP_CACHE_DIR/zcompdump"
 command mkdir -p "$ZSH_STARTUP_CACHE_DIR"
@@ -187,11 +180,18 @@ else
 fi
 unset zcompdump
 
-# Ghosttyのsuper+backspaceはデフォルトで^Uを送る。
-# zshでは^Uが全行削除なので、カーソルから行頭までの削除に差し替える。
+# sheldon setting
+zsh-cache-eval sheldon \
+  /opt/homebrew/bin/sheldon \
+  "$HOME/.config/sheldon/plugins.toml" \
+  "${SHELDON_DATA_DIR:-$HOME/.local/share/sheldon}/plugins.lock" \
+  -- sheldon source
+
+# Ghostty sends ^U for super+backspace by default.
+# In zsh, ^U deletes the entire line, so remap it to delete from the cursor to the beginning of the line.
 bindkey '^U' backward-kill-line
 
 # terraform setting
-# bashcompinitはcompinitに依存するため、sheldon(compinit)より後に実行する必要がある
-# -d/-m/-p/-rは各遅延タスク後のchpwd/precmd/プロンプト/ZLE再描画を抑止する。
+# bashcompinit depends on compinit, so it must run after sheldon (and compinit).
+# -d/-m/-p/-r suppress chpwd/precmd/prompt/ZLE redraws after each deferred task.
 zsh-defer -d -m -p -r -c 'autoload -U +X bashcompinit && bashcompinit && complete -o nospace -C /opt/homebrew/bin/terraform terraform'
