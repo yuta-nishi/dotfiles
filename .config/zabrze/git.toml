@@ -1,0 +1,104 @@
+[[snippets]]
+name = "git"
+trigger = "g"
+snippet = "git"
+
+[[snippets]]
+name = "git add"
+trigger = "ga"
+snippet = "git add"
+
+[[snippets]]
+name = "git branch"
+trigger = "gb"
+snippet = "git branch"
+
+[[snippets]]
+name = "git commit"
+trigger = "gc"
+snippet = "git commit"
+
+[[snippets]]
+name = "git diff"
+trigger = "gd"
+snippet = "git diff"
+
+[[snippets]]
+name = "git log"
+trigger = "gl"
+snippet = "git log"
+
+[[snippets]]
+name = "git merge"
+trigger = "gm"
+snippet = "git merge"
+
+[[snippets]]
+name = "git push"
+trigger = "gp"
+snippet = "git push"
+
+[[snippets]]
+name = "git restore"
+trigger = "gr"
+snippet = "git restore"
+
+[[snippets]]
+name = "git status"
+trigger = "gs"
+snippet = "git status"
+
+[[snippets]]
+name = "git tag"
+trigger = "gt"
+snippet = "git tag"
+
+[[snippets]]
+name = "git clone"
+trigger = "gcl"
+snippet = "git clone"
+
+[[snippets]]
+name = "git czg"
+trigger = "gcz"
+snippet = "git czg"
+
+[[snippets]]
+name = "git pull"
+trigger = "gpl"
+snippet = "git pull"
+
+[[snippets]]
+name = "git rebase"
+trigger = "grb"
+snippet = "git rebase"
+
+[[snippets]]
+name = "git remote"
+trigger = "grm"
+snippet = "git remote"
+
+[[snippets]]
+name = "git reset"
+trigger = "grs"
+snippet = "git reset"
+
+[[snippets]]
+name = "git show"
+trigger = "gsh"
+snippet = "git show"
+
+[[snippets]]
+name = "git stash"
+trigger = "gst"
+snippet = "git stash"
+
+[[snippets]]
+name = "git switch"
+trigger = "gsw"
+snippet = "git switch"
+
+[[snippets]]
+name = "lazygit"
+trigger = "lg"
+snippet = "lazygit"

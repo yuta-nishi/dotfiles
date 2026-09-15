@@ -1,0 +1,54 @@
+[[snippets]]
+name = "jj"
+trigger = "j"
+snippet = "jj"
+
+[[snippets]]
+name = "jj diff"
+trigger = "jd"
+snippet = "jj diff"
+
+[[snippets]]
+name = "jj git"
+trigger = "jg"
+snippet = "jj git"
+
+[[snippets]]
+name = "jj git fetch"
+trigger = "jgf"
+snippet = "jj git fetch"
+
+[[snippets]]
+name = "jj git init"
+trigger = "jgi"
+snippet = "jj git init"
+
+[[snippets]]
+name = "jj git push"
+trigger = "jgp"
+snippet = "jj git push"
+
+[[snippets]]
+name = "jj log"
+trigger = "jl"
+snippet = "jj log"
+
+[[snippets]]
+name = "jj new"
+trigger = "jn"
+snippet = "jj new"
+
+[[snippets]]
+name = "jj status"
+trigger = "js"
+snippet = "jj status"
+
+[[snippets]]
+name = "jj split"
+trigger = "jsp"
+snippet = "jj split"
+
+[[snippets]]
+name = "lazyjj"
+trigger = "lj"
+snippet = "lazyjj"

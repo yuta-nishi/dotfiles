@@ -1,0 +1,97 @@
+[[snippets]]
+name = "bat"
+trigger = "cat"
+snippet = "bat"
+if = "(( ${+commands[bat]} ))"
+
+[[snippets]]
+name = "eza --icons --git"
+trigger = "ls"
+snippet = "eza --icons --git"
+if = "(( ${+commands[eza]} ))"
+
+[[snippets]]
+name = "ls -GF"
+trigger = "ls"
+snippet = "ls -GF"
+if = "(( ! ${+commands[eza]} ))"
+
+[[snippets]]
+name = "eza --icons --git -l -h"
+trigger = "ll"
+snippet = "eza --icons --git -l -h"
+if = "(( ${+commands[eza]} ))"
+
+[[snippets]]
+name = "ls -GF -lh"
+trigger = "ll"
+snippet = "ls -GF -lh"
+if = "(( ! ${+commands[eza]} ))"
+
+[[snippets]]
+name = "eza --icons --git -a"
+trigger = "la"
+snippet = "eza --icons --git -a"
+if = "(( ${+commands[eza]} ))"
+
+[[snippets]]
+name = "ls -GF -a"
+trigger = "la"
+snippet = "ls -GF -a"
+if = "(( ! ${+commands[eza]} ))"
+
+[[snippets]]
+name = "rg --hidden --glob '!.git'"
+trigger = "grep"
+snippet = "rg --hidden --glob '!.git'"
+if = "(( ${+commands[rg]} ))"
+
+[[snippets]]
+name = "fd"
+trigger = "find"
+snippet = "fd"
+if = "(( ${+commands[fd]} ))"
+
+[[snippets]]
+name = "delta"
+trigger = "diff"
+snippet = "delta"
+if = "(( ${+commands[delta]} ))"
+
+[[snippets]]
+name = "micromamba"
+trigger = "conda"
+snippet = "micromamba"
+if = "(( ${+commands[micromamba]} ))"
+
+[[snippets]]
+name = "nvim"
+trigger = "vim"
+snippet = "nvim"
+if = "(( ${+commands[nvim]} ))"
+
+[[snippets]]
+name = "nvim"
+trigger = "vi"
+snippet = "nvim"
+if = "(( ${+commands[nvim]} ))"
+
+[[snippets]]
+name = "source ~/.zshrc"
+trigger = "reload"
+snippet = "source ~/.zshrc"
+
+[[snippets]]
+name = "rm -i"
+trigger = "rm"
+snippet = "rm -i"
+
+[[snippets]]
+name = "cp -i"
+trigger = "cp"
+snippet = "cp -i"
+
+[[snippets]]
+name = "mv -i"
+trigger = "mv"
+snippet = "mv -i"

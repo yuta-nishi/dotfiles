@@ -1,0 +1,64 @@
+[[snippets]]
+name = "docker"
+trigger = "d"
+snippet = "docker"
+
+[[snippets]]
+name = "docker ps"
+trigger = "dp"
+snippet = "docker ps"
+
+[[snippets]]
+name = "docker images"
+trigger = "di"
+snippet = "docker images"
+
+[[snippets]]
+name = "docker exec"
+trigger = "de"
+snippet = "docker exec"
+
+[[snippets]]
+name = "docker compose"
+trigger = "dc"
+snippet = "docker compose"
+
+[[snippets]]
+name = "docker compose build"
+trigger = "dcb"
+snippet = "docker compose build"
+
+[[snippets]]
+name = "docker compose stop"
+trigger = "dcs"
+snippet = "docker compose stop"
+
+[[snippets]]
+name = "docker compose up"
+trigger = "dcu"
+snippet = "docker compose up"
+
+[[snippets]]
+name = "docker compose down"
+trigger = "dcd"
+snippet = "docker compose down"
+
+[[snippets]]
+name = "docker compose logs"
+trigger = "dcl"
+snippet = "docker compose logs"
+
+[[snippets]]
+name = "docker compose ps"
+trigger = "dcp"
+snippet = "docker compose ps"
+
+[[snippets]]
+name = "docker compose exec"
+trigger = "dce"
+snippet = "docker compose exec"
+
+[[snippets]]
+name = "lazydocker"
+trigger = "ld"
+snippet = "lazydocker"

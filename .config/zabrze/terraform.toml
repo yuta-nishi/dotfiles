@@ -1,0 +1,29 @@
+[[snippets]]
+name = "terraform"
+trigger = "t"
+snippet = "terraform"
+
+[[snippets]]
+name = "terraform apply"
+trigger = "ta"
+snippet = "terraform apply"
+
+[[snippets]]
+name = "terraform destroy"
+trigger = "td"
+snippet = "terraform destroy"
+
+[[snippets]]
+name = "terraform fmt"
+trigger = "tf"
+snippet = "terraform fmt"
+
+[[snippets]]
+name = "terraform plan"
+trigger = "tp"
+snippet = "terraform plan"
+
+[[snippets]]
+name = "terraform validate"
+trigger = "tv"
+snippet = "terraform validate"

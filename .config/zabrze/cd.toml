@@ -1,0 +1,19 @@
+[[snippets]]
+name = "cd .."
+trigger = ".."
+snippet = "cd .."
+
+[[snippets]]
+name = "cd ../.."
+trigger = "..."
+snippet = "cd ../.."
+
+[[snippets]]
+name = "cd ../../.."
+trigger = "...."
+snippet = "cd ../../.."
+
+[[snippets]]
+name = "cd ../../../.."
+trigger = "....."
+snippet = "cd ../../../.."

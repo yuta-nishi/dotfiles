@@ -1,0 +1,4 @@
+[[snippets]]
+name = "lazysql"
+trigger = "lq"
+snippet = "lazysql"

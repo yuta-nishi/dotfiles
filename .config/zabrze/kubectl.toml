@@ -1,0 +1,29 @@
+[[snippets]]
+name = "kubectl"
+trigger = "k"
+snippet = "kubectl"
+
+[[snippets]]
+name = "kubectl apply -f"
+trigger = "ka"
+snippet = "kubectl apply -f"
+
+[[snippets]]
+name = "kubectl create"
+trigger = "kc"
+snippet = "kubectl create"
+
+[[snippets]]
+name = "kubectl exec -it"
+trigger = "ke"
+snippet = "kubectl exec -it"
+
+[[snippets]]
+name = "kubectl delete -f"
+trigger = "kd"
+snippet = "kubectl delete -f"
+
+[[snippets]]
+name = "kubectl get"
+trigger = "kg"
+snippet = "kubectl get"
