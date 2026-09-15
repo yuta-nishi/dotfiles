@@ -1,0 +1,37 @@
+name: catppuccin-mocha
+description: Catppuccin Mocha — soothing pastel colors on a dark base
+
+colors:
+  background: "#1e1e2e"
+
+  ui_accent: "#cba6f7"
+  banner_accent: "#cba6f7"
+
+  banner_title: "#89b4fa"
+  banner_text: "#cdd6f4"
+  ui_text: "#cdd6f4"
+  banner_dim: "#9399b2"
+  banner_border: "#45475a"
+  ui_border: "#45475a"
+
+  ui_ok: "#a6e3a1"
+  ui_warn: "#f9e2af"
+  ui_error: "#f38ba8"
+
+  prompt: "#cba6f7"
+  input_rule: "#cba6f7"
+  response_border: "#89dceb"
+  status_bar_bg: "#181825"
+  status_bar_text: "#cdd6f4"
+  status_bar_good: "#a6e3a1"
+  status_bar_warn: "#f9e2af"
+  status_bar_critical: "#f38ba8"
+  session_label: "#89b4fa"
+  session_border: "#45475a"
+
+branding:
+  agent_name: Hermes Agent
+  prompt_symbol: "❯"
+  help_header: "(^_^)? Commands"
+
+tool_prefix: "┊"

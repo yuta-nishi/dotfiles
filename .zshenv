@@ -29,3 +29,15 @@ export PATH="$HOME/.local/bin:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
+export PI_CODING_AGENT_DIR="$XDG_CONFIG_HOME/pi/agent"
+
+# TODO: Migrate the shared API credential to the OS keychain.
+# Share the Hermes OpenCode Go credential with clients that use pi's name.
+if [[ -f "$HOME/.hermes/.env" ]]; then
+  set -a
+  source "$HOME/.hermes/.env"
+  set +a
+fi
+if [[ -n "${OPENCODE_GO_API_KEY:-}" && -z "${OPENCODE_API_KEY:-}" ]]; then
+  export OPENCODE_API_KEY="$OPENCODE_GO_API_KEY"
+fi

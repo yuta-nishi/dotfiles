@@ -1,0 +1,13 @@
+model:
+  default: gpt-5.6-luna
+  provider: opencode-go
+  base_url: https://opencode.ai/zen/go/v1
+  api_mode: chat_completions
+agent:
+  reasoning_effort: medium
+_config_version: 44
+display:
+  skin: catppuccin-mocha
+onboarding:
+  seen:
+    tool_progress_prompt: true
