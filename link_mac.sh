@@ -54,3 +54,6 @@ create_symlink "$HOME/dotfiles/idea/keymaps/default.xml" "$HOME/Library/Applicat
 create_symlink "$HOME/dotfiles/lazygit/config.yml" "$HOME/Library/Application Support/lazygit/config.yml"
 
 echo "All symbolic links have been created successfully."
+command mkdir -p "$HOME/.config/herdr/scripts"
+create_symlink "$HOME/dotfiles/.config/herdr/config.toml" "$HOME/.config/herdr/config.toml"
+create_symlink "$HOME/dotfiles/.config/herdr/scripts/herdr-switch.sh" "$HOME/.config/herdr/scripts/herdr-switch.sh"
