@@ -1,11 +1,11 @@
 #!/bin/bash
 
 create_symlink() {
-    if ln -fs "$1" "$2"; then
-        echo "Linked: $2 -> $1"
-    else
-        echo "Failed to link: $2 -> $1"
-    fi
+  if ln -fs "$1" "$2"; then
+    echo "Linked: $2 -> $1"
+  else
+    echo "Failed to link: $2 -> $1"
+  fi
 }
 
 # Create symbolic links in the home folder
@@ -23,6 +23,7 @@ create_symlink "$HOME/dotfiles/.default-npm-packages" "$HOME/.default-npm-packag
 
 # Create symbolic links in the .config folder
 echo "Creating links in the .config folder..."
+command mkdir -p "$HOME/.config/herdr/scripts"
 create_symlink "$HOME/dotfiles/.config/aerospace/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/bat/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/borders/" "$HOME/.config"
@@ -35,18 +36,21 @@ create_symlink "$HOME/dotfiles/.config/starship.toml" "$HOME/.config/starship.to
 create_symlink "$HOME/dotfiles/.config/wezterm/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/yazi/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/zabrze/" "$HOME/.config"
+create_symlink "$HOME/dotfiles/.config/herdr/config.toml" "$HOME/.config/herdr/config.toml"
+create_symlink "$HOME/dotfiles/.config/herdr/scripts/herdr-switch.sh" "$HOME/.config/herdr/scripts/herdr-switch.sh"
 create_symlink "$HOME/dotfiles/.config/zed/keymap.json" "$HOME/.config/zed/keymap.json"
 create_symlink "$HOME/dotfiles/.config/zed/settings.json" "$HOME/.config/zed/settings.json"
 
 # Create symbolic links in the Application Support folder
 echo "Creating links in the Application Support folder..."
+create_symlink "$HOME/dotfiles/.config/ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config.ghostty"
 create_symlink "$HOME/dotfiles/.vscode/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
 create_symlink "$HOME/dotfiles/.vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
 create_symlink "$HOME/dotfiles/.vscode/tasks.json" "$HOME/Library/Application Support/Code/User/tasks.json"
 \find "$HOME/dotfiles/.vscode/snippets" -type f | while read -r file_path; do
-    relative_path="${file_path#"$HOME/dotfiles/.vscode/snippets/"}"
-    target_path="$HOME/Library/Application Support/Code/User/snippets/$relative_path"
-    create_symlink "$file_path" "$target_path"
+  relative_path="${file_path#"$HOME/dotfiles/.vscode/snippets/"}"
+  target_path="$HOME/Library/Application Support/Code/User/snippets/$relative_path"
+  create_symlink "$file_path" "$target_path"
 done
 
 create_symlink "$HOME/dotfiles/idea/keymaps/default.xml" "$HOME/Library/Application Support/JetBrains/IntelliJIdea2025.1/keymaps/default.xml"
@@ -54,7 +58,3 @@ create_symlink "$HOME/dotfiles/idea/keymaps/default.xml" "$HOME/Library/Applicat
 create_symlink "$HOME/dotfiles/lazygit/config.yml" "$HOME/Library/Application Support/lazygit/config.yml"
 
 echo "All symbolic links have been created successfully."
-command mkdir -p "$HOME/.config/herdr/scripts"
-create_symlink "$HOME/dotfiles/.config/herdr/config.toml" "$HOME/.config/herdr/config.toml"
-create_symlink "$HOME/dotfiles/.config/herdr/scripts/herdr-switch.sh" "$HOME/.config/herdr/scripts/herdr-switch.sh"
-create_symlink "$HOME/dotfiles/.config/ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config.ghostty"
