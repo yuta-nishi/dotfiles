@@ -56,14 +56,6 @@ create_symlink "$HOME/dotfiles/.config/zed/settings.json" "$HOME/.config/zed/set
 # Create symbolic links in the Application Support folder
 echo "Creating links in the Application Support folder..."
 create_symlink "$HOME/dotfiles/.config/ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config.ghostty"
-create_symlink "$HOME/dotfiles/.vscode/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
-create_symlink "$HOME/dotfiles/.vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
-create_symlink "$HOME/dotfiles/.vscode/tasks.json" "$HOME/Library/Application Support/Code/User/tasks.json"
-\find "$HOME/dotfiles/.vscode/snippets" -type f | while read -r file_path; do
-  relative_path="${file_path#"$HOME/dotfiles/.vscode/snippets/"}"
-  target_path="$HOME/Library/Application Support/Code/User/snippets/$relative_path"
-  create_symlink "$file_path" "$target_path"
-done
 
 create_symlink "$HOME/dotfiles/idea/keymaps/default.xml" "$HOME/Library/Application Support/JetBrains/IntelliJIdea2025.1/keymaps/default.xml"
 
