@@ -38,7 +38,6 @@ create_symlink "$HOME/dotfiles/.config/pi/agent/settings.json" "$HOME/.config/pi
 create_symlink "$HOME/dotfiles/.config/pi/agent/catppuccin-mocha.json" "$HOME/.config/pi/agent/catppuccin-mocha.json"
 create_symlink "$HOME/dotfiles/.config/sheldon/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/starship.toml" "$HOME/.config/starship.toml"
-create_symlink "$HOME/dotfiles/.config/wezterm/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/yazi/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/zabrze/" "$HOME/.config"
 create_symlink "$HOME/dotfiles/.config/herdr/config.toml" "$HOME/.config/herdr/config.toml"
