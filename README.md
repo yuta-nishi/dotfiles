@@ -32,6 +32,7 @@ Links are created with `ln -fs`, so existing files are overwritten and the scrip
 - `.vscode/` — [VS Code](https://github.com/microsoft/vscode)
 - `.config/zed/` — [Zed](https://github.com/zed-industries/zed)
 - `.ideavimrc`, `idea/keymaps/` — [IntelliJ IDEA](https://github.com/JetBrains/intellij-community)
+- `datagrip/keymaps/` — [DataGrip](https://www.jetbrains.com/datagrip/)
 
 ### Terminal
 

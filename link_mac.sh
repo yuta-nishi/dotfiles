@@ -57,6 +57,7 @@ echo "Creating links in the Application Support folder..."
 create_symlink "$HOME/dotfiles/.config/ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config.ghostty"
 
 create_symlink "$HOME/dotfiles/idea/keymaps/default.xml" "$HOME/Library/Application Support/JetBrains/IntelliJIdea2025.1/keymaps/default.xml"
+create_symlink "$HOME/dotfiles/datagrip/keymaps/default.xml" "$HOME/Library/Application Support/JetBrains/DataGrip2026.2/keymaps/default.xml"
 
 create_symlink "$HOME/dotfiles/lazygit/config.yml" "$HOME/Library/Application Support/lazygit/config.yml"
 create_symlink "$HOME/dotfiles/.docker/daemon.json" "$HOME/.docker/daemon.json"
