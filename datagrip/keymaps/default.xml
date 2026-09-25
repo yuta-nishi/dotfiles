@@ -1,16 +1,9 @@
-<keymap version="1" name="default" parent="VSCode OSX">
+<keymap version="1" name="default" parent="Mac OS X 10.5+">
   <action id="BraceOrQuoteOut" />
-  <action id="CodeFloatingToolbar.GotoNextMenu" />
-  <action id="CodeFloatingToolbar.GotoPrevMenu" />
-  <action id="Diff.FocusOppositePane" />
   <action id="EditorChooseLookupItemReplace" />
   <action id="EditorIndentSelection" />
   <action id="EditorTab" />
-  <action id="EditorUnindentSelection">
-    <keyboard-shortcut first-keystroke="meta open_bracket" />
-  </action>
   <action id="ExpandLiveTemplateByTab" />
-  <action id="InsertInlineCompletionAction" />
   <action id="NextParameter" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl tab" />
@@ -26,12 +19,5 @@
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="PreviousTemplateVariable" />
-  <action id="SearchEverywhere.CompleteCommand" />
-  <action id="SearchEverywhere.NextTab" />
-  <action id="SearchEverywhere.PrevTab" />
-  <action id="SplitChooser.NextWindow" />
-  <action id="SplitChooser.PreviousWindow" />
   <action id="Switcher" />
-  <action id="Tab" />
-  <action id="Terminal.CommandCompletion" />
 </keymap>
