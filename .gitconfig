@@ -10,7 +10,7 @@ pager = delta
 diffFilter = delta --color-only
 
 [include]
-path = ~/dotfiles/catppuccin.gitconfig
+path = ~/ghq/github.com/yuta-nishi/dotfiles/catppuccin.gitconfig
 
 [delta]
 features = catppuccin-mocha

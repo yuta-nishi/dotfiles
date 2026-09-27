@@ -4,11 +4,9 @@ Personal dotfiles for macOS, wired up with plain symlinks instead of chezmoi.
 
 ## Usage
 
-Clone into `~/dotfiles`, then run the script.
-
 ```bash
-git clone git@github.com:yuta-nishi/dotfiles.git ~/dotfiles
-cd ~/dotfiles
+ghq get yuta-nishi/dotfiles
+cd "$(ghq root)/github.com/yuta-nishi/dotfiles"
 ./link_mac.sh
 ```
 
