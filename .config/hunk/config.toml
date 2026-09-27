@@ -1,1 +1,32 @@
+# Hunk settings: https://hunk.dev/docs/reference/config/
 theme = "catppuccin-mocha"
+
+# Layout
+mode = "auto"
+sidebar = "auto"     # show the files pane when it fits
+cursor_line = "row"
+line_numbers = true
+wrap_lines = false
+hunk_headers = true
+file_gap = 1         # rows between files, including the ─ rule
+hunk_gap = 0         # blank rows before later hunks in a file
+tab_width = 4
+color_moved = true   # color moved lines
+
+# Chrome
+menu_bar = true
+animations = true
+transparent_background = false      # let the terminal background show through
+copy_decorations = false
+prompt_save_view_preferences = true # ask before discarding view changes
+
+# Agents
+agent_notes = false
+watch = false             # reload the review when the underlying diff input changes
+exclude_untracked = false
+
+# Trimmed-down chrome when used as a pager
+[pager]
+line_numbers = true
+menu_bar = false
+sidebar = false
