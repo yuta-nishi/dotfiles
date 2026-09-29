@@ -469,7 +469,6 @@
   "vscode-kubernetes.kubectl-path": "/opt/homebrew/bin/kubectl",
   "vscode-kubernetes.helm-path": "/opt/homebrew/bin/helm",
   "extensions.ignoreRecommendations": true,
-  "claudeCode.useTerminal": true,
   "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.suggest.enabled": false,
   "chat.mcp.gallery.enabled": true,
