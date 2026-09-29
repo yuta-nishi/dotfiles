@@ -1,0 +1,47 @@
+model_provider = "opencode-go"
+model = "gpt-6-luna"
+model_reasoning_effort = "medium"
+
+[hooks.state]
+
+[hooks.state."/Users/yutanishi/.codex/hooks.json:pre_tool_use:0:0"]
+trusted_hash = "sha256:320d3930d8b6abdce2538ba572b6f549c33d697f235c250e7404a74c382af047"
+
+[hooks.state."/Users/yutanishi/.codex/hooks.json:permission_request:0:0"]
+trusted_hash = "sha256:768d7996f5f05505a001c399d872b41312f63dacfe613b1471caa1b952b6d373"
+
+[hooks.state."/Users/yutanishi/.codex/hooks.json:post_tool_use:0:0"]
+trusted_hash = "sha256:01d5493cbfe3b64f1b8ff9c90f9629d9ce8ac8812e28fb36aecfab64fcc70735"
+
+[hooks.state."/Users/yutanishi/.codex/hooks.json:session_start:0:0"]
+trusted_hash = "sha256:2a494908cf2901d392263f0f33d4ce5a2d0c5f0c95886472472e421bd71729f0"
+
+[hooks.state."/Users/yutanishi/.codex/hooks.json:user_prompt_submit:0:0"]
+trusted_hash = "sha256:4fd1b8c77e8d29e26ab9f4bf6ff7e445015f482500f0033d29af5243b912f378"
+
+[hooks.state."/Users/yutanishi/.codex/hooks.json:subagent_start:0:0"]
+trusted_hash = "sha256:27ad4d7ac1d712d3b419379594510684206ceee578f7e472c7608f5724d40038"
+
+[hooks.state."/Users/yutanishi/.codex/hooks.json:subagent_stop:0:0"]
+trusted_hash = "sha256:349719de6c84ce94fdcf09002a6dcdac5367140d286e78127eb91d6cde1e0732"
+
+[hooks.state."/Users/yutanishi/.codex/hooks.json:stop:0:0"]
+trusted_hash = "sha256:7b142b354b85c5c40492dab740926ac51a6b16315bfb6ee93059678b43635d81"
+
+[tui]
+screen_reader_detection_done = true
+
+[model_providers.opencode-go]
+name = "OpenCode Go"
+base_url = "https://opencode.ai/zen/go/v1"
+wire_api = "responses"
+
+[model_providers.opencode-go.auth]
+command = "/usr/bin/security"
+args = ["find-generic-password", "-s", "opencode-go-api-key", "-w"]
+
+[projects."/Users/yutanishi/ghq/github.com/yuta-nishi/dotfiles"]
+trust_level = "trusted"
+
+[notice.model_migrations]
+"gpt-5.6-luna" = "gpt-6-luna"
