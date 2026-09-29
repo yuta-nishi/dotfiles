@@ -38,6 +38,8 @@ create_symlink "$DOTFILES/.config/opencode/opencode.jsonc" "$HOME/.config/openco
 create_symlink "$DOTFILES/.config/opencode/tui.json" "$HOME/.config/opencode/tui.json"
 create_symlink "$DOTFILES/.config/pi/agent/settings.json" "$HOME/.config/pi/agent/settings.json"
 create_symlink "$DOTFILES/.config/pi/agent/models.json" "$HOME/.config/pi/agent/models.json"
+create_symlink "$DOTFILES/.config/pi/agent/models.yml" "$HOME/.config/pi/agent/models.yml"
+create_symlink "$DOTFILES/.config/pi/agent/config.yml" "$HOME/.config/pi/agent/config.yml"
 create_symlink "$DOTFILES/.codex/config.toml" "$HOME/.codex/config.toml"
 create_symlink "$DOTFILES/.config/pi/agent/catppuccin-mocha.json" "$HOME/.config/pi/agent/catppuccin-mocha.json"
 create_symlink "$DOTFILES/.config/sheldon/" "$HOME/.config"
