@@ -29,10 +29,7 @@ export PATH="$HOME/.local/bin:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
-export PI_CODING_AGENT_DIR="$XDG_CONFIG_HOME/pi/agent"
 
-# OpenCode Go credential for hermes; pi and codex read the macOS keychain
-# directly from their own config files.
 if [[ -z "${OPENCODE_GO_API_KEY:-}" ]]; then
   OPENCODE_GO_API_KEY="$(security find-generic-password -s opencode-go-api-key -w 2>/dev/null)" && export OPENCODE_GO_API_KEY
 fi

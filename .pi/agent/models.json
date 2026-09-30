@@ -1,0 +1,7 @@
+{
+  "providers": {
+    "opencode-go": {
+      "apiKey": "!security find-generic-password -s opencode-go-api-key -w"
+    }
+  }
+}

@@ -57,7 +57,8 @@ Links are created with `ln -fs`, so existing files are overwritten and the scrip
 
 ### AI coding agents
 
-- `.config/pi/agent/` — [pi](https://github.com/earendil-works/pi), [oh-my-pi](https://github.com/can1357/oh-my-pi)
+- `.omp/agent/` — [oh-my-pi](https://github.com/can1357/oh-my-pi)
+- `.pi/agent/` — [pi](https://github.com/earendil-works/pi)
 - `.config/opencode/` — [opencode](https://github.com/sst/opencode)
 - `.codex/` — [Codex](https://github.com/openai/codex)
 - `.config/hermes/` — [Hermes](https://github.com/NousResearch/hermes-agent)

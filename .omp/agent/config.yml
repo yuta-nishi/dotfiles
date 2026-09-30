@@ -1,0 +1,8 @@
+theme:
+  dark: catppuccin-mocha
+themes:
+  - catppuccin-mocha.json
+hideThinkingBlock: true
+setupVersion: 2
+modelRoles:
+  default: opencode-go/deepseek-v4.1-flash
