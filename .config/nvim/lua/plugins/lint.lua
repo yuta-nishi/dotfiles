@@ -8,6 +8,7 @@ return {
         plsql = { "sqruff" },
         sh = { "shellcheck" },
         sql = { "sqruff" },
+        swift = { "swiftlint" },
         xml = { "xmllint" },
         yaml = { "actionlint", "zizmor" },
       },

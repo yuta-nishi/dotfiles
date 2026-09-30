@@ -69,6 +69,10 @@ return {
         sqruff = {
           filetypes = { "sql", "mysql", "plsql" },
         },
+        -- Swift
+        sourcekit = {
+          filetypes = { "swift" },
+        },
         -- スペル+文法チェック（<leader>caで辞書に単語追加可能）
         harper_ls = {
           settings = {
