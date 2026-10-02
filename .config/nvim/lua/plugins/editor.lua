@@ -17,8 +17,14 @@ return {
   },
   {
     "nvim-neo-tree/neo-tree.nvim",
-    opts = {
-      filesystem = {
+    -- neo-tree copies the default component configs during `setup()`, so the
+    -- icon provider installed by real-icons is lost when it loads afterwards.
+    dependencies = { "Mirsmog/real-icons.nvim" },
+    opts = function(_, opts)
+      -- Merge the provider explicitly so it does not depend on load order.
+      local icons = require("real-icons.integrations.neo_tree")
+      opts = vim.tbl_deep_extend("force", opts, icons.opts())
+      opts.filesystem = vim.tbl_deep_extend("force", opts.filesystem or {}, {
         filtered_items = {
           hide_dotfiles = false,
           hide_by_name = {
@@ -26,8 +32,9 @@ return {
             ".DS_Store",
           },
         },
-      },
-    },
+      })
+      return opts
+    end,
   },
   {
     "ibhagwan/fzf-lua",

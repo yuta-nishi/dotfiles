@@ -46,4 +46,16 @@ return {
       },
     },
   },
+  {
+    "Mirsmog/real-icons.nvim",
+    build = ":RealIcons install",
+    opts = {
+      integrations = {
+        bufferline = true,
+        fzf_lua = true,
+        lualine = true,
+        neo_tree = true,
+      },
+    },
+  },
 }
