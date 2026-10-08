@@ -40,6 +40,9 @@ inline = 'eval "$(mise activate zsh)"'
 [plugins.micromamba]
 inline = 'eval "$(micromamba shell hook --shell zsh)"'
 
+[plugins.zb]
+inline = 'eval "$(zb completion zsh)"'
+
 [plugins.zabrze]
 inline = 'eval "$(zabrze init --bind-keys)"'
 
