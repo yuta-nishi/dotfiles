@@ -65,7 +65,9 @@ create_symlink "$DOTFILES/.config/zed/settings.json" "$HOME/.config/zed/settings
 echo "Creating links in the Application Support folder..."
 create_symlink "$DOTFILES/.config/ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config.ghostty"
 
-create_symlink "$DOTFILES/idea/keymaps/default.xml" "$HOME/Library/Application Support/JetBrains/IntelliJIdea2025.1/keymaps/default.xml"
+create_symlink "$DOTFILES/idea/keymaps/default.xml" "$HOME/Library/Application Support/JetBrains/IntelliJIdea2026.2/keymaps/default.xml"
+create_symlink "$DOTFILES/idea/options/editor-font.xml" "$HOME/Library/Application Support/JetBrains/IntelliJIdea2026.2/options/editor-font.xml"
+create_symlink "$DOTFILES/idea/options/terminal-font.xml" "$HOME/Library/Application Support/JetBrains/IntelliJIdea2026.2/options/terminal-font.xml"
 create_symlink "$DOTFILES/datagrip/keymaps/default.xml" "$HOME/Library/Application Support/JetBrains/DataGrip2026.2/keymaps/default.xml"
 
 create_symlink "$DOTFILES/lazygit/config.yml" "$HOME/Library/Application Support/lazygit/config.yml"
