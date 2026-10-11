@@ -18,7 +18,6 @@ vim.filetype.add({
     drawio = "xml",
   },
   pattern = {
-    [".*/.vscode/.*%.json"] = "jsonc",
     [".*/%.config/dtctl/config"] = "yaml",
   },
 })
