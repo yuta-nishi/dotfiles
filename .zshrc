@@ -203,6 +203,6 @@ bindkey '^U' backward-kill-line
 # terraform setting
 # bashcompinit depends on compinit, so it must run after sheldon (and compinit).
 # -d/-m/-p/-r suppress chpwd/precmd/prompt/ZLE redraws after each deferred task.
-if (($ + commands[terraform])); then
+if (($+commands[terraform])); then
   zsh-defer -d -m -p -r -c "autoload -U +X bashcompinit && bashcompinit && complete -o nospace -C ${commands[terraform]} terraform"
 fi
