@@ -168,12 +168,12 @@ function worktree() {
 }
 
 # zerobrew setting
-# brew shellenv puts Homebrew's site-functions on fpath, but zerobrew's are added nowhere.
-# Without this, completions shipped by formulas (_bat, _eza, _gh, ...) fail with
-# "function definition file not found". Must come before compinit.
-if [[ -d "$ZEROBREW_PREFIX/share/zsh/site-functions" ]]; then
-  fpath=("$ZEROBREW_PREFIX/share/zsh/site-functions" $fpath)
+# fpath is exported as FPATH and inherited, so only add the directory when it is missing.
+zsh_site_functions="$ZEROBREW_PREFIX/share/zsh/site-functions"
+if [[ -d "$zsh_site_functions" && ${fpath[(Ie)$zsh_site_functions]} -eq 0 ]]; then
+  fpath=("$zsh_site_functions" $fpath)
 fi
+unset zsh_site_functions
 
 # Initialize the completion system.
 # Initialize it before sheldon because sheldon's completion code uses compdef.
@@ -203,6 +203,6 @@ bindkey '^U' backward-kill-line
 # terraform setting
 # bashcompinit depends on compinit, so it must run after sheldon (and compinit).
 # -d/-m/-p/-r suppress chpwd/precmd/prompt/ZLE redraws after each deferred task.
-if (( $+commands[terraform] )); then
+if (($ + commands[terraform])); then
   zsh-defer -d -m -p -r -c "autoload -U +X bashcompinit && bashcompinit && complete -o nospace -C ${commands[terraform]} terraform"
 fi
