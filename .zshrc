@@ -167,6 +167,14 @@ function worktree() {
   fi
 }
 
+# zerobrew setting
+# brew shellenv puts Homebrew's site-functions on fpath, but zerobrew's are added nowhere.
+# Without this, completions shipped by formulas (_bat, _eza, _gh, ...) fail with
+# "function definition file not found". Must come before compinit.
+if [[ -d "$ZEROBREW_PREFIX/share/zsh/site-functions" ]]; then
+  fpath=("$ZEROBREW_PREFIX/share/zsh/site-functions" $fpath)
+fi
+
 # Initialize the completion system.
 # Initialize it before sheldon because sheldon's completion code uses compdef.
 # compinit's compaudit scans the entire fpath, so skip the audit (-C) when zcompdump is less than a day old.
