@@ -181,8 +181,9 @@ fi
 unset zcompdump
 
 # sheldon setting
+sheldon_bin=${commands[sheldon]:-$ZEROBREW_PREFIX/bin/sheldon}
 zsh-cache-eval sheldon \
-  /opt/homebrew/bin/sheldon \
+  "$sheldon_bin" \
   "$HOME/.config/sheldon/plugins.toml" \
   "${SHELDON_DATA_DIR:-$HOME/.local/share/sheldon}/plugins.lock" \
   -- sheldon source
@@ -194,4 +195,6 @@ bindkey '^U' backward-kill-line
 # terraform setting
 # bashcompinit depends on compinit, so it must run after sheldon (and compinit).
 # -d/-m/-p/-r suppress chpwd/precmd/prompt/ZLE redraws after each deferred task.
-zsh-defer -d -m -p -r -c 'autoload -U +X bashcompinit && bashcompinit && complete -o nospace -C /opt/homebrew/bin/terraform terraform'
+if (( $+commands[terraform] )); then
+  zsh-defer -d -m -p -r -c "autoload -U +X bashcompinit && bashcompinit && complete -o nospace -C ${commands[terraform]} terraform"
+fi

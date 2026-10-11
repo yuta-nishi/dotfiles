@@ -41,6 +41,12 @@ export ZEROBREW_ROOT="/opt/zerobrew"
 export ZEROBREW_PREFIX="/opt/zerobrew"
 export PKG_CONFIG_PATH="$ZEROBREW_PREFIX/lib/pkgconfig:${PKG_CONFIG_PATH:-}"
 
-if [[ ":$PATH:" != *":$ZEROBREW_BIN:"* ]]; then
-  export PATH="$ZEROBREW_BIN:$ZEROBREW_PREFIX/sbin:$ZEROBREW_PREFIX/bin:$PATH"
+# PATHは.zprofileで設定する。ここで先頭に足しても/etc/zprofileのpath_helperに
+# 押し下げられ、/usr/binのコマンドが優先されてしまうため。
+if [[ -f "$ZEROBREW_PREFIX/opt/ca-certificates/share/ca-certificates/cacert.pem" ]]; then
+  export CURL_CA_BUNDLE="${CURL_CA_BUNDLE:-$ZEROBREW_PREFIX/opt/ca-certificates/share/ca-certificates/cacert.pem}"
+  export SSL_CERT_FILE="${SSL_CERT_FILE:-$ZEROBREW_PREFIX/opt/ca-certificates/share/ca-certificates/cacert.pem}"
+fi
+if [[ -d "$ZEROBREW_PREFIX/etc/ca-certificates" ]]; then
+  export SSL_CERT_DIR="${SSL_CERT_DIR:-$ZEROBREW_PREFIX/etc/ca-certificates}"
 fi

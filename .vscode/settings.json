@@ -38,8 +38,8 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   /* NeoVim Settings */
-  "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
-  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/nishida22621/.config/nvim/init.lua",
+  "vscode-neovim.neovimExecutablePaths.darwin": "/Users/yutanishi/.local/share/mise/installs/neovim/latest/bin/nvim",
+  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/yutanishi/.config/nvim/init.lua",
   "vscode-neovim.compositeKeys": {
     "jk": {
       "command": "vscode-neovim.escape"
@@ -292,7 +292,7 @@
   "[dockercompose]": {
     "editor.defaultFormatter": "docker.docker"
   },
-  "hadolint.hadolintPath": "/opt/homebrew/bin/hadolint",
+  "hadolint.hadolintPath": "/opt/zerobrew/bin/hadolint",
   /* Markdown Settings */
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
@@ -466,8 +466,7 @@
   "makefile.configureOnOpen": true,
   "docker.extension.enableComposeLanguageServer": false,
   "biome.suggestInstallingGlobally": false,
-  "vscode-kubernetes.kubectl-path": "/opt/homebrew/bin/kubectl",
-  "vscode-kubernetes.helm-path": "/opt/homebrew/bin/helm",
+  "vscode-kubernetes.kubectl-path": "/usr/local/bin/kubectl",
   "extensions.ignoreRecommendations": true,
   "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.suggest.enabled": false,

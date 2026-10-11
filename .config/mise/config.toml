@@ -2,7 +2,10 @@
 bun = "latest"
 deno = "latest"
 go = "latest"
+gradle = "latest"
+golangci-lint = "latest"
 java = "25"       # LTS
+maven = "latest"
 neovim = "latest"
 node = "24"       # LTS
 python = "3.14"   # LTS
