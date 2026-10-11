@@ -9,9 +9,3 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 if [[ ":$PATH:" != *":$ZEROBREW_PREFIX/bin:"* ]]; then
   export PATH="$ZEROBREW_PREFIX/bin:$ZEROBREW_PREFIX/sbin:$PATH"
 fi
-
-# LaTeX setting
-# VSCodeのLaTeX Workshopからも利用できるよう、ログイン時にPATHへ追加する。
-if [[ ":$PATH:" != *":/Library/Tex/texbin:"* ]]; then
-  export PATH="/Library/Tex/texbin:$PATH"
-fi

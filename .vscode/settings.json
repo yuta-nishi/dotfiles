@@ -310,45 +310,6 @@
       "strings": "off"
     }
   },
-  /* LaTeX Settings */
-  // "[latex]": {
-  //   "editor.defaultFormatter": "James-Yu.latex-workshop",
-  //   "editor.suggest.snippetsPreventQuickSuggestions": false,
-  //   "editor.tabSize": 2,
-  //   "editor.wordWrap": "on"
-  // },
-  // "latex-workshop.formatting.latex": "latexindent",
-  // "latex-workshop.view.pdf.viewer": "tab",
-  // "latex-workshop.intellisense.package.enabled": true,
-  // "latex-workshop.formatting.latexindent.path": "/opt/homebrew/bin/latexindent",
-  // "latex-workshop.formatting.latexindent.args": [
-  //   "%TMPFILE%",
-  //   "-c=%DIR%/",
-  //   "-y=defaultIndent: '%INDENT%'"
-  // ],
-  // "latex-workshop.latex.autoClean.run": "onBuilt",
-  // "latex-workshop.latex.outDir": "%DIR%/out",
-  // "latex-workshop.latex.recipes": [
-  //   {
-  //     "name": "latexmk (lualatex)",
-  //     "tools": [
-  //       "lualatexmk"
-  //     ]
-  //   }
-  // ],
-  // "latex-workshop.latex.tools": [
-  //   {
-  //     "name": "lualatexmk",
-  //     "command": "latexmk",
-  //     "args": [
-  //       "-synctex=1",
-  //       "-interaction=nonstopmode",
-  //       "-file-line-error",
-  //       "%DOC%"
-  //     ],
-  //     "env": {}
-  //   }
-  // ],
   /* Typst Settings */
   "[typst]": {
     "editor.defaultFormatter": "myriad-dreamin.tinymist",
