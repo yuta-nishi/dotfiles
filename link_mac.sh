@@ -71,6 +71,5 @@ create_symlink "$DOTFILES/idea/options/terminal-font.xml" "$HOME/Library/Applica
 create_symlink "$DOTFILES/datagrip/keymaps/default.xml" "$HOME/Library/Application Support/JetBrains/DataGrip2026.2/keymaps/default.xml"
 
 create_symlink "$DOTFILES/lazygit/config.yml" "$HOME/Library/Application Support/lazygit/config.yml"
-create_symlink "$DOTFILES/.docker/daemon.json" "$HOME/.docker/daemon.json"
 
 echo "All symbolic links have been created successfully."

@@ -52,7 +52,6 @@ Links are created with `ln -fs`, so existing files are overwritten and the scrip
 - `.config/rumdl/rumdl.toml` — [rumdl](https://github.com/rvben/rumdl)
 - `.config/harper-ls/dictionary.txt` — [Harper](https://github.com/Automattic/harper)
 - `.config/herdr/` — [herdr](https://github.com/herdrdev/herdr)
-- `.docker/daemon.json` — [Docker](https://github.com/moby/moby)
 
 ### AI coding agents
 
