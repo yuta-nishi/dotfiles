@@ -167,14 +167,6 @@ function worktree() {
   fi
 }
 
-# zerobrew setting
-# fpath is exported as FPATH and inherited, so only add the directory when it is missing.
-zsh_site_functions="$ZEROBREW_PREFIX/share/zsh/site-functions"
-if [[ -d "$zsh_site_functions" && ${fpath[(Ie)$zsh_site_functions]} -eq 0 ]]; then
-  fpath=("$zsh_site_functions" $fpath)
-fi
-unset zsh_site_functions
-
 # Initialize the completion system.
 # Initialize it before sheldon because sheldon's completion code uses compdef.
 # compinit's compaudit scans the entire fpath, so skip the audit (-C) when zcompdump is less than a day old.
@@ -189,9 +181,8 @@ fi
 unset zcompdump
 
 # sheldon setting
-sheldon_bin=${commands[sheldon]:-$ZEROBREW_PREFIX/bin/sheldon}
 zsh-cache-eval sheldon \
-  "$sheldon_bin" \
+  /opt/homebrew/bin/sheldon \
   "$HOME/.config/sheldon/plugins.toml" \
   "${SHELDON_DATA_DIR:-$HOME/.local/share/sheldon}/plugins.lock" \
   -- sheldon source
