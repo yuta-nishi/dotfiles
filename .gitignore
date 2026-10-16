@@ -3,3 +3,4 @@
 
 .omp/agent/*.lock
 .pi/agent/*.lock
+Brewfile.lock.json

@@ -12,7 +12,7 @@ create_symlink() {
 
 # Create symbolic links in the home folder
 echo "Creating links in the home folder..."
-create_symlink "$DOTFILES/.Brewfile" "$HOME/.Brewfile"
+create_symlink "$DOTFILES/Brewfile" "$HOME/Brewfile"
 create_symlink "$DOTFILES/.condarc" "$HOME/.condarc"
 create_symlink "$DOTFILES/.gitconfig" "$HOME/.gitconfig"
 create_symlink "$DOTFILES/.ideavimrc" "$HOME/.ideavimrc"
