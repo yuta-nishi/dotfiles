@@ -30,6 +30,6 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
 
-if [[ -z "${OPENCODE_GO_API_KEY:-}" ]]; then
-  OPENCODE_GO_API_KEY="$(security find-generic-password -s opencode-go-api-key -w 2>/dev/null)" && export OPENCODE_GO_API_KEY
+if [[ -z "${OPENCODE_API_KEY:-}" ]]; then
+  OPENCODE_API_KEY="$(security find-generic-password -s opencode-go-api-key -w 2>/dev/null)" && export OPENCODE_API_KEY
 fi
