@@ -63,52 +63,46 @@ return {
             },
           },
         },
-        -- Shell
         bashls = {},
-        -- SQL
         sqruff = {
           filetypes = { "sql", "mysql", "plsql" },
         },
-        -- Swift
         sourcekit = {
           filetypes = { "swift" },
         },
-        -- スペル+文法チェック（<leader>caで辞書に単語追加可能）
+        -- Spell/grammar check. <leader>ca adds words to the dictionary.
         harper_ls = {
           settings = {
             ["harper-ls"] = {
               userDictPath = vim.fn.expand("~/.config/harper-ls/dictionary.txt"),
               linters = {
                 SpellCheck = true,
-                -- a/anの使い分け
+                -- a/an usage.
                 AnA = true,
-                -- コードコメントで誤検出が多いので無効
+                -- Noisy in code comments.
                 SentenceCapitalization = false,
                 UnclosedQuotes = true,
-                -- クオートスタイルは好みなので無効
+                -- Quote style is a preference.
                 WrongQuotes = false,
-                -- コードコメントで邪魔なので無効
                 LongSentences = false,
-                -- CLI optionの`--foo`をdash記号へ置換しようとするため無効
+                -- Replaces CLI flags like --foo with dashes.
                 Dashes = false,
-                -- コード中の`arg`は一般的な識別子なので無効
+                -- "arg" is a common identifier.
                 ExpandArgument = false,
-                -- "the the" のような重複語
                 RepeatedWords = true,
-                Spaces = true,
+                -- Intentional runs of spaces are common in comments and diagrams.
+                Spaces = false,
                 CorrectNumberSuffix = true,
                 NumberSuffixCapitalization = true,
-                -- CLI名やpackage名の小文字表記で誤検出しやすい
+                -- False positives on lowercase CLI/package names.
                 OrthographicConsistency = false,
-                -- "I I" のような連続代名詞
                 MultipleSequentialPronouns = true,
-                -- 見出しでタイトルケースを使用しない
+                -- Don't require title case in headings.
                 UseTitleCase = false,
               },
             },
           },
         },
-        -- タイポ検出
         typos_lsp = {},
       },
     },
@@ -128,7 +122,7 @@ return {
 
       opts.cmd = opts.cmd or { vim.fn.exepath("jdtls") }
 
-      -- jdtls wrapperは--jvm-argを受け取るので、JDTLSだけにtruststoreを渡す。
+      -- The jdtls wrapper accepts --jvm-arg; append truststore flags to its cmd.
       local function add_jvm_arg(arg)
         local flag = "--jvm-arg=" .. arg
         if not vim.tbl_contains(opts.cmd, flag) then
