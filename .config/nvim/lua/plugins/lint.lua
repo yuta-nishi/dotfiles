@@ -13,6 +13,10 @@ return {
         yaml = { "actionlint", "zizmor" },
       },
       linters = {
+        -- rumdl writes JSON to stdout, but nvim-lint's bundled definition reads stderr.
+        rumdl = {
+          stream = "stdout",
+        },
         shellcheck = {
           -- sourceされたファイルも解析対象にし、SC1091(source先未追跡)の誤検知や
           -- source先変数の未使用判定ミスを防ぐ
