@@ -2,6 +2,8 @@
 show_hidden = true
 
 [opener]
-edit = [
-  { run = 'nvim "$@"', block = true, for = "unix" },
-]
+edit = [{ run = 'nvim "$@"', block = true, for = "unix" }]
+pdf = [{ run = 'tdf "$@"', block = true, for = "unix" }]
+
+[open]
+prepend_rules = [{ mime = "application/pdf", use = ["pdf"] }]
