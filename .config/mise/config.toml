@@ -7,7 +7,7 @@ golangci-lint = "latest"
 java = "25"       # LTS
 maven = "latest"
 neovim = "latest"
-node = "24"       # LTS
+node = "26"       # LTS
 python = "3.14"   # LTS
 ruby = "latest"
 
