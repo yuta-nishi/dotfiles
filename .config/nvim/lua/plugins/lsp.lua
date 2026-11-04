@@ -108,6 +108,16 @@ return {
     },
   },
   {
+    -- LazyVim's lean extra still expects lean.nvim's removed setup() API.
+    "Julian/lean.nvim",
+    event = { "BufReadPre *.lean", "BufNewFile *.lean" },
+    init = function()
+      vim.g.lean_config = vim.tbl_deep_extend("force", vim.g.lean_config or {}, {
+        mappings = true,
+      })
+    end,
+  },
+  {
     "mfussenegger/nvim-jdtls",
     optional = true,
     opts = function(_, opts)
