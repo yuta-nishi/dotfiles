@@ -4,6 +4,10 @@ shell = "zsh"
 apply = ["source"]
 github = "romkatv/zsh-defer"
 
+[plugins.zsh-vi-mode]
+apply = ["source"]
+github = "jeffreytse/zsh-vi-mode"
+
 [templates]
 defer = "{{ hooks?.pre | nl }}{% for file in files %}zsh-defer source \"{{ file }}\"\n{% endfor %}{{ hooks?.post | nl }}"
 

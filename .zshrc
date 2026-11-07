@@ -180,6 +180,22 @@ else
 fi
 unset zcompdump
 
+# zsh-vi-mode setting
+# Initialize while sourcing so plugins loaded afterwards (atuin, autosuggestions) bind on top.
+ZVM_INIT_MODE=sourcing
+function zvm_config() {
+  # Leave insert mode with `jk` instead of Esc. The per-mode variables default to the
+  # value ZVM_VI_ESCAPE_BINDKEY had when the plugin was sourced, so set all of them.
+  ZVM_VI_ESCAPE_BINDKEY=jk
+  ZVM_VI_INSERT_ESCAPE_BINDKEY=$ZVM_VI_ESCAPE_BINDKEY
+  ZVM_VI_VISUAL_ESCAPE_BINDKEY=$ZVM_VI_ESCAPE_BINDKEY
+  ZVM_VI_OPPEND_ESCAPE_BINDKEY=$ZVM_VI_ESCAPE_BINDKEY
+  # Start each command line in insert mode and signal the mode through the cursor shape.
+  ZVM_LINE_INIT_MODE=$ZVM_MODE_INSERT
+  ZVM_INSERT_MODE_CURSOR=$ZVM_CURSOR_BEAM
+  ZVM_NORMAL_MODE_CURSOR=$ZVM_CURSOR_BLOCK
+}
+
 # sheldon setting
 zsh-cache-eval sheldon \
   /opt/homebrew/bin/sheldon \
@@ -189,11 +205,12 @@ zsh-cache-eval sheldon \
 
 # Ghostty sends ^U for super+backspace by default.
 # In zsh, ^U deletes the entire line, so remap it to delete from the cursor to the beginning of the line.
-bindkey '^U' backward-kill-line
+bindkey -M emacs '^U' backward-kill-line
+bindkey -M viins '^U' backward-kill-line
 
 # terraform setting
 # bashcompinit depends on compinit, so it must run after sheldon (and compinit).
 # -d/-m/-p/-r suppress chpwd/precmd/prompt/ZLE redraws after each deferred task.
-if (($+commands[terraform])); then
+if (($ + commands[terraform])); then
   zsh-defer -d -m -p -r -c "autoload -U +X bashcompinit && bashcompinit && complete -o nospace -C ${commands[terraform]} terraform"
 fi
