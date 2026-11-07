@@ -18,6 +18,7 @@ Links are created with `ln -fs`, so existing files are overwritten and the scrip
 
 - `.zshrc`, `.zshenv`, `.zprofile` — [Zsh](https://github.com/zsh-users/zsh)
 - `.config/sheldon/plugins.toml` — [Sheldon](https://github.com/rossmacarthur/sheldon)
+- `.config/atuin/config.toml` — [Atuin](https://github.com/atuinsh/atuin)
 - `.config/zabrze/*.toml` — [zabrze](https://github.com/Ryooooooga/zabrze)
 - `.config/starship.toml` — [Starship](https://github.com/starship/starship)
 - `.default-npm-packages` — [npm](https://github.com/npm/cli)
