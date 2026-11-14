@@ -38,6 +38,8 @@ require("lazy").setup({
     -- coding extras
     { import = "lazyvim.plugins.extras.coding.mini-surround" },
     { import = "lazyvim.plugins.extras.coding.neogen" },
+    -- dap extras
+    { import = "lazyvim.plugins.extras.dap.core" },
     -- lang extras
     { import = "lazyvim.plugins.extras.lang.docker" },
     { import = "lazyvim.plugins.extras.lang.go" },
