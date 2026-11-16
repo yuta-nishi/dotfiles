@@ -11,7 +11,10 @@
 local M = {}
 
 local PREFERRED_BASE_FALLBACK = "0x140000000" -- default /BASE for PE32+ images
-local CACHE = vim.fs.joinpath(vim.fn.stdpath("cache"), "uefi-dap.json")
+-- `stdpath` has overloads whose first match returns `string|string[]`, even for
+-- `"cache"`; the cast keeps lua_ls from rejecting the `joinpath` argument.
+local cache_dir = vim.fn.stdpath("cache") --[[@as string]]
+local CACHE = vim.fs.joinpath(cache_dir, "uefi-dap.json")
 
 ---Split a hex u64 into 32-bit halves so the value stays exact (Lua numbers are doubles).
 ---@param hex string
