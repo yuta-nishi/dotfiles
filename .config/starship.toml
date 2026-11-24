@@ -3,3 +3,12 @@
 
 [hostname]
 style = "bold green"
+
+[custom.lean]
+description = "The Lean theorem prover toolchain"
+detect_files = ["lean-toolchain", "lakefile.lean", "lakefile.toml"]
+detect_extensions = ["lean"]
+command = "test -f lean-toolchain && sed -E 's/.*:v?//' lean-toolchain || true"
+format = "[$symbol($output )]($style)"
+symbol = "λ "
+style = "bold blue"
