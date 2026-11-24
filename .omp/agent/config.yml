@@ -3,8 +3,18 @@ theme:
 themes:
   - catppuccin-mocha.json
 hideThinkingBlock: true
-setupVersion: 2
+setupVersion: 3
+# Herdr already notifies on the agent state change it receives from its OMP
+# integration; OMP's own completion/ask notifications would duplicate the
+# toast and the done/request sound. Console (pty) input has no Herdr state
+# report, so pty.notify stays on.
+completion:
+  notify: "off"
+ask:
+  notify: "off"
 modelRoles:
   default: opencode-go/deepseek-v4.1-flash
 dev:
   autoqaConsent: granted
+update:
+  auto: true
